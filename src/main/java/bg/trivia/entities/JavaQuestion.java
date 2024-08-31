@@ -5,7 +5,7 @@ import lombok.EqualsAndHashCode;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @EqualsAndHashCode(callSuper = true)
-@Document(collation = "java-questions")
+@Document("java-questions")
 @Data
-public class JavaQuestions extends Question {
+public class JavaQuestion extends Question {
 }

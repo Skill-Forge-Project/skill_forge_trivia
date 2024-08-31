@@ -1,2 +1,13 @@
-package bg.trivia.entities;public class BaseEntity {
+package bg.trivia.entities;
+
+import lombok.Data;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
+@Data
+public abstract class BaseEntity {
+
+    @Id
+    String id;
 }

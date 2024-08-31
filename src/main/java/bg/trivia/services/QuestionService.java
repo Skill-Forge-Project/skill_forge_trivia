@@ -7,11 +7,11 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class JavaQuestionService {
+public class QuestionService {
 
 
-    public List<? extends Question>  get10EasyQuestions() {
-        return GetQuestions.get10Questions("java");
+    public List<? extends Question> get10Questions(String technology, String difficulty) {
+        return GetQuestions.get10EasyQuestions(technology, difficulty);
     }
 
 }
