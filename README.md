@@ -85,7 +85,7 @@ Here are some of the key API endpoints:
 - **Get 10 Random Easy Questions** (for a specific language)
   >
   ```
-  GET /api/questions/{language}/{difficulty}
+  GET /trivia/{language}/{difficulty}
   ```
 
 *** IN PROGRESS ***
@@ -93,19 +93,19 @@ Here are some of the key API endpoints:
 - **Add a New Question**:
   
   ```
-  POST /api/questions/{language}
+  POST /trivia/questions/{language}/{difficulty}
   ```
 
 - **Update a Question**:
   
   ```
-  PUT /api/questions/{language}/{id}
+  PUT /trivia/questions/{language}/{id}
   ```
 
 - **Delete a Question**:
   
   ```
-  DELETE /api/questions/{language}/{id}
+  DELETE /trivia/questions/{language}/{id}
   ```
 >
 **Note**: Replace \`{language}\` with \`java\`, \`csharp\`, \`javascript\`, or \`python\`.
