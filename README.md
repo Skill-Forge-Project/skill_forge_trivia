@@ -88,7 +88,7 @@ Here are some of the key API endpoints:
   GET /api/questions/{language}/easy/random
   ```
 
-*** IN PROGRESS **
+*** IN PROGRESS ***
 - **Add a New Question**:
   
   ```
