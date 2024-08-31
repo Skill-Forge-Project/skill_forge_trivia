@@ -47,16 +47,16 @@ To get a copy of the project up and running on your local machine, follow the in
 
 1. Clone the repository:
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/Borovaneca/Trivia.git
    cd Trivia
-   \`\`\`
+   ```
 
 2. Install dependencies:
 
-   \`\`\`bash
+   ```bash
    mvn clean install
-   \`\`\`
+   ```
 
 3. Set up MongoDB:
 
@@ -68,15 +68,15 @@ You can run the application in several ways:
 
 - **Using Maven**:
 
-  \`\`\`bash
+  ```bash
   mvn spring-boot:run
-  \`\`\`
+  ```
 
 - **Using the JAR file**:
 
-  \`\`\`bash
+  ```bash
   java -jar target/Trivia-0.0.1-SNAPSHOT.jar
-  \`\`\`
+  ```
 
 ### API Endpoints
 
@@ -84,27 +84,28 @@ Here are some of the key API endpoints:
 
 - **Get 10 Random Easy Questions** (for a specific language)
   
-  \`\`\`
+  ```
   GET /api/questions/{language}/easy/random
-  \`\`\`
+  ```
 
+*** IN PROGRESS **
 - **Add a New Question**:
   
-  \`\`\`
+  ```
   POST /api/questions/{language}
-  \`\`\`
+  ```
 
 - **Update a Question**:
   
-  \`\`\`
+  ```
   PUT /api/questions/{language}/{id}
-  \`\`\`
+  ```
 
 - **Delete a Question**:
   
-  \`\`\`
+  ```
   DELETE /api/questions/{language}/{id}
-  \`\`\`
+  ```
 
 **Note**: Replace \`{language}\` with \`java\`, \`csharp\`, \`javascript\`, or \`python\`.
 
