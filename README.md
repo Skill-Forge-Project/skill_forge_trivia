@@ -88,7 +88,7 @@ Here are some of the key API endpoints:
   GET /trivia/{language}/{difficulty}
   ```
 
-> **IN PROGRESS**
+> ***IN PROGRESS***
 > 
 > **Add a New Question:**
 > ```
