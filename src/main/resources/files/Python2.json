@@ -1,0 +1,961 @@
+[
+  {
+    "question": "What does the del() statement do?",
+    "options": {
+      "a": "Deletes all the contents from a list",
+      "b": "Deletes the last element of a list",
+      "c": "Deletes an item from a list given its index",
+      "d": "del() doesn't exist in Python"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Lists"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nmy_list = [1, 2, 3, 4, 5]\nmy_list.remove(3)\nprint(my_list)",
+    "options": {
+      "a": "[3, 4, 5]",
+      "b": "[1, 2, 3, 4, 5]",
+      "c": "[1, 2, 4]",
+      "d": "[1, 2, 4, 5]"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Lists"
+    ]
+  },
+  {
+    "question": "What is the result of the following code?\n\nmy_list = [1, 2, 3, 4, 5]\nmy_list.extend([6, 7, 8])\nprint(my_list)",
+    "options": {
+      "a": "[1, 2, 3, 4, 5, 6, 7, 8]",
+      "b": "[1, 2, 3, 4, 5]",
+      "c": "[1, 2, 3, 4, 5, [6, 7, 8]]",
+      "d": "[1, 2, 3, 4, 5, [6], [7], [8]]"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Lists"
+    ]
+  },
+  {
+    "question": "Which of the following methods can be used to sort a list in Python?",
+    "options": {
+      "a": "sorted()",
+      "b": "sort()",
+      "c": "reverse()",
+      "d": "append()"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Lists"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nmy_list = [1, 2, 3, 4, 5]\nprint(my_list[1:3])",
+    "options": {
+      "a": "[1, 2]",
+      "b": "[2, 3]",
+      "c": "[2, 3, 4]",
+      "d": "[1, 2, 3, 4]"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Lists"
+    ]
+  },
+  {
+    "question": "What is the result of the following code?\n\nmy_list = [1, 2, 3, 4, 5]\nmy_list.insert(2, 10)\nprint(my_list)",
+    "options": {
+      "a": "[1, 2, 3, 4, 5, 10]",
+      "b": "[1, 2, 10, 3, 4, 5]",
+      "c": "[1, 2, 3, 10, 4, 5]",
+      "d": "[1, 2, 3, 4, 5, [10]]"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Lists"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nmy_list = [1, 2, 3, 4, 5]\nmy_list.clear()\nprint(my_list)",
+    "options": {
+      "a": "[[]]",
+      "b": "[1, 2, 3, 4, 5]",
+      "c": "[None]",
+      "d": "[]"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Lists"
+    ]
+  },
+  {
+    "question": "Which of the following is the correct way to define a function in Python?",
+    "options": {
+      "a": "def my_function():",
+      "b": "function my_function():",
+      "c": "define my_function():",
+      "d": "function def my_function():"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Basic Functions"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nmy_dict = {'name': 'John', 'age': 32}\nprint(my_dict['name'])",
+    "options": {
+      "a": "32",
+      "b": "John",
+      "c": "{'name': 'John', 'age': 32}",
+      "d": "KeyError"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Dictionaries"
+    ]
+  },
+  {
+    "question": "What is the result of the following code?\n\nmy_dict = {'name': 'John', 'age': 32}\nmy_dict['city'] = 'New York'\nprint(my_dict)",
+    "options": {
+      "a": "{'name': 'John', 'age': 32, 'city': 'New York'}",
+      "b": "{'city': 'New York'}",
+      "c": "{'name': 'John', 'age': 32}",
+      "d": "{'name': 'John', 'age': 32, ['city']: 'New York'}"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Dictionaries"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nmy_dict = {'name': 'John', 'age': 45}\nmy_dict.pop('age')\nprint(my_dict)",
+    "options": {
+      "a": "{'name': 'John', 'age': 45}",
+      "b": "{'name': 'John'}",
+      "c": "{}",
+      "d": "KeyError"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Dictionaries"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nmy_dict = {'name': 'John', 'age': 45}\nmy_dict.clear()\nprint(my_dict)",
+    "options": {
+      "a": "None",
+      "b": "{'name': 'John', 'age': 45}",
+      "c": "{}",
+      "d": "Syntax Error"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Dictionaries"
+    ]
+  },
+  {
+    "question": "Which of the following is the correct way to define a regular expression pattern in Python?",
+    "options": {
+      "a": "/pattern/",
+      "b": "pattern()",
+      "c": "create_pattern()",
+      "d": "regex(pattern)"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nstring = 'Hello'\nprint(string[1:4])",
+    "options": {
+      "a": "Hel",
+      "b": "ell",
+      "c": "llo",
+      "d": "ello"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "String Manipulation"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nstring = 'Hello, World!'\nsplit_string = string.split(',')\nprint(split_string)",
+    "options": {
+      "a": "['Hello', 'World!']",
+      "b": "['Hello, World!']",
+      "c": "['Hello', ' World!']",
+      "d": "Syntax Error"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "String Manipulation"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nstring = 'Hello, World!'\nreplace_string = string.replace('Hello', 'Hi')\nprint(replace_string)",
+    "options": {
+      "a": "Hi, World!",
+      "b": "Hello, World!",
+      "c": "Hi, Hello!",
+      "d": "Syntax Error"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "String Manipulation"
+    ]
+  },
+  {
+    "question": "Which of the following is the correct way to check if a substring is present in a string in Python?",
+    "options": {
+      "a": "string.include('substring')",
+      "b": "string.contains('substring')",
+      "c": "'substring' in string",
+      "d": "string.contains('substring')"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "String Manipulation"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nstring = 'Hello'\nlength = len(string)\nprint(length)",
+    "options": {
+      "a": "6",
+      "b": "5",
+      "c": "4",
+      "d": "Syntax Error"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "String Manipulation"
+    ]
+  },
+  {
+    "question": "What is the result of the following code?\n\nstring = 'Hello'\nstring = string + ' World!'\nprint(string)",
+    "options": {
+      "a": "Hello World!",
+      "b": "Hello",
+      "c": " World!",
+      "d": "Syntax Error"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "String Manipulation"
+    ]
+  },
+  {
+    "question": "Which of the following is the correct way to convert an integer to a string in Python?",
+    "options": {
+      "a": "123.str()",
+      "b": "convert_to_string(123)",
+      "c": "int_to_string(123)",
+      "d": "str(123)"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "String Manipulation"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nstring = 'Hello'\nnew_string = string[::-1]\nprint(new_string)",
+    "options": {
+      "a": "olleH",
+      "b": "Hello",
+      "c": "ello",
+      "d": "Syntax Error"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "String Manipulation"
+    ]
+  },
+  {
+    "question": "What is the result of the following code?\n\nstring = 'Hello'\nstring = string.upper()\nprint(string)",
+    "options": {
+      "a": "hello",
+      "b": "Hello",
+      "c": "HELLO",
+      "d": "Syntax Error"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "String Manipulation"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nstring = 'Hello'\nsubstring = string[1:4]\nprint(substring)",
+    "options": {
+      "a": "ell",
+      "b": "H",
+      "c": "ello",
+      "d": "Syntax Error"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "String Manipulation"
+    ]
+  },
+  {
+    "question": "Which of the following is the correct way to split a string into a list of words in Python?",
+    "options": {
+      "a": "split(string, ' ')",
+      "b": "split(string)",
+      "c": "string.split()",
+      "d": "split(' ', string)"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "String Manipulation"
+    ]
+  },
+  {
+    "question": "Which of the following regular expressions matches any lowercase letter from a to z?",
+    "options": {
+      "a": "[a-z]",
+      "b": "[A-Z]",
+      "c": "[0-9]",
+      "d": "[a-zA-Z]"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "What does the regular expression '\\d' match?",
+    "options": {
+      "a": "Any whitespace character",
+      "b": "Any non-digit character",
+      "c": "Any digit character",
+      "d": "Any non-whitespace character"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "Which of the following regular expressions matches one or more occurrences of the previous pattern?",
+    "options": {
+      "a": "+",
+      "b": "*",
+      "c": "?",
+      "d": "{}"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "What does the regular expression '\\w' match?",
+    "options": {
+      "a": "Any non-whitespace character",
+      "b": "Any non-word character",
+      "c": "Any whitespace character",
+      "d": "Any word character (letter, digit, or underscore)"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "Which of the following regular expressions matches the start of a string?",
+    "options": {
+      "a": "\\b",
+      "b": "$",
+      "c": "^",
+      "d": "\\B"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "What does the regular expression '\\D' match?",
+    "options": {
+      "a": "Any digit character",
+      "b": "Any non-digit character",
+      "c": "Any non-word character",
+      "d": "Any word character (letter, digit, or underscore)"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "Which of the following regular expressions matches the end of a string?",
+    "options": {
+      "a": "$",
+      "b": "^",
+      "c": "\\b",
+      "d": "\\B"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "What does the regular expression '\\s' match?",
+    "options": {
+      "a": "Any non-digit character",
+      "b": "Any non-whitespace character",
+      "c": "Any digit character",
+      "d": "Any whitespace character"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "What is the scope of a variable declared inside a function?",
+    "options": {
+      "a": "Global scope",
+      "b": "Local scope",
+      "c": "Class scope",
+      "d": "Instance scope"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Variables",
+      "Basic Functions"
+    ]
+  },
+  {
+    "question": "What happens if you try to access a variable that has not been defined?",
+    "options": {
+      "a": "NameError",
+      "b": "SyntaxError",
+      "c": "TypeError",
+      "d": "ValueError"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Variables"
+    ]
+  },
+  {
+    "question": "What is the value of x after executing the following code?\n\nx = 5\nx += 3\nx *= 2\nx -= 1\nprint(x)",
+    "options": {
+      "a": "7",
+      "b": "10",
+      "c": "15",
+      "d": "16"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Variables"
+    ]
+  },
+  {
+    "question": "Which of the following is not a valid variable name in Python?",
+    "options": {
+      "a": "my_variable",
+      "b": "_my_variable",
+      "c": "1my_variable",
+      "d": "myVariable"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Variables"
+    ]
+  },
+  {
+    "question": "What is the value of x after executing the following code?\n\nx = 10\ny = 5\nx, y = y, x\nprint(x)",
+    "options": {
+      "a": "5",
+      "b": "10",
+      "c": "15",
+      "d": "Error"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Variables"
+    ]
+  },
+  {
+    "question": "What is the difference between 'append()' and 'extend()' methods in Python lists?",
+    "options": {
+      "a": "append() adds an element at the end of the list, while extend() adds multiple elements at the end of the list.",
+      "b": "append() adds an element at the beginning of the list, while extend() adds multiple elements at the beginning of the list.",
+      "c": "append() adds an element at a specified index of the list, while extend() adds multiple elements at a specified index of the list.",
+      "d": "There is no difference between append() and extend() methods in Python lists."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Lists"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'insert()' method in Python lists?",
+    "options": {
+      "a": "To add an element at the end of the list.",
+      "b": "To add an element at the beginning of the list.",
+      "c": "To add an element at a specified index of the list.",
+      "d": "To remove an element from the list."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Lists"
+    ]
+  },
+  {
+    "question": "What is the difference between 'remove()' and 'pop()' methods in Python lists?",
+    "options": {
+      "a": "remove() removes an element at a specified index of the list, while pop() removes the last element of the list.",
+      "b": "remove() removes the last element of the list, while pop() removes an element at a specified index of the list.",
+      "c": "remove() removes all occurrences of a specific element in the list, while pop() removes only the first occurrence.",
+      "d": "There is no difference between remove() and pop() methods in Python lists."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Lists"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'index()' method in Python lists?",
+    "options": {
+      "a": "To find the number of elements in the list.",
+      "b": "To find the average of all elements in the list.",
+      "c": "To find the maximum element in the list.",
+      "d": "To find the index of a specific element in the list."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Lists"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'count()' method in Python lists?",
+    "options": {
+      "a": "To count the number of elements in the list.",
+      "b": "To count the occurrence of a specific element in the list.",
+      "c": "To count the sum of all elements in the list.",
+      "d": "To count the average of all elements in the list."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Lists"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'get()' method in Python's dictionary?",
+    "options": {
+      "a": "To retrieve the value associated with a specific key from the dictionary.",
+      "b": "To add a new key-value pair to the dictionary.",
+      "c": "To remove a key-value pair from the dictionary.",
+      "d": "The 'get()' method is not applicable in Python's dictionary."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Dictionaries"
+    ]
+  },
+  {
+    "question": "What is the purpose of the update() method in Python dictionaries?",
+    "options": {
+      "a": "To check if a value exists in the dictionary.",
+      "b": "To remove another dictionary from the dictionary.",
+      "c": "To merge two dictionaries together.",
+      "d": "To check if a key exists in the dictionary."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Dictionaries"
+    ]
+  },
+  {
+    "question": "What is the purpose of the search() method in Python regular expressions?",
+    "options": {
+      "a": "To check if a pattern exists in a string.",
+      "b": "To find the first occurrence of a pattern in a string.",
+      "c": "To replace a pattern with a new string.",
+      "d": "To split a string into a list based on a pattern."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "What is the purpose of the sub() method in Python regular expressions?",
+    "options": {
+      "a": "To check if a pattern exists in a string.",
+      "b": "To find the first occurrence of a pattern in a string.",
+      "c": "To replace a pattern with a new string.",
+      "d": "To split a string into a list based on a pattern."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "Which one of the following regular expressions is a correct way to match ONLY '05-07-2023' from the string 'Today is: 05-07-2023'",
+    "options": {
+      "a": "\\d.\\d.\\d",
+      "b": "[0-9]+",
+      "c": "[0-9.].+",
+      "d": "[0-9.].{3}"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "Which one of the following regular expressions will match ONLY 'Firefox.exe' from the string 'C:/ProgramFiles/Mozilla/Firefox.exe'",
+    "options": {
+      "a": "[a-Z].exe",
+      "b": "[a-z]+.exe",
+      "c": "\\[A-z].[a-z]{3,}",
+      "d": "\\b\\w{1,}\\.\\w{1,}"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "What is the purpose of a function in Python?",
+    "options": {
+      "a": "To store and retrieve data for a given input.",
+      "b": "To perform a specific task or action.",
+      "c": "To declare variables and process them.",
+      "d": "There is no purpose of a function in Python."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "functions"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'list' data type in Python?",
+    "options": {
+      "a": "To store and retrieve key-value pairs",
+      "b": "To manipulate and modify strings efficiently",
+      "c": "To perform mathematical calculations",
+      "d": "None of the above"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "data structures",
+      "lists"
+    ]
+  },
+  {
+    "question": "Which git command is used to fetch and merge the latest changes from the remote repository?",
+    "options": {
+      "a": "git **clone**",
+      "b": "git **download**",
+      "c": "git **checkout**",
+      "d": "git **pull**"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git"
+    ]
+  },
+  {
+    "question": "Considering you are inside a git repository directory on your computer and you want to add the file 'myProgram.java' to new commit to the remote version. Which git command you could use?",
+    "options": {
+      "a": "git **upload** myProgram.java",
+      "b": "git **commit** myProgram.java",
+      "c": "git **add** myProgram.java",
+      "d": "git **push** myProgram.java"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git"
+    ]
+  },
+  {
+    "question": "What is the purpose of VARCHAR(n) data type in MySQL?",
+    "options": {
+      "a": "Allows storing text with length n in a field",
+      "b": "To create new variable of char type",
+      "c": "To parse integer data type to character type",
+      "d": "VARCHAR is not part of the SQL syntax"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "MySQL"
+    ]
+  },
+  {
+    "question": "Which SQL query you would use to delete the table 'students' from 'university' database?",
+    "options": {
+      "a": "```sql\nDROP TABLE students;\n```",
+      "b": "```sql\nDELETE TABLE students;\n```",
+      "c": "```sql\nDEL students FROM university;\n```",
+      "d": "```sql\nDROP students FROM DB university;\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "MySQL"
+    ]
+  },
+  {
+    "question": "Which one of the following ports is considered default for HTTP?",
+    "options": {
+      "a": "22",
+      "b": "5432",
+      "c": "8443",
+      "d": "80"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP"
+    ]
+  },
+  {
+    "question": "Which of the following components is NOT part of a URL address?",
+    "options": {
+      "a": "protocol",
+      "b": "path",
+      "c": "HTTP response status code",
+      "d": "port"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP"
+    ]
+  },
+  {
+    "question": "What is the purpose and functionality of Git, and what role does it play in the modern software development practices?",
+    "options": {
+      "a": "A robust programming language extensively utilized for web development.",
+      "b": "An advanced database management system commonly employed in large-scale enterprises.",
+      "c": "A distributed version control system that efficiently tracks changes in code and enables seamless collaboration among developers.",
+      "d": "A versatile text editor specifically designed for writing and editing code."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub"
+    ]
+  },
+  {
+    "question": "What is the purpose of HTTP in web development?",
+    "options": {
+      "a": "To style web pages using CSS.",
+      "b": "To facilitate communication between web servers and clients.",
+      "c": "To define the structure and layout of web pages.",
+      "d": "To store and retrieve data in databases."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP Basics"
+    ]
+  },
+  {
+    "question": "Provide a comprehensive explanation of the purpose and functionality of the 'git add' command in Git version control. How does that command contribute to optimizing software development collaboration and ensuring effective code management?",
+    "options": {
+      "a": "The 'git **add**' command creates a new branch in a Git repository.",
+      "b": "The 'git **add**' command is used to merge two branches in a Git repository.",
+      "c": "The 'git **add**' command is used to stage changes.",
+      "d": "The 'git **add**' command uploads local changes to a remote repository."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub",
+      "Version Control",
+      "Remote Repositories",
+      "Collaborative Development",
+      "Code Management"
+    ]
+  },
+  {
+    "question": "Provide a comprehensive explanation of the purpose and functionality of the 'git commit' command in Git version control. How does that command contribute to optimizing software development collaboration and ensuring effective code management?",
+    "options": {
+      "a": "The 'git **commit**' merges two branches.",
+      "b": "The 'git **commit**' uploads local changes to a remote repository.",
+      "c": "The 'git **commit**' captures a snapshot of the staged changes as a new version.",
+      "d": "The 'git **commit**' creates a new branch in a Git repository."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub",
+      "Version Control",
+      "Remote Repositories",
+      "Collaborative Development",
+      "Code Management"
+    ]
+  },
+  {
+    "question": "Provide a comprehensive explanation of the purpose and functionality of the 'git push' command in Git version control. How does that command contribute to optimizing software development collaboration and ensuring effective code management?",
+    "options": {
+      "a": "The 'git **push**' uploads the merged branches to a remote repository.",
+      "b": "The 'git **push**' is not applicable in Git.",
+      "c": "The 'git **push**' facilitates the transfer of local commits to a remote repository.",
+      "d": "The 'git **push**' merges two branches in a Git repository."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub",
+      "Version Control",
+      "Remote Repositories",
+      "Collaborative Development",
+      "Code Management"
+    ]
+  },
+  {
+    "question": "Which of the following contains only HTTP status codes indicating a successful request?",
+    "options": {
+      "a": "404, 200, 201, 400, 401",
+      "b": "304, 404, 300, 500, 202",
+      "c": "200, 201, 202, 203, 204",
+      "d": "300, 304, 501, 200, 201"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP Basics"
+    ]
+  },
+  {
+    "question": "Which of the following is used to structure the content of a web page?",
+    "options": {
+      "a": "Java",
+      "b": "Cascading Style Sheets",
+      "c": "JavaScript",
+      "d": "The HyperText Markup Language"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTML & CSS Basics"
+    ]
+  }
+]

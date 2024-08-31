@@ -1,0 +1,440 @@
+[
+    {
+        "question": "What is the importance of the init method in a class?",
+        "options": {
+            "a": "It initializes all the classes in code",
+            "b": "It imports all the modules required for the program",
+            "c": "It initializes the attributes of a class when an object is created",
+            "d": "None of the above"
+        },
+        "correct_answer": "c",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Object-Oriented Programming"
+        ]
+    },
+    {
+        "question": "What is the run time of the below code?\n\nfor i in range(n):\n  j=1\nwhile(j<n):\n print(i, j)\nj *= 2",
+        "options": {
+            "a": "O(n)",
+            "b": "O(n^2)",
+            "c": "O(log(n))",
+            "d": "O(n*log(n))"
+        },
+        "correct_answer": "d",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Python Run Time"
+        ]
+    },
+    {
+        "question": "Which one from these bellow is a component that is bound to class but not the instance?",
+        "options": {
+            "a": "Static method",
+            "b": "Class method",
+            "c": "Main method",
+            "d": "None of above"
+        },
+        "correct_answer": "a",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Object-Oriented Programming"
+        ]
+    },
+    {
+        "question": "Which of the following statements is not true about object-oriented programming?",
+        "options": {
+            "a": "One of the benefits of object-oriented programming is that it can hide complexity.",
+            "b": "A class contains functions as well as the data that is used by those functions.",
+            "c": "Constructor methods are required to initialize an object and destructor methods are required to destroy the object when no longer required.",
+            "d": "A powerful feature of object-oriented programming is the ability to create a new class by extending an existing class."
+        },
+        "correct_answer": "c",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Object-Oriented Programming"
+        ]
+    },
+    {
+        "question": "Which of the following definitions is the one for packages in Python?",
+        "options": {
+            "a": "A set of main modules",
+            "b": "A folder of python modules",
+            "c": "Set of programs making use of python modules",
+            "d": "Number of files containing python definitions and statements"
+        },
+        "correct_answer": "b",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Python Packages"
+        ]
+    },
+    {
+        "question": "What is the order in which namespaces in Python looks for an identifier?",
+        "options": {
+            "a": "First, the python searches for the built-in namespace, then the global namespace and then the local namespace",
+            "b": "Python first searches for the built-in namespace, then local and finally the global namespace",
+            "c": "Python first searches for local namespace, then global namespace and finally the built-in namespace",
+            "d": "Python searches for the global namespace, followed by the local namespace and finally the built-in namespace."
+        },
+        "correct_answer": "c",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Python"
+        ]
+    },
+    {
+        "question": "Which of the following is not a keyword used in Python language?",
+        "options": {
+            "a": "Pass",
+            "b": "Eval",
+            "c": "Assert",
+            "d": "Nonlocal"
+        },
+        "correct_answer": "b",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Python"
+        ]
+    },
+    {
+        "question": "What is the difference between composition and inheritance in OOP and when should each be used?",
+        "options": {
+            "a": "Composition: class contains an instance of another class. Inheritance: class inherits properties from a parent class.",
+            "b": "Composition: class inherits properties from a parent class. Inheritance: class contains an instance of another class.",
+            "c": "Composition: class needs multiple other classes. Inheritance: class wants to extend properties from a parent class.",
+            "d": "Composition: class wants to extend properties from a parent class. Inheritance: class needs multiple other classes."
+        },
+        "correct_answer": "a",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Object-Oriented Programming"
+        ]
+    },
+    {
+        "question": "What is polymorphism in object-oriented programming (OOP), and how does it contribute to code flexibility and reusability?",
+        "options": {
+            "a": "Polymorphism in OOP is the ability of an object to take on many forms. It allows objects of different classes to be treated as objects of the same class, providing code flexibility and reusability. By using polymorphism, code can be written to interact with objects based on their common interface or base class, rather than specific implementations. This allows for easier maintenance, extensibility, and modularity of code.",
+            "b": "Polymorphism in OOP is the process of creating multiple objects from a single class. It contributes to code flexibility and reusability by allowing objects to be reused and extended in various contexts. Polymorphism enables the writing of generic code that can handle different object types without knowing their specific implementations.",
+            "c": "Polymorphism in OOP is the process of defining multiple methods with the same name but different parameters in a class. It promotes code flexibility and reusability by allowing different objects to respond differently to the same method call. Polymorphism enables dynamic method dispatch, where the appropriate method is called based on the type of the object at runtime.",
+            "d": "Polymorphism in OOP is the process of combining multiple classes into a single class hierarchy. It enhances code flexibility and reusability by providing a common interface and behavior for related objects. Polymorphism allows objects to be treated uniformly, regardless of their specific types, enabling code to be written that can work with objects at a higher level of abstraction."
+        },
+        "correct_answer": "a",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Object-Oriented Programming"
+        ]
+    },
+    {
+        "question": "Deque is a data structure in which insertion and removal of elements(s) can happen:",
+        "options": {
+            "a": "Only at left side",
+            "b": "Only at ride side",
+            "c": "deque is a immutable structure",
+            "d": "Both ends"
+        },
+        "correct_answer": "d",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Deques"
+        ]
+    },
+    {
+        "question": "What is an abstract class?",
+        "options": {
+            "a": "An abstract class is the name for any class from which you can instantiate an object.",
+            "b": "Abstract classes must be redefined any time an object is instantiated from them.",
+            "c": "Abstract classes must inherit from concrete classes.",
+            "d": "An abstract class exists only so that other 'concrete' classes can inherit from the abstract class."
+        },
+        "correct_answer": "d",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Object-Oriented Programming"
+        ]
+    },
+    {
+        "question": "When discussing the time complexity of operations on queues, what is the usual notation employed to represent their time requirements?",
+        "options": {
+            "a": "O(1)",
+            "b": "O(n)",
+            "c": "O(logn)",
+            "d": "O(n^2)"
+        },
+        "correct_answer": "a",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Deques"
+        ]
+    },
+    {
+        "question": "What statement about static methods is true?",
+        "options": {
+            "a": "Static methods are called static because they always return None.",
+            "b": "Static methods can be bound to either a class or an instance of a class.",
+            "c": "Static methods serve mostly as utility methods or helper methods, since they can't access or modify a class's state.",
+            "d": "Static methods can access and modify the state of a class or an instance of a class."
+        },
+        "correct_answer": "c",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Object-Oriented Programming"
+        ]
+    },
+    {
+        "question": "What are attributes?",
+        "options": {
+            "a": "Attributes are long-form version of an if/else statement, used when testing for equality between objects.",
+            "b": "Attributes are a way to hold data or describe a state for a class or an instance of a class.",
+            "c": "Attributes are strings that describe characteristics of a class.",
+            "d": "Function arguments are called 'attributes' in the context of class methods and instance methods."
+        },
+        "correct_answer": "b",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Object-Oriented Programming"
+        ]
+    },
+    {
+        "question": "What is one of the most common use of Python's sys library?",
+        "options": {
+            "a": "To capture command-line arguments given at a file's runtime.",
+            "b": "To connect various systems, such as connecting a web front end, an API service, a database, and a mobile app.",
+            "c": "To take a snapshot of all the packages and libraries in your virtual environment.",
+            "d": "To scan the health of your Python ecosystem while inside a virtual environment."
+        },
+        "correct_answer": "a",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Python"
+        ]
+    },
+    {
+        "question": "What is the runtime of accessing a value in a dictionary by using its key in the average case?",
+        "options": {
+            "a": "O(n), also called linear time.",
+            "b": "O(log n), also called logarithmic time.",
+            "c": "O(n^2), also called quadratic time.",
+            "d": "O(1), also called constant time."
+        },
+        "correct_answer": "d",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Python Dictionaries",
+            "Python Run Time"
+        ]
+    },
+    {
+        "question": "What build-in Python data type can store ordered and changeable collection of data objects in a LIFO manner(Last-In-First-Out) and it's frequently used to represent a stack?",
+        "options": {
+            "a": "set",
+            "b": "list",
+            "c": "None",
+            "d": "dictionary"
+        },
+        "correct_answer": "b",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Stack",
+            "Lists"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'self' keyword when defining or calling instance methods?",
+        "options": {
+            "a": "self means that no other arguments are required to be passed into the method.",
+            "b": "There is no real purpose for the self method; it's just historic computer science jargon that Python keeps to stay consistent with other programming languages.",
+            "c": "self refers to the instance whose method was called.",
+            "d": "self refers to the class that was inherited from to create the object using self."
+        },
+        "correct_answer": "c",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Object-Oriented Programming"
+        ]
+    },
+    {
+        "question": "Which statement does NOT describe the object-oriented programming concept of encapsulation?",
+        "options": {
+            "a": "It protects the data from outside interference.",
+            "b": "A parent class is encapsulated and no data from the parent class passes on to the child class.",
+            "c": "It keeps data and the methods that can manipulate that data in one place.",
+            "d": "It only allows the data to be changed by methods."
+        },
+        "correct_answer": "d",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Object-Oriented Programming"
+        ]
+    },
+    {
+        "question": "What does the built-in map() function do?",
+        "options": {
+            "a": "It creates a path from multiple values in an iterable to a single value.",
+            "b": "It applies a function to each item in an iterable and returns the value of that function.",
+            "c": "It converts a complex value type into simpler value types.",
+            "d": "It creates a mapping between two different elements of different iterables."
+        },
+        "correct_answer": "b",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Python"
+        ]
+    },
+    {
+        "question": "What is the purpose of the pass statement in Python?",
+        "options": {
+            "a": "It is used to skip the yield statement of a generator and return a value of None.",
+            "b": "It is a null operation used mainly as a placeholder in functions, classes, etc.",
+            "c": "It is used to pass control from one statement block to another.",
+            "d": "It is used to skip the rest of a while or for loop and return to the start of the loop."
+        },
+        "correct_answer": "b",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Python"
+        ]
+    },
+    {
+        "question": "Assuming the node is in a singly linked list, what is the runtime complexity of searching for a specific node within a singly linked list?",
+        "options": {
+            "a": "The runtime is O(n) because in the worst case, the node you are searching for is the last node, and every node in the linked list must be visited.",
+            "b": "The runtime is O(nk), with n representing the number of nodes and k representing the amount of time it takes to access each node in memory.",
+            "c": "The runtime cannot be determined unless you know how many nodes are in the singly linked list.",
+            "d": "The runtime is O(1) because you can index directly to a node in a singly linked list."
+        },
+        "correct_answer": "a",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Python"
+        ]
+    },
+    {
+        "question": "What is the correct syntax for calling an instance method on a class named Game?",
+        "options": {
+            "a": "```python\ndice = Game()\ndice.roll()\n```",
+            "b": "```python\ndice = Game(self)\ndice.roll(self)\n```",
+            "c": "```python\ndice = Game()\ndice.roll(self)\n```",
+            "d": "```python\ndice = Game(self)\ndice.roll()\n```"
+        },
+        "correct_answer": "a",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Object-Oriented Programming"
+        ]
+    },
+    {
+        "question": "What is key difference between a set and a list?",
+        "options": {
+            "a": "A set is an ordered collection unique items. A list is an unordered collection of non-unique items.",
+            "b": "Elements can be retrieved from a list but they cannot be retrieved from a set.",
+            "c": "A set is an ordered collection of non-unique items. A list is an unordered collection of unique items.",
+            "d": "A set is an unordered collection unique items. A list is an ordered collection of non-unique items."
+        },
+        "correct_answer": "d",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Lists",
+            "Sets"
+        ]
+    },
+    {
+        "question": "What is the definition of abstraction as applied to object-oriented Python?",
+        "options": {
+            "a": "Abstraction means that a different style of code can be used, since many details are already known to the program behind the scenes.",
+            "b": "Abstraction means the implementation is hidden from the user, and only the relevant data or information is shown.",
+            "c": "Abstraction means that the data and the functionality of a class are combined into one entity.",
+            "d": "Abstraction means that a class can inherit from more than one parent class."
+        },
+        "correct_answer": "b",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Object-Oriented Programming"
+        ]
+    },
+    {
+        "question": "Suppose a Game class inherits from two parent classes: BoardGame and LogicGame. Which statement is true about the methods of an object instantiated from the Game class?",
+        "options": {
+            "a": "When instantiating an object, the object doesn't inherit any of the parent class's methods.",
+            "b": "When instantiating an object, the object will inherit the methods of whichever parent class has more methods.",
+            "c": "When instantiating an object, the programmer must specify which parent class to inherit methods from",
+            "d": "An instance of the Game class will inherit whatever methods the BoardGame and LogicGame classes have."
+        },
+        "correct_answer": "d",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Object-Oriented Programming"
+        ]
+    },
+    {
+        "question": "When would you use a try/except block in code?",
+        "options": {
+            "a": "You use try/except blocks when you want to run some code, but need a way to execute different code if an exception is raised.",
+            "b": "You use try/except blocks inside of unit tests so that the unit testes will always pass.",
+            "c": "You use try/except blocks so that you can demonstrate to your code reviewers that you tried a new approach, but if the new approach is not what they were looking for, they can leave comments under the except keyword.",
+            "d": "You use try/except blocks so that none of your functions or methods return None."
+        },
+        "correct_answer": "a",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Error Handling"
+        ]
+    },
+    {
+        "question": "What is wrong with this function definition?\ndef be_friendly(greet = 'How are you!', name):\n pass",
+        "options": {
+            "a": "name is a reserved word.",
+            "b": "Underscores are not allowed in function names.",
+            "c": "A non-default argument follows a default argument.",
+            "d": "There is nothing wrong with this function definition."
+        },
+        "correct_answer": "c",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Functions"
+        ]
+    },
+    {
+        "question": "What do you need to do to install additional packages into Python?",
+        "options": {
+            "a": "Use a C compiler like gcc or clang.",
+            "b": "Use a package manager like pip or conda.",
+            "c": "Use an IDE like Notepad++ or Idle.",
+            "d": "Use a package manager like NPM or NuGet."
+        },
+        "correct_answer": "b",
+        "difficulty": "Hard",
+        "lifetime": 60,
+        "topics": [
+            "Python"
+        ]
+    }
+]

@@ -1,0 +1,929 @@
+[
+  {
+    "question": "What is the difference between 'value' types and 'reference' types in C#?",
+    "options": {
+      "a": "Value types are stored on the stack, while reference types are stored on the heap.",
+      "b": "Both value types and reference types are immutable only.",
+      "c": "Value types can be inherited from a base type, while reference types cannot be inherited.",
+      "d": "Value types can be always null, while reference types cannot be null."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Data Types and Variables"
+    ]
+  },
+  {
+    "question": "How are 'arrays' and 'lists' different in C#?",
+    "options": {
+      "a": "**Arrays** can store elements of different data types, while lists can only store elements of the same data type.",
+      "b": "**Arrays** have a fixed size once declared, while lists can dynamically resize.",
+      "c": "**Arrays** have built-in methods for sorting and searching, while lists do not.",
+      "d": "**Arrays** can be used with LINQ queries, while lists cannot."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Data structures: Arrays, Lists, Dictionaries"
+    ]
+  },
+  {
+    "question": "What is the purpose of 'constructors' in C# classes?",
+    "options": {
+      "a": "**Constructors** are used to **initialize** the values of private fields in a class.",
+      "b": "**Constructors** are used to **define** methods that can be called on instances of a class.",
+      "c": "**Constructors** are used to **create** instances of a class and initialize their state.",
+      "d": "**Constructors** are used to **define** event handlers for specific events in a class."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Objects and Classes"
+    ]
+  },
+  {
+    "question": "What is an 'associative array' in C#?",
+    "options": {
+      "a": "An array where each element is associated with a key-value pair.",
+      "b": "An array where the elements are sorted in ascending order.",
+      "c": "An array where the elements are sorted based on their insertion order.",
+      "d": "An array where the elements are sorted based on their values."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Associative Arrays"
+    ]
+  },
+  {
+    "question": "What are 'lambda' expressions in C# used for?",
+    "options": {
+      "a": "**Lambda** expressions are used for **defining** anonymous functions.",
+      "b": "**Lambda** expressions are used for **declaring** classes.",
+      "c": "**Lambda** expressions are used for **creating** instances of interfaces.",
+      "d": "**Lambda** expressions are used for **defining** operator overloads."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Lambda Expressions"
+    ]
+  },
+  {
+    "question": "How do 'dictionaries' differ from 'arrays' and 'lists' in C#?",
+    "options": {
+      "a": "**Dictionaries** can store elements of the same data type, while **arrays** and **lists** can only store elements of different data types.",
+      "b": "**Dictionaries** have a fixed size once declared, while **arrays** and **lists** can dynamically resize.",
+      "c": "**Dictionaries** have built-in methods for sorting and searching, unlike **arrays** and **lists**.",
+      "d": "**Dictionaries** are unordered collections, while **arrays** and **lists** are ordered collections."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Data structures: Arrays, Lists, Dictionaries"
+    ]
+  },
+  {
+    "question": "What is the purpose of 'access modifiers' in C#?",
+    "options": {
+      "a": "Access modifiers are used to define the visibility of a class in other namespaces.",
+      "b": "Access modifiers are used to specify the return type of a method.",
+      "c": "Access modifiers are used to define the scope of a variable within a class.",
+      "d": "Access modifiers are used to control the accessibility of class members."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Objects and Classes"
+    ]
+  },
+  {
+    "question": "What is the purpose of using 'LINQ' in C#?",
+    "options": {
+      "a": "LINQ is used to define classes and their behaviors.",
+      "b": "LINQ is used to perform low-level memory operations and manipulation.",
+      "c": "LINQ is used to manage and control multithreaded programs.",
+      "d": "LINQ is used to query and manipulate data from various data sources."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "LINQ (Filtering, Mapping)"
+    ]
+  },
+  {
+    "question": "What are regular expressions used for in C#?",
+    "options": {
+      "a": "Regular expressions are used for defining custom data types.",
+      "b": "Regular expressions are used for querying and manipulating databases.",
+      "c": "Regular expressions are used for searching and manipulating text patterns.",
+      "d": "Regular expressions are used for defining class inheritance hierarchies."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "What is the purpose of 'quantifiers' and 'grouping' in regular expressions?",
+    "options": {
+      "a": "**Quantifiers** are used to define custom data types, while **grouping** is used for searching and manipulating text patterns.",
+      "b": "**Quantifiers** are used for searching and manipulating text patterns, while **grouping** is used to define class inheritance hierarchies.",
+      "c": "**Quantifiers** are used to specify the number of occurrences of a character or group in a pattern. **Grouping** is used to create subexpressions and capture matched parts of the text.",
+      "d": "**Quantifiers** and **grouping** are used interchangeably in regular expressions."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regex Quantifiers and Grouping"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'StringBuilder' class in C#?",
+    "options": {
+      "a": "The **StringBuilder** class is used to **store** string values.",
+      "b": "The **StringBuilder** class is used to **perform deep operations** on strings.",
+      "c": "The **StringBuilder** class is used to efficiently **manipulate/modify** a string by creating a new object.",
+      "d": "The **StringBuilder** class is used to efficiently **manipulate/modify** a string without creating a new object."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "What is the difference between 'var' and 'string' in C#?",
+    "options": {
+      "a": "**Var** is used to declare numeric data types. **String** is an explicit declaration for holding char sequence data only.",
+      "b": "**Var** is used to declare implicitly typed variable where the compiler identifies the type automatically. **String** is an explicit declaration for holding string data only.",
+      "c": "**Var** is used to declare var date type variable. **String** is an explicit declaration for holding string data only.",
+      "d": "**Var** is used to declare class data types. **String** is an explicit declaration for holding string data only."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Strings"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'Split()' method in C#?",
+    "options": {
+      "a": "The **Split()** method is used to divide a long string into smaller substrings based on a specific character or sequence, allowing for easier processing and manipulation of the text.",
+      "b": "The **Split()** method is used to merge two or more separate strings into a single coherent string, often utilized in the context of text concatenation.",
+      "c": "The **Split()** method is used to eliminate any leading and trailing whitespace characters from a given string, ensuring data cleanliness and consistency.",
+      "d": "The **Split()** method is used to transform an entire string into either uppercase or lowercase characters, depending on the desired text representation."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Manipulating Strings"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'Concat()' method in C#?",
+    "options": {
+      "a": "The **Concat()** method is used to remove leading and trailing whitespace from a string, ensuring data cleanliness and consistency.",
+      "b": "The **Concat()** method is used to combine two or more strings into a single string, creating a new string that contains the characters from all the input strings.",
+      "c": "The **Concat()** method is used to transform an entire string into either uppercase or lowercase characters, depending on the desired text representation.",
+      "d": "The **Concat()** method is used to divide a long string into smaller substrings based on a specific character or sequence, allowing for easier processing and manipulation of the text."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "What are 'nullable' value types in C# used for?",
+    "options": {
+      "a": "The **Nullable** value types are used for **creating custom data types**.",
+      "b": "The **Nullable** value types are used for **defining default values for class members**.",
+      "c": "The **Nullable** value types are used to **define default values for primitive variables**.",
+      "d": "The **Nullable** value types are used to **allow value types to have a null value**."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Data Types and Variables"
+    ]
+  },
+  {
+    "question": "What is the purpose of the var keyword in C#?",
+    "options": {
+      "a": "The var keyword is used to define methods that can be called on instances of a class.",
+      "b": "The var keyword is used to declare variables of an unknown data type.",
+      "c": "The var keyword is used to create instances of classes.",
+      "d": "The var keyword is used to specify the return type of a method."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Data Types and Variables"
+    ]
+  },
+  {
+    "question": "How are 'static' and 'instance' methods different in C#?",
+    "options": {
+      "a": "**Static** methods do not have access to instance-specific data, while **instance** methods do.",
+      "b": "**Static** methods can only be called on instances of a class, while **instance** methods can be called directly on the class itself.",
+      "c": "**Static** methods can have a return type, while **instance** methods cannot.",
+      "d": "**Static** methods are automatically called when an **instance** of a class is created."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Methods"
+    ]
+  },
+  {
+    "question": "How are 'quantifiers' used in regular expressions?",
+    "options": {
+      "a": "**Quantifiers** are used to specify the number of occurrences of a character or group in a pattern.",
+      "b": "**Quantifiers** are used to define custom data types in regular expressions.",
+      "c": "**Quantifiers** are used to perform arithmetic operations on numeric data.",
+      "d": "**Quantifiers** are used to define class inheritance hierarchies in regular expressions."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regex Quantifiers and Grouping"
+    ]
+  },
+  {
+    "question": "What does the regex pattern '\\d+' match?",
+    "options": {
+      "a": "Any digit character",
+      "b": "One or more digits",
+      "c": "Any non-digit character",
+      "d": "Zero or more digits"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "What does the regex pattern '[A-Za-z]+' match?",
+    "options": {
+      "a": "Any uppercase or lowercase letter.",
+      "b": "One or more uppercase or lowercase letters.",
+      "c": "Any non-letter character.",
+      "d": "Zero or more uppercase or lowercase letters."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "What does the regex pattern '[A-Za-z]' match?",
+    "options": {
+      "a": "Any uppercase or lowercase letter.",
+      "b": "Any non-letter character.",
+      "c": "One uppercase or lowercase letter.",
+      "d": "Zero or more uppercase or lowercase letters."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "What does the regex pattern '[0-9]+' match?",
+    "options": {
+      "a": "Any digit character.",
+      "b": "Any non-digit character.",
+      "c": "Zero or more digits.",
+      "d": "One or more digits."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "What does the regex pattern '[0-9]' match?",
+    "options": {
+      "a": "Any digit character.",
+      "b": "Any non-digit character.",
+      "c": "Zero or more digits.",
+      "d": "One digit."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "What does the regex pattern '\\w+' match?",
+    "options": {
+      "a": "Any word character (equivalent to [a-zA-Z0-9_]+).",
+      "b": "One word characters (equivalent to [a-zA-Z0-9_]).",
+      "c": "Any non-word character.",
+      "d": "Zero or more word characters."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "What does the regex pattern '\\d{3}-\\d{4}' match?",
+    "options": {
+      "a": "Three digits followed by a hyphen and four more digits.",
+      "b": "Three or more digits followed by a hyphen and four more digits.",
+      "c": "Any sequence of three characters followed by a hyphen and four more characters.",
+      "d": "Any non-digit character followed by a hyphen and four more digits."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "What does the regex pattern '[A-Z][a-z]+' match?",
+    "options": {
+      "a": "A string that starts with a lowercase letter followed by one or more uppercase letters.",
+      "b": "A string that contains uppercase and lowercase letters.",
+      "c": "A string that starts with an uppercase letter followed by one or more lowercase letters.",
+      "d": "A string that starts with one or more uppercase letters followed by lowercase letters."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "How would you create a new string by extracting a part from an existing string in C#?",
+    "options": {
+      "a": "By using the **Remove()** method.",
+      "b": "By using the **Substring()** method.",
+      "c": "By using the **Split()** method.",
+      "d": "By using the **Replace()** method."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Manipulating Strings"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'Contains()' method in C#?",
+    "options": {
+      "a": "The **Contains()** method is used to **verify** if a string contains a particular character or sequence of characters, returning a Boolean value based on the presence or absence of the specified substring.",
+      "b": "The **Contains()** method is used to **determine** if a string contains a specific substring, providing a true or false result based on the existence of the substring within the original string.",
+      "c": "The **Contains()** method is used to **eliminate** any leading and trailing whitespace characters from a given string, ensuring data cleanliness and consistency.",
+      "d": "The **Contains()** method is used to **transform** an entire string into either uppercase or lowercase characters, depending on the desired text representation."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Manipulating Strings"
+    ]
+  },
+  {
+    "question": "What is an object in C#?",
+    "options": {
+      "a": "A class or struct, including its variables and functions.",
+      "b": "A primitive data type that can be created only at compile time.",
+      "c": "A value type that can be used only with an abstract class.",
+      "d": "An instance of a class or struct that includes fields, properties, and/or methods."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Integer Types"
+    ]
+  },
+  {
+    "question": "What will be returned when this method is executed?\npublic void userInput(string charParameters) { }",
+    "options": {
+      "a": "Nothing",
+      "b": "A Boolean",
+      "c": "A string variable",
+      "d": "An integer"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Integer Types"
+    ]
+  },
+  {
+    "question": "Lambda expressions are often used in tandem with which of the following?",
+    "options": {
+      "a": "Namespaces",
+      "b": "LINQ",
+      "c": "Type Aliasing",
+      "d": "Assemblies"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Integer Types"
+    ]
+  },
+  {
+    "question": "What is the correct formatting for single line and multiline comments?",
+    "options": {
+      "a": "/\\_/ - Single Line /\\_ - Multiline",
+      "b": "// Multiline /\\_ Single Line \\_/",
+      "c": "//\\\\\\* Multiline / Single Line",
+      "d": "// Single Line /\\* Multiline \\*/"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Integer Types"
+    ]
+  },
+  {
+    "question": "What kind of values can arrays store?",
+    "options": {
+      "a": "Unordered collections of numeric values.",
+      "b": "Key-value pairs of any C# supported type.",
+      "c": "Class and struct instances.",
+      "d": "Multiple variables, or collections, of the same type."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Integer Types"
+    ]
+  },
+  {
+    "question": "What is most accurate description of a regular expression?",
+    "options": {
+      "a": "A regular expression is a **C# tool** used to parse HTML",
+      "b": "A regular expression is a **special string** for describing a search patters.",
+      "c": "A regular expression allows a **variable** to be passed **by reference**.",
+      "d": "A regular expression allows a **class** to conform to the **Equatable protocol**."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Integer Types"
+    ]
+  },
+  {
+    "question": "When will the code inside finally block be executed in a try-catch statement?",
+    "options": {
+      "a": "If there is an error, it won't execute at all.",
+      "b": "After the try and catch blocks.",
+      "c": "Between the try and catch blocks.",
+      "d": "When the finally block overrides the catch block and executes in its place."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Integer Types"
+    ]
+  },
+  {
+    "question": "How are C# 'classes' limited?",
+    "options": {
+      "a": "They do not support multiple inheritance.",
+      "b": "They support multiple inheritance.",
+      "c": "They can have only a set number of properties.",
+      "d": "They can have only a set number of methods."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Integer Types"
+    ]
+  },
+  {
+    "question": "What function do 'namespaces' perform?",
+    "options": {
+      "a": "**Namespaces** calculate code coverage at runtime.",
+      "b": "**Namespaces** compile application code together at compile time.",
+      "c": "**Namespaces** group code together into a single repository.",
+      "d": "**Namespaces** separate code into groupings, control access, and avoid naming collisions."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Integer Types"
+    ]
+  },
+  {
+    "question": "What are the four keywords associated with exception handling in C#?",
+    "options": {
+      "a": "try, catch, valid, invalid",
+      "b": "try, valid, finally, throw",
+      "c": "try, catch, finally, throw",
+      "d": "finally, throw, valid, invalid"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Integer Types"
+    ]
+  },
+  {
+    "question": "Which statement is True?",
+    "options": {
+      "a": "All are true.",
+      "b": "None are true.",
+      "c": "string is a value type.",
+      "d": "string is an alias for String"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Integer Types"
+    ]
+  },
+  {
+    "question": "How would you return more than one value from a method?",
+    "options": {
+      "a": "Use either a **tuple** or an **out** variable.",
+      "b": "The only way is to use an **out** variable.",
+      "c": "The only way is to use a **tuple**.",
+      "d": "This cannot be done"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Integer Types"
+    ]
+  },
+  {
+    "question": "What are the key differences between 'ArrayList' and 'Array' in C#?",
+    "options": {
+      "a": "**ArrayList** is a dynamically resizable collection that can store elements of different data types, while **Array** is a fixed-size collection that can only store elements of the same data type.",
+      "b": "**ArrayList** supports automatic resizing and provides built-in methods for adding, removing, and manipulating elements, while **Array** does not support *automatic resizing* and requires manual resizing for modification.",
+      "c": "**ArrayList** uses a continuous block of memory for its elements, allowing for fast random access to elements, while **Array** uses a *linked list* structure, resulting in slower random access.",
+      "d": "**ArrayList** and **Array** are value types."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Data structures: Arrays, Lists"
+    ]
+  },
+  {
+    "question": "What are the key differences between 'System.Array.CopyTo()' and 'System.Array.Clone()' in C#?",
+    "options": {
+      "a": "**System.Array.CopyTo()** is used to copy the elements of an array into another existing array, whereas **System.Array.Clone()** creates a new shallow copy of the array, including the original elements.",
+      "b": "**System.Array.CopyTo()** creates a new shallow copy of the array, whereas **System.Array.Clone()** is used to copy the elements of an array into another existing array.",
+      "c": "**System.Array.CopyTo()** performs a deep copy of the array, including the original elements, whereas **System.Array.Clone()** only creates a reference to the original array.",
+      "d": "**System.Array.CopyTo()** is used to resize the array, while **System.Array.Clone()** is used to change the type of the elements in the array."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Data structures: Arrays"
+    ]
+  },
+  {
+    "question": "How can the elements of an 'Array' be sorted in descending order in C#?",
+    "options": {
+      "a": "By using the **Array.Sort()** method and specifying the **SortOrder.Ascending** parameter.",
+      "b": "By using the **Array.Reverse()** method after using the **Array.Sort()** method with the default ascending sort order.",
+      "c": "By using the **Array.Sort()* method and that will sort the elements in descending order.",
+      "d": "By using the **Array.Sort()* method and setting the **Soft** property to **Sort.Descending**."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Data structures: Arrays"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'let' keyword in LINQ?",
+    "options": {
+      "a": "The **let** keyword is used to define custom data types in LINQ queries.",
+      "b": "The **let** keyword is used to perform arithmetic operations on numeric data in LINQ queries.",
+      "c": "The **let** keyword is used to store intermediate results and reuse them in LINQ queries.",
+      "d": "The **let** keyword is used to provide a default value for nullable types in LINQ queries."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "LINQ (Filtering, Mapping)"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'where' keyword in LINQ?",
+    "options": {
+      "a": "The **where** keyword is used to define custom data types in LINQ queries.",
+      "b": "The **where** keyword is used to perform arithmetic operations on numeric data in LINQ queries.",
+      "c": "The **where** keyword is used to filter data based on specified criteria in LINQ queries.",
+      "d": "The **where** keyword is used to provide a default value for nullable types in LINQ queries."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "LINQ (Filtering, Mapping)"
+    ]
+  },
+  {
+    "question": "How does 'LINQ' differ from traditional 'SQL' queries?",
+    "options": {
+      "a": "LINQ is used to query and manipulate databases, while SQL is used to define custom data types.",
+      "b": "LINQ is a programming language construct, while SQL is a query language used in relational databases.",
+      "c": "LINQ is used to perform arithmetic operations on numeric data, while SQL is used for querying and manipulating databases.",
+      "d": "LINQ is used to define class inheritance hierarchies, while SQL is used to perform bitwise operations."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "LINQ (Filtering, Mapping)"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'orderby' in LINQ?",
+    "options": {
+      "a": "The **orderby** is used to define custom data types in LINQ queries.",
+      "b": "The **orderby** is used to perform arithmetic operations on numeric data in LINQ queries.",
+      "c": "The **orderby** is used to sort data based on specified criteria in LINQ queries.",
+      "d": "The **orderby** is used to provide a default value for nullable types in LINQ queries."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "LINQ (Filtering, Mapping)"
+    ]
+  },
+  {
+    "question": "In C#, what is the result of dividing an integer by zero?",
+    "options": {
+      "a": "An 'ArithmeticException' is thrown",
+      "b": "The program crashes with a runtime error",
+      "c": "Positive infinity",
+      "d": "Negative infinity"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "ArithmeticException"
+    ]
+  },
+  {
+    "question": "Which git command is used to fetch and merge the latest changes from the remote repository?",
+    "options": {
+      "a": "git **clone**",
+      "b": "git **download**",
+      "c": "git **checkout**",
+      "d": "git **pull**"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git"
+    ]
+  },
+  {
+    "question": "Considering you are inside a git repository directory on your computer and you want to add the file 'myProgram.java' to new commit to the remote version. Which git command you could use?",
+    "options": {
+      "a": "git **upload** myProgram.java",
+      "b": "git **commit** myProgram.java",
+      "c": "git **add** myProgram.java",
+      "d": "git **push** myProgram.java"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git"
+    ]
+  },
+  {
+    "question": "What is the purpose of VARCHAR(n) data type in MySQL?",
+    "options": {
+      "a": "Allows storing text with length n in a field",
+      "b": "To create new variable of char type",
+      "c": "To parse integer data type to character type",
+      "d": "VARCHAR is not part of the SQL syntax"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "MySQL"
+    ]
+  },
+  {
+    "question": "Which SQL query you would use to delete the table 'students' from 'university' database?",
+    "options": {
+      "a": "```sql\nDROP TABLE students;\n```",
+      "b": "```sql\nDELETE TABLE students;\n```",
+      "c": "```sql\nDEL students FROM university;\n```",
+      "d": "```sql\nDROP students FROM DB university;\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "MySQL"
+    ]
+  },
+  {
+    "question": "Which one of the following ports is considered default for HTTP?",
+    "options": {
+      "a": "22",
+      "b": "5432",
+      "c": "8443",
+      "d": "80"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP"
+    ]
+  },
+  {
+    "question": "Which of the following components is NOT part of a URL address?",
+    "options": {
+      "a": "protocol",
+      "b": "path",
+      "c": "HTTP response status code",
+      "d": "port"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP"
+    ]
+  },
+  {
+    "question": "What is the purpose and functionality of Git, and what role does it play in the modern software development practices?",
+    "options": {
+      "a": "A robust programming language extensively utilized for web development.",
+      "b": "An advanced database management system commonly employed in large-scale enterprises.",
+      "c": "A distributed version control system that efficiently tracks changes in code and enables seamless collaboration among developers.",
+      "d": "A versatile text editor specifically designed for writing and editing code."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub"
+    ]
+  },
+  {
+    "question": "What is the purpose of HTTP in web development?",
+    "options": {
+      "a": "To style web pages using CSS.",
+      "b": "To facilitate communication between web servers and clients.",
+      "c": "To define the structure and layout of web pages.",
+      "d": "To store and retrieve data in databases."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP Basics"
+    ]
+  },
+  {
+    "question": "Provide a comprehensive explanation of the purpose and functionality of the 'git add' command in Git version control. How does that command contribute to optimizing software development collaboration and ensuring effective code management?",
+    "options": {
+      "a": "The 'git **add**' command creates a new branch in a Git repository.",
+      "b": "The 'git **add**' command is used to merge two branches in a Git repository.",
+      "c": "The 'git **add**' command is used to stage changes.",
+      "d": "The 'git **add**' command uploads local changes to a remote repository."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub",
+      "Version Control",
+      "Remote Repositories",
+      "Collaborative Development",
+      "Code Management"
+    ]
+  },
+  {
+    "question": "Provide a comprehensive explanation of the purpose and functionality of the 'git commit' command in Git version control. How does that command contribute to optimizing software development collaboration and ensuring effective code management?",
+    "options": {
+      "a": "The 'git **commit**' merges two branches.",
+      "b": "The 'git **commit**' uploads local changes to a remote repository.",
+      "c": "The 'git **commit**' captures a snapshot of the staged changes as a new version.",
+      "d": "The 'git **commit**' creates a new branch in a Git repository."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub",
+      "Version Control",
+      "Remote Repositories",
+      "Collaborative Development",
+      "Code Management"
+    ]
+  },
+  {
+    "question": "Provide a comprehensive explanation of the purpose and functionality of the 'git push' command in Git version control. How does that command contribute to optimizing software development collaboration and ensuring effective code management?",
+    "options": {
+      "a": "The 'git **push**' uploads the merged branches to a remote repository.",
+      "b": "The 'git **push**' is not applicable in Git.",
+      "c": "The 'git **push**' facilitates the transfer of local commits to a remote repository.",
+      "d": "The 'git **push**' merges two branches in a Git repository."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub",
+      "Version Control",
+      "Remote Repositories",
+      "Collaborative Development",
+      "Code Management"
+    ]
+  },
+  {
+    "question": "Which of the following contains only HTTP status codes indicating a successful request?",
+    "options": {
+      "a": "404, 200, 201, 400, 401",
+      "b": "304, 404, 300, 500, 202",
+      "c": "200, 201, 202, 203, 204",
+      "d": "300, 304, 501, 200, 201"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP Basics"
+    ]
+  },
+  {
+    "question": "Which of the following is used to structure the content of a web page?",
+    "options": {
+      "a": "Java",
+      "b": "Cascading Style Sheets",
+      "c": "JavaScript",
+      "d": "The HyperText Markup Language"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTML & CSS Basics"
+    ]
+  }
+]

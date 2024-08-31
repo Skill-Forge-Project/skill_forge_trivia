@@ -1,0 +1,1122 @@
+[
+  {
+    "question": "Which loop in Java is suitable when you want to iterate over elements of an array or a collection?",
+    "options": {
+      "a": "for loop",
+      "b": "while loop",
+      "c": "do-while loop",
+      "d": "for-each loop"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Java for-each loop"
+    ]
+  },
+  {
+    "question": "In Java, which data structure is used to store multiple elements of the same type?",
+    "options": {
+      "a": "List",
+      "b": "Set",
+      "c": "Array",
+      "d": "All of the above"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Java arrays"
+    ]
+  },
+  {
+    "question": "Which of the following is a valid way to declare and initialize an array in Java?",
+    "options": {
+      "a": "```java\nint numbers[] = [1, 2, 3, 4];\n```",
+      "b": "```java\nint[] numbers = {-1, -2, -3, -4};\n```",
+      "c": "```java\nint numbers[] = new int[4] {1, 2, 3, 4};\n```",
+      "d": "```java\nint[] numbers = new int[4] {1, 2, 3, 4};\n```"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Java arrays"
+    ]
+  },
+  {
+    "question": "What is the syntax for declaring and initializing an array in Java?",
+    "options": {
+      "a": "```java\nArray<int> arr = new Array<int>();\n```",
+      "b": "```java\nArray arr = new Array();\n```",
+      "c": "```java\nint[] arr = new int[];\n```",
+      "d": "```java\nint[] arr = {};\n```"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Java arrays"
+    ]
+  },
+  {
+    "question": "When it comes to arrays in Java, there is a question about their mutability or immutability. Which option of the following is correct?",
+    "options": {
+      "a": "Mutable: Arrays are mutable, meaning that the elements within an array can be modified after initialization.",
+      "b": "Immutable: Arrays are immutable, once created, its size and elements cannot be modified. Attempts to change the array or its elements will result in errors or exceptions.",
+      "c": "Both mutable and immutable, depending on the declaration: The mutability of arrays in Java can depend on how they are declared. Some arrays may be explicitly declared as mutable, allowing for modifications, while others may be declared as immutable, prohibiting any changes to their elements. The declaration determines the behavior of the array in terms of mutability.",
+      "d": "Neither mutable nor immutable: Arrays in Java possess a unique characteristic that sets them apart from conventional notions of mutability and immutability. They offer a mix of mutable and immutable behavior."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Java arrays"
+    ]
+  },
+  {
+    "question": "Which operator is used to access an element in an array by its index?",
+    "options": {
+      "a": "{}",
+      "b": "()",
+      "c": "[]",
+      "d": ".get(2);"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Java arrays"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'final' keyword in Java?",
+    "options": {
+      "a": "To define a constant value that cannot be modified.",
+      "b": "To indicate that a variable is nullable.",
+      "c": "To specify a method as abstract.",
+      "d": "To mark a class as final and allow inheritance."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "variables"
+    ]
+  },
+  {
+    "question": "What are the different types of variables in Java?",
+    "options": {
+      "a": "Constant, mutable, and immutable variables.",
+      "b": "Integer, float, and boolean variables.",
+      "c": "Local, instance, and static variables.",
+      "d": "Primitive variables."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "variables"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'static' keyword in Java?",
+    "options": {
+      "a": "To define a method or variable that belongs to the class and not to an instance of the class.",
+      "b": "To make a method or variable accessible from any other class in the program.",
+      "c": "To indicate that a method or variable can be overridden by subclasses.",
+      "d": "To specify that a class can only have one instance."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "variables"
+    ]
+  },
+  {
+    "question": "What is the difference between an array and a ArrayList in Java?",
+    "options": {
+      "a": "An array can store primitive types, while an ArrayList can store only objects.",
+      "b": "An array has a fixed size, while an ArrayList can dynamically resize.",
+      "c": "An array supports random access, while an ArrayList does not.",
+      "d": "There is no difference between an array and an ArrayList."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "data structures"
+    ]
+  },
+  {
+    "question": "How do you create a HashMap object in Java?",
+    "options": {
+      "a": "```java\nHashMap<Integer, String> map = new Map<>();\n```",
+      "b": "```java\nHashMap map = new Map();\n```",
+      "c": "```java\nMap<String, Integer> map = new HashMap<>();\n```",
+      "d": "```java\nHashMap map = new HashMap<String, Integer>();\n```"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "data structures"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'toString()' method in Java?",
+    "options": {
+      "a": "To sort elements in an array or list.",
+      "b": "To perform mathematical calculations.",
+      "c": "The 'toString()' method is not applicable in Java.",
+      "d": "To convert an object to its string representation."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "methods"
+    ]
+  },
+  {
+    "question": "Which method is used to put an element to the end of an ArrayList in Java?",
+    "options": {
+      "a": "add()",
+      "b": "append()",
+      "c": "push()",
+      "d": "put()"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "data structures"
+    ]
+  },
+  {
+    "question": "What is a regular expression in Java?",
+    "options": {
+      "a": "A method that converts a string to lowercase.",
+      "b": "A pattern used to match and manipulate strings.",
+      "c": "A data structure that stores key-value pairs.",
+      "d": "A type of loop used to iterate over a collection."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "What is the keyword used to create a new instance of a class in Java?",
+    "options": {
+      "a": "create",
+      "b": "instance",
+      "c": "new",
+      "d": "object"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "basic OOP"
+    ]
+  },
+  {
+    "question": "What is the default size of an array in Java?",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "10",
+      "d": "Depends on the type of elements"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "data structures"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'length' property in Java arrays?",
+    "options": {
+      "a": "To access the last element of an array.",
+      "b": "To reverse the order of elements in an array.",
+      "c": "The 'length' property is not applicable in Java arrays.",
+      "d": "To get the number of elements in an array."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "data structures"
+    ]
+  },
+  {
+    "question": "When it comes to String objects, what is the purpose and return type of the 'compareTo()' method in Java?",
+    "options": {
+      "a": "To compare two strings lexicographically and returns boolean.",
+      "b": "To compare two strings lexicographically and returns int.",
+      "c": "To compare an object with another object and returns true if the values of the objects are equal.",
+      "d": "To compare two strings by their references in the memory and returns true if they are equal."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "string manipulation"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'indexOf()' method in Java?",
+    "options": {
+      "a": "To find the index of a specified element in a list or array.",
+      "b": "To find the index of the first occurrence of the specified element in this list.",
+      "c": "To replace the first element in a list by the given one.",
+      "d": "The 'indexOf()' method is not applicable in Java."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "data structures",
+      "string manipulation"
+    ]
+  },
+  {
+    "question": "What is the role of constructors in Java?",
+    "options": {
+      "a": "To initialize objects of a class.",
+      "b": "To perform mathematical calculations.",
+      "c": "To sort elements in an array or list.",
+      "d": "The role of constructors in Java is not defined."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "basic OOP"
+    ]
+  },
+  {
+    "question": "Which of the following contains only data structures that provides key-value pairs?",
+    "options": {
+      "a": "TreeMap, HashMap, LinkedHashMap, Hashtable",
+      "b": "HashMap, LinkedHashMap, OrderedMap, TreeMap",
+      "c": "ArrayList, LinkedHashMap, TreeMap, HashMap",
+      "d": "LinkedHashMap, OrderedMap, Map, TreeMap"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Maps"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'append()' method in StringBuilder class?",
+    "options": {
+      "a": "To insert a string or character sequence at a specified position in the StringBuilder object.",
+      "b": "To append a string or character sequence to the existing StringBuilder object.",
+      "c": "To delete a portion of the StringBuilder object.",
+      "d": "The 'append()' method is not applicable in StringBuilder class."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "StringBuilder"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'split()' method in Java?",
+    "options": {
+      "a": "To split a string into multiple strings.",
+      "b": "To split a string into an array of substrings based on a specified delimiter.",
+      "c": "To reverse the order of elements in an array.",
+      "d": "The 'split()' method is not applicable in Java."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "string manipulation"
+    ]
+  },
+  {
+    "question": "What is the output of the following code snippet? \nMap<String, Integer> ages = new HashMap<>(); \nages.put(\"John\", 25); \nages.put(\"Alice\", 30); \nSystem.out.println(ages.get(\"John\"));",
+    "options": {
+      "a": "30",
+      "b": "John",
+      "c": "25",
+      "d": "null"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Maps"
+    ]
+  },
+  {
+    "question": "When working with strings in Java, what is the primary purpose of the 'replaceAll()' method? Evaluate the provided options carefully, as they may involve additional functionality beyond the straightforward replacement of substrings.",
+    "options": {
+      "a": "To perform advanced string manipulation by replacing all occurrences of substrings that match the given regular expression with the given replacement.",
+      "b": "To concatenate multiple strings together after replacing all occurrences of a specified substring within each string.",
+      "c": "To reverse the order of elements in an array after replacing all occurrences of a specified substring within each element.",
+      "d": "The 'replaceAll()' method is not applicable in Java and does not exist within the string manipulation capabilities."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "string manipulation"
+    ]
+  },
+  {
+    "question": "What is the output of the following code snippet? String str = \"Hello World\"; \nSystem.out.println(str.substring(6));",
+    "options": {
+      "a": "Hello",
+      "b": "orld",
+      "c": "Hello W",
+      "d": "World"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "string manipulation"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'containsKey()' method in Java?",
+    "options": {
+      "a": "To check if a List contains a specific element.",
+      "b": "To check if a Map contains a specific key.",
+      "c": "To check if an Array contains a specific value.",
+      "d": "The 'containsKey()' method is not applicable in Java."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Maps"
+    ]
+  },
+  {
+    "question": "What is the purpose of a method in Java?",
+    "options": {
+      "a": "To store and retrieve data for a given input.",
+      "b": "To perform a specific task or action.",
+      "c": "To declare variables.",
+      "d": "There is no purpose of a method in Java."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "methods"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'ArrayList' class in Java?",
+    "options": {
+      "a": "To store and retrieve key-value pairs",
+      "b": "To manipulate and modify strings efficiently",
+      "c": "To perform mathematical calculations",
+      "d": "None of the above"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "data structures",
+      "Lists"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'addAt()' method in the 'List' interface in Java?",
+    "options": {
+      "a": "To add a new element at the specified position in the list.",
+      "b": "To add multiple elements at the specified position in the list.",
+      "c": "To remove an element from the specified position in the list.",
+      "d": "None of the above"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "data structures",
+      "Maps"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'find()' method in the 'Matcher' class in Java?",
+    "options": {
+      "a": "To find the first occurrence of a pattern.",
+      "b": "To find the last occurrence of a pattern.",
+      "c": "To find a random occurrence of a pattern.",
+      "d": "The 'find()' method is not applicable in Java 'Matcher' class."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'trim()' method in Java?",
+    "options": {
+      "a": "To convert a string to uppercase.",
+      "b": "To remove leading and trailing whitespaces from a string.",
+      "c": "To split a string into an array of substrings based on a specified delimiter.",
+      "d": "There is no purpose of the 'trim()' method in Java."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "string manipulation"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'getAll()' method in the 'Map' interface in Java?",
+    "options": {
+      "a": "To retrieve the value associated with a specific key from the map.",
+      "b": "To add a new element to the map.",
+      "c": "To remove an element from the map.",
+      "d": "The 'getAll()' method is not applicable in the 'Map' interface in Java."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "data structures",
+      "Maps"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'removeAll()' method in the 'List' interface in Java?",
+    "options": {
+      "a": "To remove an element from a list at a specific index.",
+      "b": "To remove from a list all of its elements, that are contained in the given collection.",
+      "c": "To remove from a list all of its elements.",
+      "d": "The 'removeAll()' method is not applicable in the 'List' interface in Java."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "data structures",
+      "Lists"
+    ]
+  },
+  {
+    "question": "What does the regex pattern '\\d+' match?",
+    "options": {
+      "a": "Any digit character",
+      "b": "One or more digits",
+      "c": "Any non-digit character",
+      "d": "Zero or more digits"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "What does the regex pattern '[A-Za-z]+' match?",
+    "options": {
+      "a": "Any uppercase or lowercase letter",
+      "b": "One or more uppercase or lowercase letters",
+      "c": "Any non-letter character",
+      "d": "Zero or more uppercase or lowercase letters"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "What does the regex pattern '[A-Za-z]' match?",
+    "options": {
+      "a": "Any uppercase or lowercase letter",
+      "b": "Any non-letter character",
+      "c": "One uppercase or lowercase letter",
+      "d": "Zero or more uppercase or lowercase letters"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "What does the regex pattern '[0-9]+' match?",
+    "options": {
+      "a": "Any digit character",
+      "b": "Any non-digit character",
+      "c": "Zero or more digits",
+      "d": "One or more digits"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "What does the regex pattern '[0-9]' match?",
+    "options": {
+      "a": "Any digit character",
+      "b": "Any non-digit character",
+      "c": "Zero or more digits",
+      "d": "One digit"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "What does the regex pattern '\\w+' match?",
+    "options": {
+      "a": "Any word character (equivalent to [a-zA-Z0-9_]+)",
+      "b": "One word characters (equivalent to [a-zA-Z0-9_])",
+      "c": "Any non-word character",
+      "d": "Zero or more word characters"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "What does the regex pattern '\\d{3}-\\d{4}' match?",
+    "options": {
+      "a": "Three digits followed by a hyphen and four more digits",
+      "b": "Three or more digits followed by a hyphen and four more digits",
+      "c": "Any sequence of three characters followed by a hyphen and four more characters",
+      "d": "Any non-digit character followed by a hyphen and four more digits"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "What does the regex pattern '[A-Z][a-z]+' match?",
+    "options": {
+      "a": "A string that starts with a lowercase letter followed by one or more uppercase letters",
+      "b": "A string that contains uppercase and lowercase letters",
+      "c": "A string that starts with an uppercase letter followed by one or more lowercase letters",
+      "d": "A string that starts with one or more uppercase letters followed by lowercase letters"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "regular expressions"
+    ]
+  },
+  {
+    "question": "Given a list of integers, how would you use streams in Java to filter out the even numbers and return a new list containing only the odd numbers?",
+    "options": {
+      "a": "```java\nList<Integer> oddNumbers = numbers.stream().map(n -> n % 2 != 0).collect(Collectors.toList());\n```",
+      "b": "```java\nList<Integer> oddNumbers = numbers.stream().filter(n -> n % 2 != 0).collect(Collectors.toList());\n```",
+      "c": "```java\nList<Integer> oddNumbers = numbers.stream().filter(n -> n % 2 == 0).collect(Collectors.toList());\n```",
+      "d": "```java\nList<Integer> oddNumbers = numbers.stream().map(n -> n % 2 == 0).collect(Collectors.toList());\n```"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "streams"
+    ]
+  },
+  {
+    "question": "In Java streams, what is the difference between the findFirst() and findAny() methods?",
+    "options": {
+      "a": "findFirst() returns the largest element in the stream, while findAny() returns the smallest element in the stream.",
+      "b": "findFirst() returns the first element in the stream, while findAny() returns any element in the stream.",
+      "c": "findFirst() returns any element in the stream, while findAny() returns the first element in the stream.",
+      "d": "findFirst() returns the smallest element in the stream, while findAny() returns the largest element in the stream."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Complex scenarios involving streams"
+    ]
+  },
+  {
+    "question": "What is the purpose of the trim() method in Java's String class?",
+    "options": {
+      "a": "To split a string into multiple substrings based on a delimiter.",
+      "b": "To convert a string to uppercase or lowercase.",
+      "c": "To remove leading and trailing whitespace from a string.",
+      "d": "To replace all occurrences of a specified character or substring in a string."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Manipulating Strings"
+    ]
+  },
+  {
+    "question": "What are the main characteristics of primitive data types?",
+    "options": {
+      "a": "They can be extended and customized based on user-defined requirements.",
+      "b": "They can be used to create complex data structures and perform advanced computations.",
+      "c": "They are predefined by the language and have a fixed size and behavior.",
+      "d": "They are primarily used to represent objects and support object-oriented programming."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Data Types and Variables"
+    ]
+  },
+  {
+    "question": "How does type conversion differ from type casting?",
+    "options": {
+      "a": "Type conversion is used for converting between primitive data types, while type casting is used for converting between reference types.",
+      "b": "Type conversion involves changing the data type of a variable, while type casting involves changing the reference of a variable without changing its value and data type.",
+      "c": "Type conversion and type casting are synonymous and can be used interchangeably in Java.",
+      "d": "Type conversion is an implicit process performed by the compiler, while type casting is an explicit process performed by the programmer."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Type Conversion"
+    ]
+  },
+  {
+    "question": "How is a String different from other primitive data types?",
+    "options": {
+      "a": "String is a mutable data type that can be changed after initialization, just like the rest of the primitive data types.",
+      "b": "String is a primitive data type used to store char sequences/text.",
+      "c": "String is not a primitive data type; it is a reference type.",
+      "d": "String is a keyword used to define variables in Java programs."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "String Type"
+    ]
+  },
+  {
+    "question": "What are some common operations that can be performed on strings?",
+    "options": {
+      "a": "Addition, subtraction, multiplication, and division.",
+      "b": "Concatenation, substring extraction, searching, and replacement.",
+      "c": "Concatenation, scanning, subtraction, translation, and verification",
+      "d": "Insertion, deletion, updating, and retrieval."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Manipulating Strings"
+    ]
+  },
+  {
+    "question": "What is the main advantage of using StringBuilder over String for string manipulation?",
+    "options": {
+      "a": "StringBuilder is immutable, allowing for efficient memory management.",
+      "b": "StringBuilder provides better performance when performing multiple string manipulations.",
+      "c": "StringBuilder allows for direct access to individual characters in a string.",
+      "d": "StringBuilder supports additional methods for advanced text processing."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "How does the concept of immutability apply to strings?",
+    "options": {
+      "a": "Strings in Java are mutable, allowing for easy modification and manipulation.",
+      "b": "Strings in Java can be both mutable and immutable, depending on the context.",
+      "c": "Strings in Java are immutable, meaning their values cannot be changed after they are created.",
+      "d": "Strings in Java are treated as primitive data types and do not have the concept of immutability."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "String Type"
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a valid method to concatenate two strings in Java?",
+    "options": {
+      "a": "Using the + operator: String result = str1 + str2;",
+      "b": "Using the concat() method: String result = str1.concat(str2);",
+      "c": "Using the append() method of StringBuilder: StringBuilder sb = new StringBuilder(str1); sb.append(str2);",
+      "d": "Using the join() method: String result = String.join(str1, str2);"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "You have an ArrayList of names that you want to sort alphabetically. Which approach would NOT work?",
+    "options": {
+      "a": "```java\nnames.sort(Comparator.comparing(String::toString));\n```",
+      "b": "```java\nCollections.sort(names);\n```",
+      "c": "```java\nnames.sort(List.DESCENDING);\n```",
+      "d": "```java\nnames.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList());\n```"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "What method can be used to create a new instance of an object?",
+    "options": {
+      "a": "another instance",
+      "b": "field",
+      "c": "constructor",
+      "d": "private method"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "What method signature will work with this code?\nboolean healthyOrNot = isHealthy(\"avocado\");",
+    "options": {
+      "a": "```java\npublic void isHealthy(String avocado);\n```",
+      "b": "```java\nboolean isHealthy(String string);\n```",
+      "c": "```java\npublic isHealthy(\"avocado\");\n```",
+      "d": "```java\nprivate String isHealthy(String food);\n```"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "You get a NullPointerException. What is the most likely cause?",
+    "options": {
+      "a": "A file that needs to be opened cannot be found.",
+      "b": "A network connection has been lost in the middle of communications.",
+      "c": "Your code has used up all available memory.",
+      "d": "The object you are using has not been instantiated."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "Why are ArrayLists better than arrays?",
+    "options": {
+      "a": "You can put more items into an ArrayList than into an array.",
+      "b": "ArrayLists can hold more kinds of objects than arrays.",
+      "c": "You don't have to decide the size of an ArrayList when you first make it.",
+      "d": "You don't have to decide the type of an ArrayList when you first make it."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "What language construct serves as a blueprint containing an object's properties and functionality?",
+    "options": {
+      "a": "constructor",
+      "b": "instance",
+      "c": "class",
+      "d": "method"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "When should you use a static method?",
+    "options": {
+      "a": "when your method is related to the object's characteristics",
+      "b": "when you want your method to be available independently of class instances",
+      "c": "when your method uses an object's instance variable",
+      "d": "when your method is dependent on the specific instance that calls it"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "Have you ever heard of Java call stack?",
+    "options": {
+      "a": "It is a data structure used to store references to objects in memory.",
+      "b": "It is a stack used to store method calls and local variables during program execution.",
+      "c": "It is a queue used to manage the order of thread execution in a multithreaded program.",
+      "d": "It is a data structure used to hold method parameters and return values during program execution."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Advanced concepts"
+    ]
+  },
+  {
+    "question": "Which git command is used to fetch and merge the latest changes from the remote repository?",
+    "options": {
+      "a": "git **clone**",
+      "b": "git **download**",
+      "c": "git **checkout**",
+      "d": "git **pull**"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git"
+    ]
+  },
+  {
+    "question": "Considering you are inside a git repository directory on your computer and you want to add the file 'myProgram.java' to new commit to the remote version. Which git command you could use?",
+    "options": {
+      "a": "git **upload** myProgram.java",
+      "b": "git **commit** myProgram.java",
+      "c": "git **add** myProgram.java",
+      "d": "git **push** myProgram.java"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git"
+    ]
+  },
+  {
+    "question": "What is the purpose of VARCHAR(n) data type in MySQL?",
+    "options": {
+      "a": "Allows storing text with length n in a field",
+      "b": "To create new variable of char type",
+      "c": "To parse integer data type to character type",
+      "d": "VARCHAR is not part of the SQL syntax"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "MySQL"
+    ]
+  },
+  {
+    "question": "Which SQL query you would use to delete the table 'students' from 'university' database?",
+    "options": {
+      "a": "```sql\nDROP TABLE students;\n```",
+      "b": "```sql\nDELETE TABLE students;\n```",
+      "c": "```sql\nDEL students FROM university;\n```",
+      "d": "```sql\nDROP students FROM DB university;\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "MySQL"
+    ]
+  },
+  {
+    "question": "Which one of the following ports is considered default for HTTP?",
+    "options": {
+      "a": "22",
+      "b": "5432",
+      "c": "8443",
+      "d": "80"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP"
+    ]
+  },
+  {
+    "question": "Which of the following components is NOT part of a URL address?",
+    "options": {
+      "a": "protocol",
+      "b": "path",
+      "c": "HTTP response status code",
+      "d": "port"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP"
+    ]
+  },
+  {
+    "question": "What is the purpose and functionality of Git, and what role does it play in the modern software development practices?",
+    "options": {
+      "a": "A robust programming language extensively utilized for web development.",
+      "b": "An advanced database management system commonly employed in large-scale enterprises.",
+      "c": "A distributed version control system that efficiently tracks changes in code and enables seamless collaboration among developers.",
+      "d": "A versatile text editor specifically designed for writing and editing code."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub"
+    ]
+  },
+  {
+    "question": "What is the purpose of HTTP in web development?",
+    "options": {
+      "a": "To style web pages using CSS.",
+      "b": "To facilitate communication between web servers and clients.",
+      "c": "To define the structure and layout of web pages.",
+      "d": "To store and retrieve data in databases."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP Basics"
+    ]
+  },
+  {
+    "question": "Provide a comprehensive explanation of the purpose and functionality of the 'git add' command in Git version control. How does that command contribute to optimizing software development collaboration and ensuring effective code management?",
+    "options": {
+      "a": "The 'git **add**' command creates a new branch in a Git repository.",
+      "b": "The 'git **add**' command is used to merge two branches in a Git repository.",
+      "c": "The 'git **add**' command is used to stage changes.",
+      "d": "The 'git **add**' command uploads local changes to a remote repository."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub",
+      "Version Control",
+      "Remote Repositories",
+      "Collaborative Development",
+      "Code Management"
+    ]
+  },
+  {
+    "question": "Provide a comprehensive explanation of the purpose and functionality of the 'git commit' command in Git version control. How does that command contribute to optimizing software development collaboration and ensuring effective code management?",
+    "options": {
+      "a": "The 'git **commit**' merges two branches.",
+      "b": "The 'git **commit**' uploads local changes to a remote repository.",
+      "c": "The 'git **commit**' captures a snapshot of the staged changes as a new version.",
+      "d": "The 'git **commit**' creates a new branch in a Git repository."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub",
+      "Version Control",
+      "Remote Repositories",
+      "Collaborative Development",
+      "Code Management"
+    ]
+  },
+  {
+    "question": "Provide a comprehensive explanation of the purpose and functionality of the 'git push' command in Git version control. How does that command contribute to optimizing software development collaboration and ensuring effective code management?",
+    "options": {
+      "a": "The 'git **push**' uploads the merged branches to a remote repository.",
+      "b": "The 'git **push**' is not applicable in Git.",
+      "c": "The 'git **push**' facilitates the transfer of local commits to a remote repository.",
+      "d": "The 'git **push**' merges two branches in a Git repository."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub",
+      "Version Control",
+      "Remote Repositories",
+      "Collaborative Development",
+      "Code Management"
+    ]
+  },
+  {
+    "question": "Which of the following contains only HTTP status codes indicating a successful request?",
+    "options": {
+      "a": "404, 200, 201, 400, 401",
+      "b": "304, 404, 300, 500, 202",
+      "c": "200, 201, 202, 203, 204",
+      "d": "300, 304, 501, 200, 201"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP Basics"
+    ]
+  },
+  {
+    "question": "Which of the following is used to structure the content of a web page?",
+    "options": {
+      "a": "Java",
+      "b": "Cascading Style Sheets",
+      "c": "JavaScript",
+      "d": "The HyperText Markup Language"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTML & CSS Basics"
+    ]
+  }
+]

@@ -1,0 +1,1284 @@
+[
+  {
+    "question": "Which statement is used to exit a loop prematurely in Java?",
+    "options": {
+      "a": "return",
+      "b": "exit",
+      "c": "break",
+      "d": "terminate"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java break statement"
+    ]
+  },
+  {
+    "question": "What is the syntax for a switch statement in Java?",
+    "options": {
+      "a": "switch (expression) { case value: // code }",
+      "b": "switch { case value: // code }",
+      "c": "switch (expression); { case value: // code default: // code }",
+      "d": "switch { case value: // code default: // code }"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java switch statement"
+    ]
+  },
+  {
+    "question": "In Java, the 'for-loop' is primarily used for:",
+    "options": {
+      "a": "Iterating over a fixed range of numbers with given condition.",
+      "b": "Iterating over elements of an array or a collection.",
+      "c": "Executing a block of code a specific/given number of times.",
+      "d": "None of the above."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java for loop"
+    ]
+  },
+  {
+    "question": "What is the difference between a 'while' loop and a 'do-while' loop in Java?",
+    "options": {
+      "a": "A **while** loop checks the condition before executing the code block, while a **do-while** loop checks the condition after executing the code block.",
+      "b": "A **while** loop and a **do-while** loop are the same and can be used interchangeably.",
+      "c": "A **while** loop can only execute the code block once, while a **do-while** loop can execute it multiple times.",
+      "d": "A **while** loop is used for numeric iteration, while a **do-while** loop is used for condition-based iteration."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java while loop",
+      "Java do-while loop"
+    ]
+  },
+  {
+    "question": "Which statement in Java is used to skip the rest of the current iteration and move to the next iteration in a loop?",
+    "options": {
+      "a": "skip",
+      "b": "exit",
+      "c": "break",
+      "d": "continue"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java continue statement"
+    ]
+  },
+  {
+    "question": "Which of the following statements applies to all types of loops in Java?",
+    "options": {
+      "a": "Iterating over a fixed range of numbers.",
+      "b": "Iterating over elements of an array or a collection.",
+      "c": "Executing a block of code only specific number of times.",
+      "d": "None of the above."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java for loop"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'break' statement in a switch statement in Java?",
+    "options": {
+      "a": "To **exit** the current case and continue executing the next case.",
+      "b": "To **exit** the entire switch statement.",
+      "c": "To **skip** the current case and continue executing the next case.",
+      "d": "To **restart** the switch statement from the beginning."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java switch statement"
+    ]
+  },
+  {
+    "question": "In Java, which loop is suitable when you want to execute a block of code at least once?",
+    "options": {
+      "a": "**for** loop",
+      "b": "**while** loop",
+      "c": "**do-while** loop",
+      "d": "**for-each** loop"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java do-while loop"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'switch' statement in Java?",
+    "options": {
+      "a": "To create a loop that iterates over a collection.",
+      "b": "To define a block of code that executes based on multiple values of the used variable that the switch was opened for.",
+      "c": "To exit a loop prematurely.",
+      "d": "To define a block of code that executes based on a condition."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java switch statement"
+    ]
+  },
+  {
+    "question": "What is the correct declaration of a for-loop in Java?",
+    "options": {
+      "a": "```java\nfor (int i = 0; i < 10; i += 1) { }\n```",
+      "b": "```java\nfor (int i = 0; i = 10; i++) {}\n```",
+      "c": "```java\nfor (int i = 0; i = 10; i++);\n```",
+      "d": "```java\nfor i = 0; i < 10; i++\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java for loop"
+    ]
+  },
+  {
+    "question": "In Java, the while loop is used when:",
+    "options": {
+      "a": "You want to **iterate** over a fixed range of numbers.",
+      "b": "You want to **execute** a block of code a specific number of times.",
+      "c": "You want to **execute** a block of code as long as a condition is true.",
+      "d": "You want to **iterate** over elements of an array or a collection."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java while loop"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'do-while' loop in Java?",
+    "options": {
+      "a": "To **iterate** over elements of an array or a collection.",
+      "b": "To always **execute** a block of code at least once.",
+      "c": "To **execute** a block of code as long as a condition is true.",
+      "d": "To **execute** a block of code a specific number of times."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java do-while loop"
+    ]
+  },
+  {
+    "question": "Which of the following is a valid way to define a 'switch' statement in Java?",
+    "options": {
+      "a": "```java\nint x = Integer.parseIne(scanner.nextLine());\nswitch (x) { \n  case 1:\n    //code \n  break; \n}\n```",
+      "b": "```java\nint x = Integer.parseIne(scanner.nextLine());\nswitch { \n  case 1:\n    //code \n  break; \n}\n```",
+      "c": "```java\nint x = Integer.parseIne(scanner.nextLine());\nswitch (x) { \n  case 1; \n}\n```",
+      "d": "```java\nint x = Integer.parseIne(scanner.nextLine());\nswitch (x) { \n  case 1;\n    //code \n  break; \n}\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java switch statement"
+    ]
+  },
+  {
+    "question": "What is the index of the last element in a 'String' with length 10 in Java?",
+    "options": {
+      "a": "In Java, the index of the last element is always equal to the length of the string, so it would be 10.",
+      "b": "The last element's index would be 9, as Java follows zero-based indexing.",
+      "c": "Java strings are unique, and the index of the last element varies based on the string's content.",
+      "d": "Since Java supports negative indexing, the last element's index in a string of length 10 would be -10."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java Strings"
+    ]
+  },
+  {
+    "question": "In Java, the index of the last element in a String is corresponding to:",
+    "options": {
+      "a": "text**.length(**-1**)**;",
+      "b": "text**.length(**10**)**;",
+      "c": "text**.length()** - 1;",
+      "d": "text**.length()**;"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java Strings"
+    ]
+  },
+  {
+    "question": "What is the syntax for a 'while' loop in Java?",
+    "options": {
+      "a": "while (**condition**) { // code }",
+      "b": "while { // code } (**condition**)",
+      "c": "while { // code } **condition**",
+      "d": "{ // code } while (**condition**)"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java while loop"
+    ]
+  },
+  {
+    "question": "Which data types in Java are used to store whole numbers?",
+    "options": {
+      "a": "num, int, long",
+      "b": "int, long, short",
+      "c": "float, int, byte",
+      "d": "float, int, long"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "data types"
+    ]
+  },
+  {
+    "question": "What is the result of the following execution in Java?\nSystem.out.println(5 + \"2\" * 4);",
+    "options": {
+      "a": "524",
+      "b": "Compile time error",
+      "c": "Runtime error",
+      "d": "28"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "Which statement is used to read user input in Java?",
+    "options": {
+      "a": "System.out.println()",
+      "b": "System.in.read()",
+      "c": "scanner.nextLine()",
+      "d": "Console.ReadLine()"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "input and output"
+    ]
+  },
+  {
+    "question": "Which of the following is a single-line comment in Java?",
+    "options": {
+      "a": "// This is a comment",
+      "b": "/* This is a comment /",
+      "c": "/ This is a comment //",
+      "d": "\\# This is a comment"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "comments"
+    ]
+  },
+  {
+    "question": "In Java, how do you check if a condition is true using the 'if' statement?",
+    "options": {
+      "a": "if {**condition**} then { }",
+      "b": "if (**condition**) { }",
+      "c": "if [**condition**] { }",
+      "d": "if <**condition**> then { }"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "if and else"
+    ]
+  },
+  {
+    "question": "In Java, what does the 'continue' statement do in a loop?",
+    "options": {
+      "a": "**Skips** the remaining code in the loop and continues with the next iteration.",
+      "b": "**Terminates** the loop completely.",
+      "c": "**Repeats** the current iteration of the loop.",
+      "d": "**Stops** the loop and returns to the beginning of the program."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "loop operators"
+    ]
+  },
+  {
+    "question": "Which method is used to round a decimal number down to the nearest integer in Java?",
+    "options": {
+      "a": "Math**.round()**",
+      "b": "Math**.ceil()**",
+      "c": "Math**.abs()**",
+      "d": "Math**.floor()**"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "formatting",
+      "Math.floor()"
+    ]
+  },
+  {
+    "question": "Which method is used to round a decimal number up to the nearest integer in Java?",
+    "options": {
+      "a": "Math**.floor()**",
+      "b": "Math**.ceil()**",
+      "c": "Math**.abs()**",
+      "d": "Math**.round()**"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "formatting",
+      "Math.ceil()"
+    ]
+  },
+  {
+    "question": "Which method is used to obtain the absolute value of a number in Java?",
+    "options": {
+      "a": "Math**.floor()**",
+      "b": "Math**.ceil()**",
+      "c": "Math**.abs()**",
+      "d": "Math**.round()**"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "formatting",
+      "Math.abs()"
+    ]
+  },
+  {
+    "question": "Which method is used to round a decimal number to the nearest integer in Java?",
+    "options": {
+      "a": "Math**.floor()**",
+      "b": "Math**.ceil()**",
+      "c": "Math**.abs()**",
+      "d": "Math**.round()**"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "formatting",
+      "Math.round()"
+    ]
+  },
+  {
+    "question": "How do you find the minimum value out of 10 numbers from the console in Java?",
+    "options": {
+      "a": "Using the **Math.min()** method and compare all the 10 numbers at once to determine the biggest one.",
+      "b": "Using the **Math.max()** method and compare all the 10 numbers at once to determine the biggest one.",
+      "c": "Using a loop to **compare** input values.",
+      "d": "Using the **Scanner** class."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "finding min and max number from console input"
+    ]
+  },
+  {
+    "question": "Which Java keyword is used to handle multiple value matches in a structured way?",
+    "options": {
+      "a": "default",
+      "b": "if",
+      "c": "else",
+      "d": "switch"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "switch"
+    ]
+  },
+  {
+    "question": "How do you execute a set of statements repeatedly as long as a certain condition is true in Java?",
+    "options": {
+      "a": "Using the **if-else** statement.",
+      "b": "Using the **switch** statement.",
+      "c": "Using the **for** loop.",
+      "d": "Using the **while** loop."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "while Loop"
+    ]
+  },
+  {
+    "question": "What would be the correct while loop implementation in Java to get \"10 9 8 7 6 5 4 3 2 1\" as an output?",
+    "options": {
+      "a": "```java\nint x = 0;\nwhile (x <= 10) {\n  System.out.print(11 - x + \" \");\n  x++;\n}\n```",
+      "b": "```java\nint x = 1;\nwhile (x <= 10) {\n  System.out.print(x + \" \");\n  x++;\n}\n```",
+      "c": "```java\nint x = 11;\nwhile (x > 1) {\n  System.out.print(x - 1 + \" \");\n  x--;\n}\n```",
+      "d": "```java\nint x = 10;\nwhile (x > 0) {\n  System.out.print(x + \" \");\n  x--;\n}\n```"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "while Loop"
+    ]
+  },
+  {
+    "question": "What would be the correct for loop implementation in Java to get the following output? \n\"0, 1, 3, 4, \"",
+    "options": {
+      "a": "```java\nfor (int i = 0; i < 4; i++) {\n  if (i == 2)\n    continue;\n  System.out.print(i + \", \");\n}\n```",
+      "b": "```java\nfor (int i = 0; i <= 3; i++) {\n  if (i == 2)\n    continue;\n  System.out.print(i + \", \");\n}\n```",
+      "c": "```java\nfor (int i = 0; i < 5; i++) {\n  if (i == 2)\n    continue;\n  System.out.print(i + \", \");\n}\n```",
+      "d": "```java\nfor (int i = 0; i <= 4; i++) {\n  if (i == 2)\n    System.out.print(i + \", \");\n}\n```"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "while Loop"
+    ]
+  },
+  {
+    "question": "How do you format a numeric value with two decimal places in Java?",
+    "options": {
+      "a": "Using DecimalFormaterer.format(6.4577777, 2);",
+      "b": "Using String.formatInt(6.4577777, 2);",
+      "c": "Using Math.format(6.4577777, 2);",
+      "d": "Using System.out.printf(\"%.2f\", 6.4577777);"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "formatting"
+    ]
+  },
+  {
+    "question": "Which method is used to find the maximum value between two numbers in Java?",
+    "options": {
+      "a": "Math**.min()**",
+      "b": "Math**.max()**",
+      "c": "Math**.abs()**",
+      "d": "Math**.round()**"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "finding min and max number from console input"
+    ]
+  },
+  {
+    "question": "What is the result of the expression 'Math.floor(2.7)' in Java?",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "2.7",
+      "d": "2.0"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Math.floor()"
+    ]
+  },
+  {
+    "question": "What is the result of the expression 'Math.ceil(2.1)' in Java?",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "2.1",
+      "d": "3.0"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Math.ceil()"
+    ]
+  },
+  {
+    "question": "What is the result of the expression 'Math.abs(-5)' in Java?",
+    "options": {
+      "a": "5",
+      "b": "-5",
+      "c": "-5.0",
+      "d": "5.0"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Math.abs()"
+    ]
+  },
+  {
+    "question": "What is the result of the expression 'Math.round(3.7)' in Java?",
+    "options": {
+      "a": "3",
+      "b": "4",
+      "c": "3.0",
+      "d": "4.0"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Math.round()"
+    ]
+  },
+  {
+    "question": "Which operator is used to increment a variable by 1 in Java?",
+    "options": {
+      "a": "+",
+      "b": "-",
+      "c": "++",
+      "d": "--"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "Which operator is used to decrement a variable by 1 in Java?",
+    "options": {
+      "a": "+",
+      "b": "-",
+      "c": "++",
+      "d": "--"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "Which operation is indicating postfix decrementation in Java?",
+    "options": {
+      "a": "++i",
+      "b": "--i",
+      "c": "i++",
+      "d": "i--"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "Which operation is indicating prefix decrementation in Java?",
+    "options": {
+      "a": "++i",
+      "b": "--i",
+      "c": "i++",
+      "d": "i--"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "Which operation is indicating prefix incrementation in Java?",
+    "options": {
+      "a": "++i",
+      "b": "--i",
+      "c": "i++",
+      "d": "i--"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "Which operation is indicating postfix incrementation in Java?",
+    "options": {
+      "a": "++i",
+      "b": "--i",
+      "c": "i++",
+      "d": "i--"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "Which data type in Java is used to store text?",
+    "options": {
+      "a": "int",
+      "b": "float",
+      "c": "double",
+      "d": "String"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "data types"
+    ]
+  },
+  {
+    "question": "Which method is used to display on the console the value of a variable in Java?",
+    "options": {
+      "a": "System.out.println()",
+      "b": "System.in.read()",
+      "c": "scanner.nextLine()",
+      "d": "console.readPassword()"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "input and output"
+    ]
+  },
+  {
+    "question": "What is the output of the following code snippet?\nint x = 10; \nSystem.out.println(++x);",
+    "options": {
+      "a": "10",
+      "b": "11",
+      "c": "12",
+      "d": "Compile-time error"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "What would be the correct implementation in Java to print the value of 'x' as 11?",
+    "options": {
+      "a": "```java\nint x = 10;\nSystem.out.println(x++);\n```",
+      "b": "```java\nint x = 12;\nSystem.out.println(x--);\n```",
+      "c": "```java\nint x = 10;\nSystem.out.println(++x);\n```",
+      "d": "```java\nint x = 11;\nSystem.out.println(--x);\n```"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "What would be the correct implementation in Java to print the value of 'x' as 10?",
+    "options": {
+      "a": "```java\nint x = 10;\nSystem.out.println(x++);\n```",
+      "b": "```java\nint x = 12;\nSystem.out.println(x--);\n```",
+      "c": "```java\nint x = 10;\nSystem.out.println(++x);\n```",
+      "d": "```java\nint x = 11;\nSystem.out.println(x--);\n```"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "What would be the correct implementation in Java to print the value of 'x' as 10?",
+    "options": {
+      "a": "```java\nint x = 10;\nSystem.out.println(x-- + 1);\n```",
+      "b": "```java\nint x = 12;\nSystem.out.println(x--);\n```",
+      "c": "```java\nint x = 10;\nSystem.out.println(++x);\n```",
+      "d": "```java\nint x = 11;\nSystem.out.println(--x);\n```"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "What would be the correct implementation in Java to print the value of 'x' as 9?",
+    "options": {
+      "a": "```java\nint x = 12;\nSystem.out.println(x--);\n```",
+      "b": "```java\nint x = 9;\nSystem.out.println(x--);\n```",
+      "c": "```java\nint x = 10;\nSystem.out.println(--x - 1);\n```",
+      "d": "```java\nint x = 11;\nSystem.out.println(--x);\n```"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "Which data type in Java is used to store single characters?",
+    "options": {
+      "a": "String",
+      "b": "char",
+      "c": "boolean",
+      "d": "byte"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "data types"
+    ]
+  },
+  {
+    "question": "Which method is used to read an integer input from the user in Java?",
+    "options": {
+      "a": "scanner.nextLine()",
+      "b": "scanner.nextFloat()",
+      "c": "scanner.nextInt()",
+      "d": "scanner.nextBoolean()"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "input and output"
+    ]
+  },
+  {
+    "question": "Which keyword is used to define a block of code that gets executed only if a certain condition is true in Java?",
+    "options": {
+      "a": "return",
+      "b": "switch",
+      "c": "if",
+      "d": "else"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "if and else"
+    ]
+  },
+  {
+    "question": "Which operator is used to calculate the remainder of division between two numbers in Java?",
+    "options": {
+      "a": "+",
+      "b": "-",
+      "c": "/",
+      "d": "%"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "Which method is used to convert a String to an integer in Java?",
+    "options": {
+      "a": "Integer.parseInt()",
+      "b": "Integer.valueOf()",
+      "c": "Integer.convert()",
+      "d": "Integer.toString()"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "converting data types"
+    ]
+  },
+  {
+    "question": "Which method is used to convert a String to a floating-point number in Java?",
+    "options": {
+      "a": "Float.valueOf()",
+      "b": "Float.convert()",
+      "c": "Float.toString()",
+      "d": "Float.parseFloat()"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "converting data types"
+    ]
+  },
+  {
+    "question": "Which of the following is the correct way of converting a 'char' to an 'int' number in Java?",
+    "options": {
+      "a": "int **digit** = Character.getNumericValue(String.valueOf(text.charAt(position)));",
+      "b": "int **digit** = Integer.parseInt(String.valueOf(text.charAt(position)));",
+      "c": "int **digit** = Integer.parseInt(text.charAt(position));",
+      "d": "int **digit** = String.valueOf(text.charAt(position));"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "converting data types"
+    ]
+  },
+  {
+    "question": "Which method is used to convert a String to a boolean value in Java?",
+    "options": {
+      "a": "Boolean.parseBoolean()",
+      "b": "Boolean.value()",
+      "c": "Boolean.convert()",
+      "d": "Boolean.toString()"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "converting data types"
+    ]
+  },
+  {
+    "question": "What are the differences between the '==' operator and the 'equals()' method for comparing objects in Java?",
+    "options": {
+      "a": "'==' compares the contents of objects, while 'equals()' compares the references.",
+      "b": "'==' and 'equals()' are interchangeable and have the same functionality.",
+      "c": "'==' compares the references of objects, while 'equals()' compares the contents.",
+      "d": "'==' and 'equals()' are not applicable for comparing objects in Java."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "What is the difference between the prefix and postfix increments/decrements in Java?",
+    "options": {
+      "a": "Prefix returns the current value and then increments/decrements, while postfix increments/decrements the variable and then returns the new value.",
+      "b": "Prefix and postfix increments/decrements have the same functionality in Java.",
+      "c": "Prefix and postfix increments/decrements are not applicable in Java.",
+      "d": "Prefix increments/decrements the variable and then returns the new value, while postfix returns the current value and then increments/decrements."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "Which of the following contain all the primitive data types in Java?",
+    "options": {
+      "a": "byte, short, int, long, float, double, boolean, char",
+      "b": "integer, floating-point, character, boolean",
+      "c": "String, short, int, long, float, double, boolean, char",
+      "d": "primitive, reference"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "data types"
+    ]
+  },
+  {
+    "question": "What is the difference between 'float' and 'double' data types in Java?",
+    "options": {
+      "a": "'float' is used for single-precision calculations, while 'double' is used for double-precision calculations.",
+      "b": "'float' is a 32-bit floating-point type, while 'double' is a 64-bit floating-point type.",
+      "c": "'float' has a higher range of values than 'double'.",
+      "d": "'float' and 'double' are interchangeable and have the same functionality."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "data types"
+    ]
+  },
+  {
+    "question": "What is the default value of a boolean variable in Java?",
+    "options": {
+      "a": "true",
+      "b": "false",
+      "c": "0",
+      "d": "null"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "data types"
+    ]
+  },
+  {
+    "question": "How do we determine if a number is even in Java?",
+    "options": {
+      "a": "```java\nif (num % 2 == 0) { }\n```",
+      "b": "```java\nif (num / 2 == 0) { }\n```",
+      "c": "```java\nif (num % 2 != 0) { }\n```",
+      "d": "```java\nif (num / 2 != 0) { }\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "data types"
+    ]
+  },
+  {
+    "question": "What is the output of the following code snippet?\nint x = 5;\nint y = 10;\nSystem.out.println(x++ + y++);",
+    "options": {
+      "a": "11",
+      "b": "16",
+      "c": "15",
+      "d": "12"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "What is the output of the following code snippet?\nint x = 5;\nint y = 10;\nSystem.out.println(++x + ++y);",
+    "options": {
+      "a": "16",
+      "b": "17",
+      "c": "15",
+      "d": "18"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "What is the difference between the 'if' and 'switch' statements in Java?",
+    "options": {
+      "a": "The 'if' statement allows multiple conditions to be checked, while the 'switch' statement can only handle a single value.",
+      "b": "The 'if' statement is more efficient than the 'switch' statement.",
+      "c": "The 'if' and 'switch' statements have the same functionality in Java.",
+      "d": "The 'if' statement evaluates a boolean expression, while the 'switch' statement matches a value against multiple cases."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "if and else",
+      "switch"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'for' loop in Java?",
+    "options": {
+      "a": "To execute a block of code repeatedly for a specified number of times.",
+      "b": "To iterate over the elements of an array or a collection.",
+      "c": "To break out of a loop and terminate its execution.",
+      "d": "The 'for' loop is not applicable in Java."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "for Loop"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'while' loop in Java?",
+    "options": {
+      "a": "To iterate over the elements of an array or a collection.",
+      "b": "To execute a block of code repeatedly as long as a certain condition is true.",
+      "c": "To break out of a loop and terminate its execution.",
+      "d": "The 'while' loop is not applicable in Java."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "while Loop"
+    ]
+  },
+  {
+    "question": "What is the purpose of comments in Java?",
+    "options": {
+      "a": "To add explanatory notes and improve code readability.",
+      "b": "To prevent the execution of certain lines of code.",
+      "c": "To specify the input and output.",
+      "d": "Comments have no specific purpose in Java."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "comments"
+    ]
+  },
+  {
+    "question": "What are the two types of comments in Java?",
+    "options": {
+      "a": "Inline comments and block comments.",
+      "b": "Single-line comments and multi-line comments.",
+      "c": "Public comments and private comments.",
+      "d": "Short comments and long comments."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "comments"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'break' statement in Java?",
+    "options": {
+      "a": "The 'break' statement is not applicable in Java.",
+      "b": "To skip the current iteration of a loop and move to the next iteration.",
+      "c": "To terminate the execution of a program.",
+      "d": "To exit from a loop or switch statement and resume execution of the program."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "loop operators"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'continue' statement in Java?",
+    "options": {
+      "a": "To skip the remaining code in a loop and move to the next iteration.",
+      "b": "To exit from a loop or switch statement and resume execution at the next statement.",
+      "c": "To terminate the execution of a program.",
+      "d": "The 'continue' statement is not applicable in Java."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "loop operators"
+    ]
+  },
+  {
+    "question": "What is the purpose of a variable in Java?",
+    "options": {
+      "a": "To define the structure and behavior of an object.",
+      "b": "To perform mathematical calculations.",
+      "c": "To store and manipulate data in memory.",
+      "d": "Variables have no specific purpose in Java."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "variables"
+    ]
+  },
+  {
+    "question": "Which of the following is a valid Java variable name by convention?",
+    "options": {
+      "a": "myvariable",
+      "b": "1myVariable",
+      "c": "myVariable",
+      "d": "my Variable"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "variables"
+    ]
+  },
+  {
+    "question": "Which of the following operators is not a value comparing operator in Java?",
+    "options": {
+      "b": "!=",
+      "a": "==",
+      "c": "+=",
+      "d": "<="
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "What is true for the 'Scanner' class in Java?",
+    "options": {
+      "a": "We may use the 'Scanner' class to read input from the user.",
+      "b": "We only use the 'Scanner' class to format and output data.",
+      "c": "We use the 'Scanner' class to perform mathematical calculations.",
+      "d": "The 'Scanner' class is not applicable in Java."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "input and output"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'else' statement in Java?",
+    "options": {
+      "a": "To skip the remaining code in a loop and move to the next iteration.",
+      "b": "To terminate the execution of a program.",
+      "c": "To execute a block of code if the 'if' condition is false.",
+      "d": "The 'else' statement is not applicable in Java."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "if and else"
+    ]
+  },
+  {
+    "question": "Which operator is used for string concatenation in Java?",
+    "options": {
+      "a": "-",
+      "b": "*",
+      "c": "/",
+      "d": "+"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "string manipulation"
+    ]
+  },
+  {
+    "question": "Which method is used to find the length of a string in Java?",
+    "options": {
+      "a": ".length()",
+      "b": ".size()",
+      "c": ".count()",
+      "d": ".getSize()"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "string manipulation"
+    ]
+  },
+  {
+    "question": "Which method is used to convert a string to capital letters in Java?",
+    "options": {
+      "a": ".upperCase()",
+      "b": ".ToUppercase()",
+      "c": ".toUpperCase()",
+      "d": ".ToUpperCase()"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "string manipulation"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'charAt()' method in Java?",
+    "options": {
+      "a": "To concatenate two strings together.",
+      "b": "To compare two strings for equality.",
+      "c": "To add a character at a specified index in a string.",
+      "d": "To return the character at a specified index in a string."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "string manipulation"
+    ]
+  },
+  {
+    "question": "In Java, the runtime system starts your program by calling which function first?",
+    "options": {
+      "a": "print",
+      "b": "iterative",
+      "c": "hello",
+      "d": "main"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "What is the purpose of nested loops in Java?",
+    "options": {
+      "a": "To improve code readability and organization.",
+      "b": "To execute a block of code repeatedly for a specified number of times.",
+      "c": "To perform mathematical calculations.",
+      "d": "To execute a loop inside another loop."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "nested loops"
+    ]
+  },
+  {
+    "question": "What is the purpose of nested conditional statements in Java?",
+    "options": {
+      "a": "To improve code readability and organization.",
+      "b": "To execute a block of code repeatedly for a specified number of times.",
+      "c": "To perform mathematical calculations.",
+      "d": "To execute conditional statements inside another conditional statement."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "nested conditional statements"
+    ]
+  }
+]

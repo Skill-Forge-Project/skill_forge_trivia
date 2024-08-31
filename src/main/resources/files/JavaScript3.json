@@ -1,0 +1,882 @@
+[
+  {
+    "question": "What is the difference between constructor functions and class syntax in ES6?",
+    "options": {
+      "a": "Constructor functions allow private properties and methods, while class syntax doesn't.",
+      "b": "Class syntax provides inheritance through prototype chaining, while constructor functions use Object.create() for inheritance.",
+      "c": "Constructor functions are hoisted, while class syntax is not hoisted.",
+      "d": "Class syntax provides a cleaner and more concise way to define object blueprints compared to constructor functions."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "OOP JS Programming"
+    ]
+  },
+  {
+    "question": "Discuss the concept of prototype inheritance in JavaScript and how it enables objects to share properties and methods.",
+    "options": {
+      "a": "Prototype inheritance allows objects in JavaScript to inherit properties and methods from their prototypes. When a property or method is accessed on an object, if it doesn't exist in the object itself, JavaScript looks up the prototype chain until it finds the property or method in one of the prototype objects.",
+      "b": "Prototype inheritance is a way to directly copy properties and methods from one object to another. It is achieved using the 'Object.assign()' method.",
+      "c": "Prototype inheritance is the process of creating new instances of objects based on an existing prototype object using the 'Object.new()' method.",
+      "d": "Prototype inheritance is a way to combine properties and methods from multiple objects into a single object using the 'extend' method."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "OOP JS Programming"
+    ]
+  },
+  {
+    "question": "Explain the advantages of using ES6 class syntax over traditional constructor functions for defining object blueprints.",
+    "options": {
+      "a": "ES6 class syntax allows private properties and methods to be defined, providing better encapsulation and access control compared to traditional constructor functions.",
+      "b": "ES6 class syntax provides a more concise and readable way to define object blueprints compared to traditional constructor functions.",
+      "c": "ES6 class syntax supports mixins, allowing multiple inheritance of properties and methods from various classes.",
+      "d": "ES6 class syntax force the need to use the 'prototype' object and provides a more intuitive way to define methods within the class declaration."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "OOP JS Programming"
+    ]
+  },
+  {
+    "question": "Compare and contrast the use of 'static' methods in ES6 classes and constructor functions.",
+    "options": {
+      "a": "'Static' methods in constructor functions are used to create instance-specific properties and methods, while 'static' methods in ES6 classes are used to define methods that can be called on the class without creating an instance.",
+      "b": "'Static' methods in both ES6 classes and constructor functions can only be called after an instance of the class is created.",
+      "c": "'Static' methods in ES6 classes are attached to the class itself. In constructor functions, 'static' methods are defined on the constructor function itself and are not accessible from its instances.",
+      "d": "'Static' methods in both ES6 classes and constructor functions are used to define private properties and methods that can only be accessed within the class."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "OOP JS Programming"
+    ]
+  },
+  {
+    "question": "Explain the main features and use cases of the 'Map' data structure in JavaScript.",
+    "options": {
+      "a": "'Map' in JavaScript is a collection of unique values, where each value can only appear once. It can be used to efficiently check for the presence of a value and is often used to remove duplicates from arrays.",
+      "b": "'Map' in JavaScript is a data structure used for efficient querying and manipulation of tree-like data. It is suitable for hierarchical structures and recursive data representation.",
+      "c": "'Map' in JavaScript is used to store and retrieve data in a tabular format, similar to a database table. It is suitable for organizing and searching large datasets.",
+      "d": "'Map' in JavaScript is a key-value data structure that allows any data type to be used as a key. It maintains the order of insertion."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Advanced Concepts related to Data Structures"
+    ]
+  },
+  {
+    "question": "Discuss the differences between 'Map' and 'Set' data structures in JavaScript and their respective use cases.",
+    "options": {
+      "a": "'Map' and 'Set' in JavaScript are used interchangeably, and both are suitable for storing values in the same format.",
+      "b": "'Map' is a key-value data structure that allows any data type to be used as a key, while 'Set' is a collection of unique values, where each value can only appear once.",
+      "c": "'Map' and 'Set' in JavaScript are both used for tree-like data structures and recursive data representation.",
+      "d": "'Map' in JavaScript is used to store and retrieve data in a tabular format, while 'Set' is used for efficient querying and manipulation of tree-like data."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Advanced Concepts related to Data Structures"
+    ]
+  },
+  {
+    "question": "Explain the key features of the 'Object' data structure in JavaScript and how it differs from 'Map'.",
+    "options": {
+      "a": "'Object' is used for tree-like data structures and recursive data representation, while 'Map' is used for tabular data representation. 'Object' has also the built-in methods like 'forEach()' and 'size()' that are available in 'Map'.",
+      "b": "'Object' is more efficient for large datasets compared to 'Map'.",
+      "c": "'Object' is a simple collection of key-value pairs, where keys are always strings or symbols. 'Map', on the other hand, allows any data type to be used as a key. 'Object' doesn't provide built-in methods like 'forEach()' and 'size()' that are available in 'Map'.",
+      "d": "'Object' can be used to store any data types, while 'Map' can only store primitive data type as keys."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Advanced Concepts related to Data Structures"
+    ]
+  },
+  {
+    "question": "Explain the concept of 'Observables' in JavaScript and how they differ from 'Promises'.",
+    "options": {
+      "a": "Observables in JavaScript are similar to Promises but can handle multiple values over time. While Promises can only resolve once with a single value or reject with a single error.",
+      "b": "Observables in JavaScript are used to create and manage asynchronous functions that return a single value or an error, similar to Promises.",
+      "c": "Observables in JavaScript are used to create and manage synchronous functions that can return multiple values over time, similar to generators.",
+      "d": "Observables in JavaScript are used to create and manage asynchronous functions, just like the Promises. However, Observables allow specifying a timeout for each operation, which is not available in Promises."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Async Programming"
+    ]
+  },
+  {
+    "question": "What is the main purpose of the 'async/await' syntax in JavaScript and how does it work?",
+    "options": {
+      "a": "The 'async/await' syntax in JavaScript is used to write asynchronous code in a synchronous style.",
+      "b": "The 'async/await' syntax in JavaScript is used to create asynchronous functions that can be executed later using a callback.",
+      "c": "The 'async/await' syntax in JavaScript is used to define function prototypes that support asynchronous behavior.",
+      "d": "The 'async/await' syntax in JavaScript is used to create synchronous functions that can be executed later using a callback."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Async Programming"
+    ]
+  },
+  {
+    "question": "Explain the process of exporting a default function in a module using ES6 syntax.",
+    "options": {
+      "a": "You need to use the 'export default' statement along with the 'const' keyword. For example, 'export default const myFunction = () => {}' exports the 'myFunction' as the default export of the module.",
+      "b": "You can use the 'export' statement with the 'default' keyword followed by the function declaration or expression. For example, 'export default myFunction() {}' exports the 'myFunction' as the default export of the module.",
+      "c": "You can use the 'export default' statement followed by the function declaration or expression. For example, 'export default function myFunction() {}' exports the 'myFunction' as the default export of the module.",
+      "d": "You can use the 'export' statement followed by the function declaration or expression, and then use the 'default' keyword. For example, 'export myFunction() {} default' exports the 'myFunction' as the default export of the module."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Common JS/ES6 Imports-Exports"
+    ]
+  },
+  {
+    "question": "Compare and contrast the use of 'import' and 'require' in JavaScript for module importing.",
+    "options": {
+      "a": "**Require** is a static import, which means it is evaluated at compile time and cannot be conditionally imported. **Import**, on the other hand, is a dynamic import, which means it can be conditionally imported and is evaluated at runtime.",
+      "b": "**Import** is a static import, which means it is evaluated at compile time and cannot be conditionally imported. **Require**, on the other hand, is a dynamic import, which means it can be conditionally imported and is evaluated at runtime.",
+      "c": "**Import** and **Require** are both used in CommonJS modules and provide the same functionality.",
+      "d": "They are interchangeable and can be used based on personal preference."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Common JS/ES6 Imports-Exports"
+    ]
+  },
+  {
+    "question": "Explain the main purpose of the Intl.DateTimeFormat() constructor in JavaScript and how it is used to format dates.",
+    "options": {
+      "a": "The Intl.DateTimeFormat() constructor is used to convert date strings into Date objects. It takes a date string as input and returns a new Date object with the parsed date.",
+      "b": "The Intl.DateTimeFormat() constructor is used to create custom date formats for display purposes. It allows you to format dates based on the user's locale and provides options to customize the date format.",
+      "c": "The Intl.DateTimeFormat() constructor is used to parse and validate date inputs from users. It can be used to check if a given date string is valid and conforms to the expected date format.",
+      "d": "The Intl.DateTimeFormat() constructor is used to calculate the difference between two dates. It provides methods to perform date arithmetic and calculate the duration between two dates."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Dates"
+    ]
+  },
+  {
+    "question": "Explain the concept of a pure function in JavaScript and why it is considered a fundamental principle in functional programming.",
+    "options": {
+      "a": "It's a function that accepts only one argument and returns a single value. It cannot have multiple parameters or return multiple values.",
+      "b": "It's a function that always produces the same output for a given input and has no side effects.",
+      "c": "It's a function that does not use any loops or conditional statements. It relies only on recursion and function composition to achieve its functionality.",
+      "d": "It's a function that can be called without using the 'new' keyword. It does not require object instantiation."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Functional Programming"
+    ]
+  },
+  {
+    "question": "Discuss the main characteristics and use cases of a higher-order function in JavaScript.",
+    "options": {
+      "a": "It's a function that is defined in a higher lexical scope. It means the function can access variables and data from its outer function.",
+      "b": "It's a function that is declared with the 'function' keyword. It can have multiple parameters and return multiple values.",
+      "c": "It's a function that accepts other functions as arguments or returns a function as its output.",
+      "d": "It's a function that creates and returns new objects using the 'new' keyword."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Functional Programming"
+    ]
+  },
+  {
+    "question": "Explain the key feature of a lambda function (arrow function) in JavaScript and how it differs from regular functions.",
+    "options": {
+      "a": "The lambda is a function that is more concise and has an implicit 'return' statement. Additionally, arrow functions do not have their own 'this' context.",
+      "b": "The lambda is a function that can be called without using parentheses. It means you can call the function using its name without any additional syntax.",
+      "c": "The lambda is a function that can be invoked using the 'call' or 'apply' methods. It allows you to specify a custom 'this' context for the function execution.",
+      "d": "The lambda is a function that accepts a rest variable parameter syntax. It allows you to pass any number of arguments to the function."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Functional Programming"
+    ]
+  },
+  {
+    "question": "Explain the concept of a closure in JavaScript and how it enables data encapsulation.",
+    "options": {
+      "a": "It is automatically invoked when it is defined. It is used for self-executing functions.",
+      "b": "It is defined inside another function and has access to the variables in the outer function. It is used for callback functions.",
+      "c": "It has been bound to a specific object using the 'bind' method. It allows you to set the 'this' context of the function.",
+      "d": "It allows a function to retain access to variables and data defined in its parent function, even after the parent function has finished executing."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Functional Programming"
+    ]
+  },
+  {
+    "question": "Explain the main purpose of a decorator function in JavaScript and how it can be used to enhance the behavior of other functions.",
+    "options": {
+      "a": "It is used to create reusable CSS styles for elements in a web page. It allows you to apply CSS styles to elements dynamically at runtime.",
+      "b": "It is used to apply cross-cutting concerns, such as logging or caching, to functions or methods. It allows you to wrap a function with additional functionality without modifying its original code.",
+      "c": "It is used to add additional properties to an object in a dynamic way. It allows you to extend the functionality of objects without modifying their prototype.",
+      "d": "It is used to transform a function into a generator function. It allows you to create iterators from functions."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Functional Programming"
+    ]
+  },
+  {
+    "question": "What is the purpose of a factory function in JavaScript?",
+    "options": {
+      "a": "A factory function is used to create higher-order functions.",
+      "b": "A factory function is used to create / customize object's properties and then return it.",
+      "c": "A factory function is used to create custom error objects.",
+      "d": "A factory function is used to define and register custom event handlers."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Functional Programming"
+    ]
+  },
+  {
+    "question": "What are the key features of a document-oriented database like MongoDB?",
+    "options": {
+      "a": "A document-oriented database stores data in a structured tabular format.",
+      "b": "A document-oriented database supports SQL for querying and manipulating data.",
+      "c": "A document-oriented database allows nested and complex data structures in the form of JSON-like documents.",
+      "d": "A document-oriented database enforces strict schema validation for all documents."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "MongoDB"
+    ]
+  },
+  {
+    "question": "What is the key difference between relational and non-relational (NoSQL) databases?",
+    "options": {
+      "a": "**Relational** databases use a flexible schema, while **non-relational** databases use a fixed schema.",
+      "b": "**Relational** databases are more suitable for complex and nested data structures, while **non-relational** databases are suitable for simple data structures.",
+      "c": "**Relational** databases are less scalable than **non-relational** databases.",
+      "d": "**Relational** databases use a tabular data model, while **non-relational** databases use a document, key-value, or graph-based data model."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "MongoDB"
+    ]
+  },
+  {
+    "question": "Explain the concept of 'constructor' functions in JavaScript and how they are used to create objects.",
+    "options": {
+      "a": "Constructor functions are used to define private properties and methods for objects. They allow encapsulation and access control in JavaScript.",
+      "b": "Constructor functions are functions used to add properties and methods to an object after its creation. They can be applied to any object using the 'apply' method.",
+      "c": "Constructor functions are used to create new objects by cloning an existing object's properties and methods. They are invoked using the 'clone' method.",
+      "d": "Constructor functions are special functions used to create and initialize objects. They are invoked using the 'new' keyword to create new instances."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "OOP JS Programming"
+    ]
+  },
+  {
+    "question": "What is Cross-Origin Resource Sharing (CORS) in the context of web servers, and how does it impact the security of web applications?",
+    "options": {
+      "a": "CORS is a **technique** used by web servers to allow requests from one domain to access resources hosted on another domain. It is a security measure to prevent unauthorized access to resources.",
+      "b": "CORS is a **security feature** implemented by web servers to allow web pages from different domains to make requests to each other. It enhances the security of web applications by enabling secure communication between domains.",
+      "c": "CORS is a **technique** used by web browsers to cache resources from different domains, improving the performance and loading speed of web pages.",
+      "d": "CORS is a **security feature** implemented by web browsers to restrict web pages from making requests to a different domain than the one that served the web page."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "CORS"
+    ]
+  },
+  {
+    "question": "Explain the concepts of REST and RESTful in the context of web development.",
+    "options": {
+      "a": "REST stands for Reliable, Extensible, and Scalable Transactions, and it is a design pattern for transaction management in web applications. A RESTful API is an API that provides a robust and scalable way to manage transactions between clients and servers.",
+      "b": "REST stands for Reactive, Event-driven, and Scalable Technologies, and it is a design pattern for building responsive and scalable web applications. A RESTful API is an API that supports reactive and event-driven communication between clients and servers.",
+      "c": "REST stands for Representational State Transfer, and it is an architectural style for designing networked applications. It relies on stateless, client-server communication and uses standard HTTP methods (GET, POST, PUT, DELETE) for data manipulation.",
+      "d": "REST stands for Rapid and Efficient Software Techniques, and it is a design pattern for building fast and efficient web applications. A RESTful API is an API that focuses on optimizing performance and resource utilization."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "REST API"
+    ]
+  },
+  {
+    "question": "Explain the concept of JSON Web Tokens (JWT) and how they are used for authentication in web applications.",
+    "options": {
+      "a": "JSON Web Tokens (**JWT**) are long-lived session cookies that are used for authentication in web applications. They are commonly used to store user session data on the client-side.",
+      "b": "JSON Web Tokens (**JWT**) are used for encrypting and securing data sent between the client and server in web applications. They are commonly used to prevent eavesdropping and data tampering.",
+      "c": "JSON Web Tokens (**JWT**) are used for providing secure and encrypted access to databases in web applications. They are commonly used to prevent unauthorized access to sensitive data in the database.",
+      "d": "JSON Web Tokens (**JWT**) are compact, URL-safe tokens that are used for securely transmitting information between parties. They are commonly used for authentication and authorization in web applications."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "JWT"
+    ]
+  },
+  {
+    "question": "Explain the main advantages and disadvantages of using JSON Web Tokens (JWT) for authentication.",
+    "options": {
+      "a": "Long-lived session management, secure transmission of data, and built-in support for client-side encryption. A potential disadvantage is that JWTs require server-side storage and management of user sessions.",
+      "b": "Support for multiple authentication providers, improved performance due to token caching, and enhanced security due to built-in encryption. However, a potential disadvantage is that JWTs can only be used with a limited set of programming languages and frameworks.",
+      "c": "Stateless and scalable, easy to implement and use, support for custom claims, and better performance due to reduced server-side processing. However, a potential disadvantage is that JWTs can become large when carrying multiple claims or extensive user data.",
+      "d": "Ability to revoke tokens and fine-grained access control. A potential disadvantage is that JWTs can only be used with stateful web applications."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "JWT"
+    ]
+  },
+  {
+    "question": "Explain the difference between local storage and session storage in web browsers, and when each should be used.",
+    "options": {
+      "a": "Local storage and session storage are both used for caching static resources in web applications. Local storage is used to cache resources for longer periods, while session storage is used to cache resources for the duration of the current session.",
+      "b": "Local storage and session storage are both web storage mechanisms that allow web applications to store data on the client-side. Local storage persists even after the browser is closed. Session storage, on the other hand, is available only during the current session.",
+      "c": "Local storage and session storage are both used for securing sensitive data in web applications. Local storage is used to store encrypted data, while session storage is used to store hashed data.",
+      "d": "Local storage and session storage are both used for storing user login credentials in web applications. Local storage is used for secure login credentials, while session storage is used for temporary login credentials."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Local Storage and Session Storage"
+    ]
+  },
+  {
+    "question": "Explain the main differences between bubble sort and merge sort, and analyze their time complexity.",
+    "options": {
+      "a": "Bubble sort and merge sort are both divide-and-conquer sorting algorithms. Bubble sort divides the array into halves, while merge sort repeatedly compares adjacent elements and swaps them if they are in the wrong order. The time complexity of bubble sort is O(n log n) in all cases, while the time complexity of merge sort is O(n^2) in the worst and average case, and O(n) in the best case.",
+      "b": "Bubble sort and merge sort are both in-place sorting algorithms, meaning they do not require additional memory to perform the sort. The time complexity of bubble sort is O(n^2) in all cases, while the time complexity of merge sort is O(n log n) in all cases.",
+      "c": "Bubble sort and merge sort are both comparison-based sorting algorithms, but they have different approaches and time complexities. Bubble sort repeatedly compares adjacent elements and swaps them if they are in the wrong order. It continues this process until the entire array is sorted. Merge sort, on the other hand, uses a divide-and-conquer strategy. It recursively divides the array into halves, sorts each half, and then merges them back together.",
+      "d": "Bubble sort and merge sort are both stable sorting algorithms, meaning they preserve the relative order of equal elements in the sorted array. The time complexity of bubble sort is O(n^2) in the worst and average case, and O(n) in the best case. The time complexity of merge sort is O(n log n) in all cases."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Sorting Algorithms"
+    ]
+  },
+  {
+    "question": "Explain the importance of unit testing in software development and its advantages in ensuring code quality.",
+    "options": {
+      "a": "Unit testing is a testing approach that focuses on testing the entire application as a whole. It is important in software development because it provides a comprehensive assessment of the application's functionality. The advantages of unit testing include improved user satisfaction, reduced time-to-market, and better integration of features.",
+      "b": "Unit testing is a testing approach that focuses on identifying and fixing performance issues in the code. It is important in software development because it ensures that the application runs efficiently and optimally. The advantages of unit testing include improved application performance, reduced resource usage, and enhanced scalability.",
+      "c": "Unit testing is a testing approach that focuses on testing individual units or components of the code in isolation. It is important in software development because it helps identify and fix bugs and issues early in the development process. Unit testing ensures that each unit of code performs as expected and meets its requirements.",
+      "d": "Unit testing is a testing approach that focuses on testing the application in real-world scenarios. It is important in software development because it validates the application's usability and user experience. The advantages of unit testing include improved user acceptance, better user engagement, and higher user retention."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Unit Testing and Testing Approaches"
+    ]
+  },
+  {
+    "question": "How does a function create a closure?",
+    "options": {
+      "a": "It reloads the document whenever the value changes.",
+      "b": "It completes execution without returning.",
+      "c": "It returns a reference to a variable in its parent scope.",
+      "d": "It copies a local variable to the global scope."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Closures"
+    ]
+  },
+  {
+    "question": "If your app receives data from a third-party API, which HTTP response header must the server specify to allow exceptions to the same-origin policy?",
+    "options": {
+      "a": "Security-Mode",
+      "b": "Access-Control-Allow-Origin",
+      "c": "Different-Origin",
+      "d": "Same-Origin"
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "CORS"
+    ]
+  },
+  {
+    "question": "Which statement is applicable to the defer attribute of the HTML <script> tag?",
+    "options": {
+      "a": "defer allows the browser to continue processing the page while the script loads in the background.",
+      "b": "defer causes the script to be loaded from the backup content delivery network (CDN).",
+      "c": "defer blocks the browser from processing HTML below the tag until the script is completely loaded.",
+      "d": "defer lazy loads the script, causing it to download only when it is called by another script on the page."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "HTML"
+    ]
+  },
+  {
+    "question": "What is the difference between primitive data types and reference data types, and how are they stored?",
+    "options": {
+      "a": "Primitive data types are stored directly in the stack memory, while reference data types are stored in the heap memory. Primitive data types include numbers, booleans, and characters, and their values are accessed directly. Reference data types include objects, arrays, and functions, and their values are accessed through references or memory addresses.",
+      "b": "Primitive data types are stored in the heap memory, while reference data types are stored directly in the stack memory. Primitive data types include objects, arrays, and functions, and their values are accessed through references or memory addresses. Reference data types include numbers, booleans, and characters, and their values are accessed directly.",
+      "c": "Primitive data types are stored directly in the stack memory, while reference data types are stored in the heap memory. Both primitive and reference data types include numbers, booleans, and characters, and their values are accessed through references or memory addresses.",
+      "d": "Primitive data types are stored in the heap memory, while reference data types are stored directly in the stack memory. Both primitive and reference data types include objects, arrays, and functions, and their values are accessed directly."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Data Types",
+      "Memory Management"
+    ]
+  },
+  {
+    "question": "Which of the following statements in untrue about the differences between function declaration and function expression?",
+    "options": {
+      "a": "A function declaration must have a name, while the function expression can be declared without one.",
+      "b": "A function declaration is not hoisted, while the function expression is hoisted.",
+      "c": "A function declaration can be accessed before amd after the function is defined.",
+      "d": "A function expression can be accessed only after the function is defined."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Functions"
+    ]
+  },
+  {
+    "question": "Which of the following is not a way to empty an array like let arr = [1, 2, 3, 4, 5]?",
+    "options": {
+      "a": "```js\narr.length = 0\n```",
+      "b": "```js\narr.splice(0. arr.length)\n```",
+      "c": "```js\nwhile(arr.length > 0) { arr.pop }\n```",
+      "d": "```js\narr = []\n```"
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Arrays"
+    ]
+  },
+  {
+    "question": "Which of the following statements in untrue about Event Capturing and Event Bubbling?",
+    "options": {
+      "a": "Event Capturing is the reverse of Event Bubbling.",
+      "b": "Event Capturing handles the outermost element and propagates to the innermost element.",
+      "c": "Event Bubbling handles the innermost element and propagates to the outermost element.",
+      "d": "Event Capturing and Event Bubbling are two terms for the same thing."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Events"
+    ]
+  },
+  {
+    "question": "Which of the following will return \"false\" when coerced to a boolean?",
+    "options": {
+      "a": "[]",
+      "b": "\"hello\"",
+      "c": "{}",
+      "d": "\"\""
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Coercion"
+    ]
+  },
+  {
+    "question": "Which of the following is a characteristic of higher order functions?",
+    "options": {
+      "a": "Higher order functions only take functions as parameters.",
+      "b": "Higher order functions either take functions as parameters or return functions as output.",
+      "c": "Higher order functions take functions as parameters or return functions as output or both.",
+      "d": "Higher order functions only return functions as output."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Coercion"
+    ]
+  },
+  {
+    "question": "What is the purpose of the finally block in a try-catch-finally statement?",
+    "options": {
+      "a": "The finally block is used to specify the exception handling logic for a try-catch statement. It is executed regardless of whether an exception is thrown or caught.",
+      "b": "The finally block is used to specify the alternative code that should be executed if an exception is thrown within a try-catch statement.",
+      "c": "The finally block is used to specify the cleanup code that should be executed after the execution of a try-catch statement, regardless of whether an exception is thrown or caught.",
+      "d": "The finally block is used to specify the additional code that should be executed before the execution of a try-catch statement."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Exception handling"
+    ]
+  },
+  {
+    "question": "What is the runtime of adding a value in an array in the average case?",
+    "options": {
+      "a": "O(n), also called linear time.",
+      "b": "O(log n), also called logarithmic time.",
+      "c": "O(n^2), also called quadratic time.",
+      "d": "O(1), also called constant time."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Arrays",
+      "Runtime"
+    ]
+  },
+  {
+    "question": "Which of the following is a not characteristic of async functions?",
+    "options": {
+      "a": "Async functions return a Promise, even if it is not explicitly stated.",
+      "b": "Async functions without an await expression will run synchronously.",
+      "c": "Async functions are not hoisted.",
+      "d": "Async functions can have zero or multiple await expressions."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Functions"
+    ]
+  },
+  {
+    "question": "Which of the following is not true about React?",
+    "options": {
+      "a": "React keeps a lightweight representation of the real DOM in the memory, called virtual DOM.",
+      "b": "React employs forms to enable users to interact with web applications.",
+      "c": "React stateless components can have props.",
+      "d": "React states are read-only."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "React"
+    ]
+  },
+  {
+    "question": "Which of the following is not true about Angular?",
+    "options": {
+      "a": "Angular is not compatible with React.",
+      "b": "Angular's data-binding is unidirectional.",
+      "c": "Angular has a built-in Material Design toolset.",
+      "d": "Angular does not require the use of external libraries as it is full-fledged framework."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Angular"
+    ]
+  },
+  {
+    "question": "Which of the following is untrue about HTML?",
+    "options": {
+      "a": "The <footer> tag is used to group the footer into a table.",
+      "b": "HTML files are saved with .htm or .html extension.",
+      "c": "HTML cannot be used inside a CSS sheet.",
+      "d": "HTML is not used for presentation and visualization."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which of the following is true about CSS?",
+    "options": {
+      "a": "CSS allows for responsive design, where the layout and style of a webpage can adapt to different screen sizes and device types.",
+      "b": "CSS is used to add various types of content to a webpage, including paragraphs, text, and images.",
+      "c": "CSS can be used in a JavaScript file but not inside an HTML document.",
+      "d": "CSS is not used for presentation, visualization, nor complex layouts."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "CSS"
+    ]
+  },
+  {
+    "question": "Which of the following is not true about CSS?",
+    "options": {
+      "a": "The Type Selector selects all elements that have the given node name.",
+      "b": "By default, when adding a background image, it is placed on the top-right of the webpage.",
+      "c": "The p[lang] command is used for selecting all the elements of a paragraph.",
+      "d": "The CSS float property is used to move the image to the right or left along with the texts to be wrapped around it."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "CSS"
+    ]
+  },
+  {
+    "question": "Which of the following is true about HTML?",
+    "options": {
+      "a": "Hyperlinks are used on text to link one page to another.",
+      "b": "The <td> tag defines a cell in a table.",
+      "c": "A webpage has 5 main elements: head, nav, section, article, and footer .",
+      "d": "You can insert a copyright symbol by using &#169."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which of the following is an incorrect way to define an arrow function that returns an empty object?",
+    "options": {
+      "a": "({})",
+      "b": "{}",
+      "c": "{ return {};}",
+      "d": "(({}))"
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Functions"
+    ]
+  },
+  {
+    "question": "What is the main advantage of an asynchronous code?",
+    "options": {
+      "a": "To start tasks that might take some time without blocking subsequent tasks from executing immediately.",
+      "b": "To ensure that tasks further down in your code are not initiated until earlier tasks have completed.",
+      "c": "To make your code faster.",
+      "d": "To ensure that the call stack maintains a LIFO structure."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Async"
+    ]
+  },
+  {
+    "question": "What is wrong with this code?\nconst foo = {\n  bar() {\n    console.log('Hello, world!');\n  },\n  name: 'Albert',\n  age: 26,\n};",
+    "options": {
+      "a": "The function bar needs to be defined as a key/value pair.",
+      "b": "Trailing commas are not allowed in JavaScript.",
+      "c": "Functions cannot be declared as properties of objects.",
+      "d": "Nothing, there are no errors."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Functions",
+      "Objects"
+    ]
+  },
+  {
+    "question": "What is the difference between the map() and the forEach() methods on the Array prototype?",
+    "options": {
+      "a": "There is no difference.",
+      "b": "The map() methods returns a new array with a transformation applied on each item in the original array, whereas the forEach() method iterates through an array with no return value.",
+      "c": "The forEach() method returns a single output value, whereas the map() method performs operation on each value in the array.",
+      "d": "The forEach() methods returns a new array with a transformation applied on each item in the original array, whereas the map() method iterates through an array with no return value."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Map",
+      "Loops"
+    ]
+  },
+  {
+    "question": "How to attempt to access the property a.b on obj without throwing an error if a is undefined?",
+    "options": {
+      "a": "obj.a?.b",
+      "b": "obj?.a.b",
+      "c": "obj[a][b]",
+      "d": "obj.?a.?b"
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Optional chaining"
+    ]
+  },
+  {
+    "question": "Which of the following are not server-side Javascript objects?",
+    "options": {
+      "a": "Date",
+      "b": "FileUpload",
+      "c": "Function",
+      "d": "All of the above"
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Objects"
+    ]
+  },
+  {
+    "question": "How would you change the color of this header to pink?\n<h2 id=\"cleverest\">girls</h2>",
+    "options": {
+      "a": "```js\ndocument.getElementByName(\"cleverest\").style.color = \"pink\";\n```",
+      "b": "```js\ndocument.getElementsByTagName(\"h2\").style.color = \"pink\";\n```",
+      "c": "```js\ndocument.getElementById(\"cleverest\").style.color = \"pink\";\n```",
+      "d": "```js\ndocument.getElementByName(\"h2\").style.color = \"pink\";\n```"
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "HTML",
+      "DOM"
+    ]
+  },
+  {
+    "question": "Which property references the DOM object that dispatched an event?",
+    "options": {
+      "a": "target",
+      "b": "self",
+      "c": "object",
+      "d": "None of the above"
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "DOM"
+    ]
+  },
+  {
+    "question": "What is one difference between collections created with Map and collections created with Object?",
+    "options": {
+      "a": "You can iterate over values in a Map in their insertion order.",
+      "b": "You can count the records in a Map with a single method call.",
+      "c": "Keys in Maps can be strings.",
+      "d": "You can access values in a Map without iterating over the whole collection."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Map",
+      "Methods"
+    ]
+  },
+  {
+    "question": "Why is it usually better to work with Objects instead of Arrays to store a collection of records?",
+    "options": {
+      "a": "Objects are more efficient in terms of storage.",
+      "b": "Adding a record to an object is significantly faster than pushing a record into an array.",
+      "c": "Most operations involve looking up a record, and objects can do that better than arrays.",
+      "d": "Working with objects makes the code more readable."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Efficiency",
+      "Objects",
+      "Arrays"
+    ]
+  },
+  {
+    "question": "You get the following error: 'TypeError: Cannot read property 'reduce' of undefined'. What does that mean?",
+    "options": {
+      "a": "You are calling a method named reduce on an object that's declared but has no value.",
+      "b": "You are calling a method named reduce on an object that does not exist.",
+      "c": "You are calling a method named reduce on an empty array.",
+      "d": "You are calling a method named reduce on an object that's has a null value."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Errors",
+      "Methods"
+    ]
+  },
+  {
+    "question": "What's one difference between the async and defer attributes of the HTML script tag?",
+    "options": {
+      "a": "The defer attribute can work synchronously.",
+      "b": "The defer attribute works only with generators.",
+      "c": "The defer attribute works only with promises.",
+      "d": " The defer attribute will asynchronously load the scripts in order."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Async",
+      "Defer"
+    ]
+  }
+]

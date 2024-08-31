@@ -1,0 +1,882 @@
+[
+  {
+    "question": "Explain the concept of inheritance in object-oriented programming.",
+    "options": {
+      "a": "Inheritance is the process of converting an object into a stream of bytes for storage or transmission.",
+      "b": "Inheritance is the process of grouping related data and methods into a single unit.",
+      "c": "Inheritance is the ability of a class to inherit properties and methods from another class.",
+      "d": "Inheritance is the process of hiding sensitive information in a class."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "OOP principles"
+    ]
+  },
+  {
+    "question": "Explain the concept of a red-black tree and discuss its properties.",
+    "options": {
+      "a": "A red-black tree is a tree structure used to store data in a sorted manner and all its nodes are red and only the root is black.",
+      "b": "A red-black tree is a data structure used for efficient searching in a database.",
+      "c": "A red-black tree is a self-balancing binary search tree with additional color properties.",
+      "d": "A red-black tree is a tree structure used for storing hierarchical data from left to right."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "data structures"
+    ]
+  },
+  {
+    "question": "Consider a stream of strings. How would you find the longest string using Java 8 streams?",
+    "options": {
+      "a": "```java\nstrings.stream().reduce((s1, s2) -> s1.length() > s2.length() ? s1 : s2).orElse(0);\n```",
+      "b": "```java\nstrings.stream().max(Comparator.comparingInt(String::length)).orElse(0);\n```",
+      "c": "```java\nstrings.stream().filter(s -> s.length() == strings.stream().mapToInt(String::length).max().orElse(0)).findFirst().orElse(0);\n```",
+      "d": "```java\nstrings.stream().mapToInt(String::length).max().orElse(0);\n```"
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "streams"
+    ]
+  },
+  {
+    "question": "Given a date in the format 'yyyy-MM-dd HH:mm:ss', and knowing how to calculate the difference in days between two dates using Java's LocalDateTime class, pick the incorrect option:",
+    "options": {
+      "a": "```java\nlong days = ChronoUnit.DAYS.between(date1, date2);\n```",
+      "b": "```java\nlong days = Duration.between(date1, date2).toDays();\n```",
+      "c": "```java\nlong days = Period.between(date1, date2).getDays();\n```",
+      "d": "```java\nlong days = date1.until(date2, ChronoUnit.DAYS);\n```"
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "dates"
+    ]
+  },
+  {
+    "question": "Which of the following options correctly represents the syntax for defining a lambda expression in Java and would be compiled?",
+    "options": {
+      "a": "```java\n() -> System.println(\"Hello, world!\")\n```",
+      "b": "```java\n() => System.out.println(\"Hello, world!\")\n```",
+      "c": "```java\n(void) => System.out.println(\"Hello, world!\")\n```",
+      "d": "```java\n() -> { System.out.println(\"Hello, world!\"); }\n```"
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "lambda expressions"
+    ]
+  },
+  {
+    "question": "What is the purpose of a wildcard in Java generics and how would you use it?",
+    "options": {
+      "a": "A wildcard is used to specify an unknown type in a generic type declaration. It allows for greater flexibility when working with generic types.",
+      "b": "A wildcard is used to specify a type that is not related to the generic type declaration. It restricts the usage of generic types to a specific set of types.",
+      "c": "A wildcard is used to define a generic type that can accept any type as an argument. It provides a way to create generic methods that can be used with any type.",
+      "d": "A wildcard is used to specify a generic type that is limited to a specific subtype. It ensures that only a particular subtype can be used with the generic type."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "generics"
+    ]
+  },
+  {
+    "question": "Consider a stream of objects which class implements Comparable. How would you sort the stream using the method for comparison the class override?",
+    "options": {
+      "a": "```java\nstrings.sort(Comparator.reverseOrder());\n```",
+      "b": "```java\nstrings.sorted((s1, s2) -> s1.compareTo(s2));\n```",
+      "c": "```java\nstrings.sorted(Collections.reverseOrder());\n```",
+      "d": "```java\nstrings.sort((s1, s2) -> s1.compareTo(s2));\n```"
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "iterators",
+      "comparators"
+    ]
+  },
+  {
+    "question": "Consider a MySQL database with two tables: 'users' and 'orders'. How would you write a query to retrieve the names of users who have placed at least one order?",
+    "options": {
+      "a": "```sql\nSELECT u.name\nFROM users u\nINNER JOIN orders o ON o.user_id = u.user_id;\n```",
+      "b": "```sql\nSELECT u.name\nFROM users u\nWHERE EXISTS (SELECT * FROM orders o WHERE o.user_id = u.id);\n```",
+      "c": "```sql\nSELECT u.name\nFROM users u\nLEFT JOIN orders o ON u.id = o.name WHERE o.id IS NOT NULL;\n```",
+      "d": "```sql\nSELECT u.name\nFROM users u\nWHERE u.id IN (SELECT o.user_id FROM orders o);\n```"
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "MySQL"
+    ]
+  },
+  {
+    "question": "Which of the following contains well-known sorting algorithms?",
+    "options": {
+      "a": "Quicksort, Mergesort, Bubblesort",
+      "b": "Tripplesort, Doublesort, Fastestsort",
+      "c": "Mergesort, Heartbeatsort, BubbleQuicksort",
+      "d": "Mergesort, Bubblesort, ArrayQuicksort"
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "sorting algorithms"
+    ]
+  },
+  {
+    "question": "In unit testing, what is the purpose of a mocking framework?",
+    "options": {
+      "a": "A mocking framework is used to verify tests are covering all the possible scenarios, by generating test coverage information.",
+      "b": "A mocking framework is used to create simulated objects (mock objects) that mimic the behavior of real objects in order to test the functionality of a system.",
+      "c": "A mocking framework is used to measure the code coverage of unit tests and identify areas that are not adequately tested.",
+      "d": "A mocking framework is used to generate test data for unit tests based on predefined rules and constraints."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "unit testing"
+    ]
+  },
+  {
+    "question": "How would you calculate the number of days between two given dates in Java?",
+    "options": {
+      "a": "Create two LocalDate objects representing the given dates, and calculate the difference using the ChronoUnit.DAYS.between() method.",
+      "b": "Create two Date objects representing the given dates, and calculate the difference using the static method detDifference() to obtain the milliseconds and convert it to days.",
+      "c": "Create two Calendar objects representing the given dates, and calculate the difference using the get() method to retrieve the YEAR_OF_DAY field.",
+      "d": "Create two LocalDateTime objects representing the given dates, and calculate the difference using the Period.between() method."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "date manipulation"
+    ]
+  },
+  {
+    "question": "What is the difference between a HashSet and a TreeSet in Java?",
+    "options": {
+      "a": "A HashSet is an unordered collection that allows null values and offers constant-time complexity for basic operations. A TreeSet is a sorted collection that does not allow null values and offers logarithmic-time complexity for basic operations.",
+      "b": "A HashSet is a sorted collection that allows null values and offers logarithmic-time complexity for basic operations. A TreeSet is an unordered collection that does not allow null values and offers constant-time complexity for basic operations.",
+      "c": "A HashSet is an unordered collection that allows null values and offers logarithmic-time complexity for basic operations. A TreeSet is a sorted collection that allows null values and offers constant-time complexity for basic operations.",
+      "d": "A HashSet is a sorted collection that allows null values and offers constant-time complexity for basic operations. A TreeSet is an unordered collection that does not allow null values and offers logarithmic-time complexity for basic operations."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "data structures"
+    ]
+  },
+  {
+    "question": "How can you sort a list of objects in Java using a custom comparator?",
+    "options": {
+      "a": "Call the sort() method of the Collections class, passing the list and a lambda expression that defines the comparison logic.",
+      "b": "Implement the Comparable interface in the class of the objects to be sorted, and override the compareTo() method to define the comparison logic.",
+      "c": "Create a class that implements the Comparator interface, implementing the compare() method to define the comparison logic, and pass it to the sort() method of the Collections class.",
+      "d": "Create a class that implements the Comparator interface, implementing the compareTo() method to define the comparison logic, and pass it to the sort() method of the List interface."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "iterators and comparators"
+    ]
+  },
+  {
+    "question": "In the context of Java programming, what does the term 'transaction' refer to?",
+    "options": {
+      "a": "Transactions in Java are used to specify the data access strategy for a method or class. They define how the data is fetched from the database and cached.",
+      "b": "Transactions in Java are used to specify the transactional behavior for a method or class. They ensure that all database operations within the transaction scope are successfully executed or rolled back as a single unit.",
+      "c": "Transactions in Java are used to specify the security permissions for a method or class. They control who can access the annotated methods and restrict unauthorized access.",
+      "d": "Transactions in Java are used to specify the logging configuration for a method or class. They enable detailed logging of the database operations performed within the transaction scope."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Transactions in Java"
+    ]
+  },
+  {
+    "question": "What is the unique characteristic of the Bubble Sort algorithm?",
+    "options": {
+      "a": "It uses a divide-and-conquer strategy",
+      "b": "It compares adjacent elements and swaps them if they are in the wrong order",
+      "c": "It maintains a sorted sublist and repeatedly inserts the next element in the correct position",
+      "d": "It selects the minimum element from the unsorted portion and places it at the beginning"
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "sorting algorithms"
+    ]
+  },
+  {
+    "question": "What is the correct behavior of the Selection Sort algorithm?",
+    "options": {
+      "a": "It uses a divide-and-conquer strategy",
+      "b": "It compares adjacent elements and swaps them if they are in the wrong order",
+      "c": "It maintains a sorted sublist and repeatedly inserts the next element in the correct position",
+      "d": "It selects the minimum element from the unsorted portion and places it at the beginning"
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "sorting algorithms"
+    ]
+  },
+  {
+    "question": "What is the unique characteristic of the Quick Sort algorithm?",
+    "options": {
+      "a": "It uses a divide-and-conquer strategy",
+      "b": "It compares adjacent elements and swaps them if they are in the wrong order",
+      "c": "It maintains a sorted sublist and repeatedly inserts the next element in the correct position",
+      "d": "It selects the minimum element from the unsorted portion and places it at the beginning"
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "sorting algorithms"
+    ]
+  },
+  {
+    "question": "What is the unique characteristic of the Insertion Sort algorithm?",
+    "options": {
+      "a": "It uses a divide-and-conquer strategy",
+      "b": "It compares adjacent elements and swaps them if they are in the wrong order",
+      "c": "It maintains a sorted sublist and repeatedly inserts the next element in the correct position",
+      "d": "It selects the minimum element from the unsorted portion and places it at the beginning"
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "sorting algorithms"
+    ]
+  },
+  {
+    "question": "What is the difference between a GET request and a POST request in HTTP?",
+    "options": {
+      "a": "A GET request is used to retrieve data from a server, while a POST request is used to send data to a server to create a resource.",
+      "b": "A GET request is used to send data to a server to create or update a resource, while a POST request is used to retrieve data from a server.",
+      "c": "A GET request is more secure than a POST request because it encrypts the data sent to the server, while a POST request sends data in plain text.",
+      "d": "A GET request is faster than a POST request because it requires fewer network round trips between the client and the server."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "HTTP protocol"
+    ]
+  },
+  {
+    "question": "What is the purpose of the finally block in a try-catch-finally statement in Java?",
+    "options": {
+      "a": "The finally block is used to specify the exception handling logic for a try-catch statement. It is executed regardless of whether an exception is thrown or caught.",
+      "b": "The finally block is used to specify the cleanup code that should be executed after the execution of a try-catch statement, regardless of whether an exception is thrown or caught.",
+      "c": "The finally block is used to specify the alternative code that should be executed if an exception is thrown within a try-catch statement.",
+      "d": "The finally block is used to specify the additional code that should be executed before the execution of a try-catch statement."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "exception handling"
+    ]
+  },
+  {
+    "question": "What is the difference between checked and unchecked exceptions in Java?",
+    "options": {
+      "a": "Checked exceptions happens at compile-time and must be either caught or declared in the method signature using the throws keyword. Unchecked exceptions are not checked at compile-time and do not require explicit handling.",
+      "b": "Checked exceptions happens at runtime and must be either caught or declared in the method signature using the throws keyword. Unchecked exceptions are not checked at runtime and do not require explicit handling.",
+      "c": "Checked exceptions happens by the Java Virtual Machine (JVM) and must be declared in the method signature using the throws keyword. Unchecked exceptions are not checked by the JVM and require explicit handling.",
+      "d": "Checked exceptions happens by the Java compiler and must be either caught or declared in the method signature using the throws keyword. Unchecked exceptions are not checked by the Java compiler and do not require explicit handling."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "exception handling"
+    ]
+  },
+  {
+    "question": "What is the purpose of the equals() method in Java?",
+    "options": {
+      "a": "The equals() method is used to convert an object to a string representation. It is often overridden to provide a meaningful string representation of an object.",
+      "b": "The equals() method is used to retrieve the memory address of an object as a string. It is often used for debugging purposes.",
+      "c": "The equals() method is used to concatenate two strings together. It returns a new string that is the concatenation of the calling string and the passed string.",
+      "d": "The equals() method is used to compare two objects for equality. It is often overridden to provide a custom comparison logic based on the object's properties."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Java core"
+    ]
+  },
+  {
+    "question": "Explain the concept of encapsulation in object-oriented programming (OOP).",
+    "options": {
+      "a": "Encapsulation is the process of combining data and methods into a single class to create objects.",
+      "b": "Encapsulation is the process of reusing code by creating subclasses that inherit properties and behaviors from a superclass.",
+      "c": "Encapsulation is the process of hiding the internal details and data of a class, and providing access only through public members of the class.",
+      "d": "Encapsulation is the process of representing real-world objects as classes and their interactions as method calls."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "In-depth exploration of OOP principles"
+    ]
+  },
+  {
+    "question": "What is a self-balancing binary search tree, and why is it useful in data structures?",
+    "options": {
+      "a": "A self-balancing binary search tree is a data structure that automatically adjusts its shape to maintain efficient search and insertion operations.",
+      "b": "A self-balancing binary search tree is a tree-like data structure where each node has at most two children.",
+      "c": "A self-balancing binary search tree is a data structure that guarantees constant-time search and insertion operations.",
+      "d": "A self-balancing binary search tree is a tree-like data structure where each node has a balance factor that determines its position in the tree."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Advanced concepts related to data structures"
+    ]
+  },
+  {
+    "question": "How can you perform date calculations, such as adding or subtracting days, in Java?",
+    "options": {
+      "a": "Use the **LocalDate.plusDays()** and **LocalDate.minusDays()** static methods",
+      "b": "Use the **DateUtils.addDays()** and **DateUtils.subtractDays()** methods",
+      "c": "Use the **Calendar.add()** and **Calendar.subtract()** static methods with the ***DAY_OF_MONTH*** field",
+      "d": "Use the **LocalDateTime.now().plusDays()** and **LocalDateTime.now().minusDays()** methods"
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Tricky calculations and manipulations of dates"
+    ]
+  },
+  {
+    "question": "How can you perform a join operation involving multiple tables in MySQL?",
+    "options": {
+      "a": "Use the **UNION** clause to merge the tables and eliminate duplicate rows.",
+      "b": "Use the **GROUP BY** clause to group the rows based on a specific column.",
+      "c": "Use the **HAVING** clause to filter the groups based on a specific condition.",
+      "d": "Use the **JOIN** clause with appropriate conditions to combine the tables and retrieve the desired data."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Elaborate problem-solving in the context of MySQL databases"
+    ]
+  },
+  {
+    "question": "What is the difference between ArrayList and LinkedList in Java?",
+    "options": {
+      "a": "ArrayList is a synchronized data structure, while LinkedList is not even considered as a data structure.",
+      "b": "ArrayList is using LinkedList under the hood, while LinkedList is using List.",
+      "c": "ArrayList can't store more than 50 elements, while the LinkedList can go up to 100.",
+      "d": "ArrayList is implemented as a resizable array, while LinkedList is implemented as a doubly-linked list."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Advanced concepts related to data structures"
+    ]
+  },
+  {
+    "question": "What is the purpose of lambda expressions in Java?",
+    "options": {
+      "a": "To provide a concise syntax for defining anonymous classes.",
+      "b": "To enable functional programming and simplify the use of functional interfaces.",
+      "c": "To improve performance by reducing the memory footprint of objects.",
+      "d": "To enhance code readability and maintainability."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Nuanced applications of lambda expressions"
+    ]
+  },
+  {
+    "question": "What is the purpose of the java.util.Iterator interface?",
+    "options": {
+      "a": "To provide a way to sort elements in a collection.",
+      "b": "To provide a way to perform mathematical operations on elements in a collection.",
+      "c": "To provide a way to loop over the elements of a collection.",
+      "d": "To provide a way to filter elements in a collection."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Intriguing scenarios involving iterators and comparators"
+    ]
+  },
+  {
+    "question": "What is the difference between the 'INNER JOIN' and 'OUTER JOIN' in MySQL?",
+    "options": {
+      "a": "**INNER JOIN** returns only the matching rows from both tables, while **OUTER JOIN** returns all the rows from both tables.",
+      "b": "**OUTER JOIN** returns only the matching rows from both tables, while **INNER JOIN** returns all the rows from both tables.",
+      "c": "**INNER JOIN** returns all the rows from both tables, while **OUTER JOIN** returns only the matching rows from both tables.",
+      "d": "**OUTER JOIN** returns all the rows from both tables, while **INNER JOIN** returns only the matching rows from both tables."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Elaborate problem-solving in the context of MySQL databases"
+    ]
+  },
+  {
+    "question": "What is Spring Data JPA?",
+    "options": {
+      "a": "A library that provides support for distributed caching in Spring applications.",
+      "b": "A library that provides tools and utilities for testing Spring applications.",
+      "c": "A library that provides integration with Spring Security for authentication and authorization in Spring applications.",
+      "d": "A library that offers an easy way to interact with databases, perform CRUD operations, and handle complex queries, reducing the amount of boilerplate code needed for data access."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Sophisticated usage of Spring Data"
+    ]
+  },
+  {
+    "question": "What is Spring in Java development?",
+    "options": {
+      "a": "**Spring** is a **web development framework** in Java used for building web applications and services.",
+      "b": "**Spring** is a **lightweight container** for managing and executing Java components.",
+      "c": "**Spring** is an **Aspect-Oriented Programming** (AOP) **library** in Java.",
+      "d": "**Spring** is a **set of utilities** for testing Java applications."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "In-depth comprehension of Spring Framework"
+    ]
+  },
+  {
+    "question": "What is the purpose of unit testing in software development?",
+    "options": {
+      "a": "To test the entire software system as a whole.",
+      "b": "To ensure that individual units of code work correctly.",
+      "c": "To verify that the software meets the user's requirements.",
+      "d": "To ensure that the software performs well under high load."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Advanced techniques in unit testing"
+    ]
+  },
+  {
+    "question": "What is polymorphism in object-oriented programming?",
+    "options": {
+      "a": "The ability of an object to have multiple names.",
+      "b": "The ability of an object to keep its state during runtime.",
+      "c": "The ability of an object to take on many forms.",
+      "d": "The ability of an object to refer to members of its superclass."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "In-depth exploration of OOP principles"
+    ]
+  },
+  {
+    "question": "What is the difference between a stream and a collection in Java?",
+    "options": {
+      "a": "A stream can be used to perform complex data processing operations on stored data, while collections are used to store and group the data.",
+      "b": "A stream can only be traversed once, while a collection can be traversed multiple times.",
+      "c": "A stream can only contain objects, while a collection can contain both objects and primitive values.",
+      "d": "A stream doesn't allow parallel processing, while a collection does."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Complex scenarios involving streams"
+    ]
+  },
+  {
+    "question": "What is type erasure in Java generics?",
+    "options": {
+      "a": "The process of removing type information from generic types at compile time.",
+      "b": "The process of resolving type conflicts in generic types at runtime.",
+      "c": "The process of replacing generic types with wildcards at compile time.",
+      "d": "The process of automatically casting objects to their generic types at runtime."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Sophisticated implementations of generics"
+    ]
+  },
+  {
+    "question": "What is the purpose of the java.util.Comparator interface?",
+    "options": {
+      "a": "To provide a way to compare objects and establish their natural ordering.",
+      "b": "To provide a way to filter objects based on a given condition.",
+      "c": "To provide a way to map objects to other objects.",
+      "d": "To provide a way to perform mathematical operations on objects."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Intriguing scenarios involving iterators and comparators"
+    ]
+  },
+  {
+    "question": "Consider a list of integers: [1, 2, 3, 4, 5]. How can you use Java streams to calculate the sum of the numbers in the list?",
+    "options": {
+      "a": "By using the map() method to square each element and then filtering the even numbers using the filter() method and finally call sum() method.",
+      "b": "By using the mapToInt() method to parse each element to int and then by using sum() method will calculate their sum.",
+      "c": "By using the flatMap() method to square each element and then filtering the even numbers using the filter() method.",
+      "d": "By using the reduce() method to calculate the sum of the squares of the even numbers."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Complex scenarios involving streams"
+    ]
+  },
+  {
+    "question": "Suppose you have a list of strings: ['apple', 'banana', 'cherry']. How can you use Java streams to create a new list that contains the lengths of these strings?",
+    "options": {
+      "a": "By using the **.mapToInt()** method to get the length of each string and then by using the method **.filter()** will create a new list.",
+      "b": "By using the **.map()** method to get the length of each string and then by using the method **.collect()** will create a new list.",
+      "c": "By using the **.flatMap()** method to get the length of each string and it will automatically produce a new list.",
+      "d": "By using the **.collect()** method to accumulate the lengths of the strings into a new list."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Complex scenarios involving streams"
+    ]
+  },
+  {
+    "question": "By implementing encapsulation, you cannot directly access the class's (?) properties unless you are writing code inside the class itself.",
+    "options": {
+      "a": "private",
+      "b": "protected",
+      "c": "no modifier",
+      "d": "public"
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "Object-oriented programming is a style of programming where you organize your program around (?) and data, rather than (?) and logic.",
+    "options": {
+      "a": "functions; actions",
+      "b": "objects; actions",
+      "c": "actions; functions",
+      "d": "actions; objects"
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "Which choice is a disadvantage of inheritance?",
+    "options": {
+      "a": "Overridden methods of the parent class cannot be reused.",
+      "b": "Responsibilities are not evenly distributed between parent and child classes.",
+      "c": "Classes related by inheritance are tightly coupled to each other.",
+      "d": "The internal state of the parent class is accessible to its children."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "Which functional interfaces does Java provide to serve as data types for lambda expressions?",
+    "options": {
+      "a": "Observer, Observable",
+      "b": "Collector, Builder",
+      "c": "Filter, Map, Reduce",
+      "d": "Consumer, Predicate, Supplier"
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "What kind of relationship does \"extends\" keyword denote and what it refers to?",
+    "options": {
+      "a": "Relationship **uses-a** and it refers to **composition**",
+      "b": "Relationship **is-a** and it refers to **inheritance**",
+      "c": "Relationship **has-a** and it refers to **aggregation**",
+      "d": "Relationship **was-a** and it refers to **association**"
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "Java programmers commonly use design patterns. Some examples are the (?), which creates instances of a class, the (?), which ensures only one instance of a class can be created; and the (?), which allows for interchangeable algorithms.",
+    "options": {
+      "a": "static factory method; singleton; strategy pattern",
+      "b": "strategy pattern; static factory method; singleton",
+      "c": "creation pattern; singleton; prototype pattern",
+      "d": "singleton; strategy pattern; static factory method"
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "Using Java's Reflection API, you can use (?) to get the name of a class and (?) to retrieve an array of its methods.",
+    "options": {
+      "a": "this.getClass().getSimpleName(); this.getClass().getDeclaredMethods()",
+      "b": "this.getName(); this.getMethods()",
+      "c": "Reflection.getName(this); Reflection.getMethods(this)",
+      "d": "Reflection.getClass(this).getName(); Reflection.getClass(this).getMethods()"
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "What is the purpose of the Eden space in the Java memory management?",
+    "options": {
+      "a": "It is a pool used for storing class metadata and static variables.",
+      "b": "It is a pool used for storing short-lived objects that are newly created by the application.",
+      "c": "It is a pool used for storing long-lived objects that need to be preserved for the entire duration of the application.",
+      "d": "It is a pool used for storing objects that are no longer referenced by the application and can be garbage collected."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Java Memory Management"
+    ]
+  },
+  {
+    "question": "What is the difference between the PermGen space and the Metaspace in Java memory management?",
+    "options": {
+      "a": "PermGen space is used to store class metadata and is a fixed-size pool, while Metaspace is used for the same purpose but can dynamically resize.",
+      "b": "PermGen space is used to store short-lived objects, while Metaspace is used to store long-lived objects.",
+      "c": "PermGen space and Metaspace are two names for the same memory pool used for storing class metadata and static variables.",
+      "d": "PermGen space and Metaspace are used interchangeably for storing garbage-collected objects."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Java Memory Management"
+    ]
+  },
+  {
+    "question": "What is the purpose of the String pool in Java memory management?",
+    "options": {
+      "a": "It is a pool used for storing short-lived objects that are newly created by the application.",
+      "b": "It is a pool used for storing long-lived objects that need to be preserved for the entire duration of the application.",
+      "c": "It is a pool used for storing string literals to reduce memory usage by reusing common string values.",
+      "d": "It is a pool used for storing objects that are no longer referenced by the application and can be garbage collected."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Java Memory Management",
+      "String Pool"
+    ]
+  },
+  {
+    "question": "What is the purpose of the Direct Memory in Java memory management?",
+    "options": {
+      "a": "It is a pool used for storing class metadata and static variables.",
+      "b": "It is a pool used for storing short-lived objects that are newly created by the application.",
+      "c": "It is a pool used for storing native memory outside the JVM heap, often used for I/O operations.",
+      "d": "It is a pool used for storing objects that are no longer referenced by the application and can be garbage collected."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Java Memory Management"
+    ]
+  },
+  {
+    "question": "Which of the following statements about garbage collection in Java is correct?",
+    "options": {
+      "a": "Garbage collection is the process of reclaiming used memory from unused objects.",
+      "b": "Garbage collection is the process of allocating memory for new objects.",
+      "c": "Garbage collection is the process of converting short-lived objects into long-lived objects.",
+      "d": "Garbage collection is the process of storing unused objects in the String pool."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Java Memory Management"
+    ]
+  },
+  {
+    "question": "In Test Driven Development (TDD), what is the primary goal of writing tests before writing the actual code?",
+    "options": {
+      "a": "To ensure all test cases are passing before the code is considered complete",
+      "b": "To speed up the development process by automating testing",
+      "c": "To force the developer to think about the design of the code and its requirements",
+      "d": "To create a safety net for code refactoring"
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Mocking and Test Driven Development"
+    ]
+  },
+  {
+    "question": "Which SOLID principle principle aims to separate behaviours so that if bugs arise as a result of a change, it won’t affect other unrelated behaviours?",
+    "options": {
+      "a": "Single Responsibility Principle",
+      "b": "Open/Closed Principle",
+      "c": "Liskov Substitution Principle",
+      "d": "Interface Segregation Principle"
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "In-depth exploration of SOLID principles"
+    ]
+  },
+  {
+    "question": "Which SOLID principle emphasizes that the base class should be able to be replaced by any of its derived classes without affecting the correctness of the program?",
+    "options": {
+      "a": "Single Responsibility Principle",
+      "b": "Open/Closed Principle",
+      "c": "Liskov Substitution Principle",
+      "d": "Interface Segregation Principle"
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "In-depth exploration of SOLID principles"
+    ]
+  },
+  {
+    "question": "Which SOLID principle aims to split a set of actions into smaller sets so that a Class executes ONLY the set of actions it requires.",
+    "options": {
+      "a": "Single Responsibility Principle",
+      "b": "Open/Closed Principle",
+      "c": "Liskov Substitution Principle",
+      "d": "Interface Segregation Principle"
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "In-depth exploration of SOLID principles"
+    ]
+  },
+  {
+    "question": "Which SOLID principle aims to extend a Class’s behaviour without changing the existing behaviour of that Class.",
+    "options": {
+      "a": "Single Responsibility Principle",
+      "b": "Open/Closed Principle",
+      "c": "Liskov Substitution Principle",
+      "d": "Interface Segregation Principle"
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "In-depth exploration of SOLID principles"
+    ]
+  },
+  {
+    "question": "Which SOLID principle suggests that high-level modules should not depend on low-level modules; both should depend on abstractions?",
+    "options": {
+      "a": "Single Responsibility Principle",
+      "b": "Open/Closed Principle",
+      "c": "Liskov Substitution Principle",
+      "d": "Dependency Inversion Principle"
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Dependency Inversion Principle",
+      "SOLID Principles"
+    ]
+  },
+  {
+    "question": "Explain the Factory Method pattern, the Singleton pattern, and the Strategy pattern.",
+    "options": {
+      "a": "The Factory Method pattern is used for instantiating classes that cannot be changed, while the Singleton pattern is used for classes that can be instantiated multiple times. The Strategy pattern is applicable when a class has multiple constructors.",
+      "b": "The Factory Method pattern provides an interface for creating objects. The Singleton pattern ensures a class has only one instance. The Strategy pattern define a group of algorithms, and put each of them into a separate class.",
+      "c": "The Factory Method pattern, Singleton pattern, and Strategy pattern are interchangeable and can be used interchangeably in all scenarios without any difference.",
+      "d": "The Factory Method pattern, Singleton pattern, and Strategy pattern are outdated and no longer used in modern software development."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Design Patterns"
+    ]
+  }
+]

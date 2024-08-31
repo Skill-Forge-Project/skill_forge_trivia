@@ -1,0 +1,1204 @@
+[
+  {
+    "question": "Which keyword is used to declare a numeric variable in C#?",
+    "options": {
+      "a": "var",
+      "b": "let",
+      "c": "const",
+      "d": "int"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C#",
+      "Programming"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nConsole.WriteLine(5 + 5 + \"5\");",
+    "options": {
+      "a": "105",
+      "b": "15",
+      "c": "Error",
+      "d": "NaN"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C#",
+      "Programming"
+    ]
+  },
+  {
+    "question": "Which operator is used for concatenating strings in C#?",
+    "options": {
+      "a": "+",
+      "b": "-",
+      "c": "*",
+      "d": "/"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C#",
+      "Programming"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nConsole.WriteLine(10 == \"10\");",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Error",
+      "d": "NaN"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C#",
+      "Programming"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nConsole.WriteLine(2 * \"2\");",
+    "options": {
+      "a": "4",
+      "b": "22",
+      "c": "Error",
+      "d": "NaN"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C#",
+      "Programming"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nConsole.WriteLine(Math.Pow(2, 3));",
+    "options": {
+      "a": "8",
+      "b": "6",
+      "c": "2",
+      "d": "Error"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C#",
+      "Programming"
+    ]
+  },
+  {
+    "question": "Which operator or built-in method is used for exponentiation in C#?",
+    "options": {
+      "a": "^",
+      "b": "*",
+      "c": "Math.Pow()",
+      "d": "%"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C#",
+      "Programming"
+    ]
+  },
+  {
+    "question": "Which method is used to convert a string to uppercase in C#?",
+    "options": {
+      "a": "ToUpper()",
+      "b": "ToLower()",
+      "c": "Trim()",
+      "d": "Concat()"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C#",
+      "Programming"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nConsole.WriteLine(10 % 3);",
+    "options": {
+      "a": "1",
+      "b": "3",
+      "c": "0",
+      "d": "Error"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C#",
+      "Programming"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'decimal' data type in C#?",
+    "options": {
+      "a": "To store precise decimal numbers.",
+      "b": "To perform logical operations.",
+      "c": "To convert a string to uppercase.",
+      "d": "To define a class."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C#",
+      "Programming"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nint x = 5;\nConsole.WriteLine(x++);",
+    "options": {
+      "a": "5",
+      "b": "6",
+      "c": "Error",
+      "d": "NaN"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C#",
+      "Programming"
+    ]
+  },
+  {
+    "question": "What is the output of the following code?\n\nConsole.WriteLine(Math.Sqrt(16));",
+    "options": {
+      "a": "16",
+      "b": "4",
+      "c": "8",
+      "d": "Error"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C#",
+      "Programming"
+    ]
+  },
+  {
+    "question": "Which type conversion method is used to convert a string to a boolean value in C#?",
+    "options": {
+      "a": "ToString()",
+      "b": "ToInt32()",
+      "c": "ToBoolean()",
+      "d": "ToDouble()"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# Type Conversion"
+    ]
+  },
+  {
+    "question": "Which type conversion method is used to convert a string to an integer in C#?",
+    "options": {
+      "a": "ToString()",
+      "b": "ToInt32()",
+      "c": "ToBoolean()",
+      "d": "ToDouble()"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# Type Conversion"
+    ]
+  },
+  {
+    "question": "What is the default value of an integer variable in C#?",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "null",
+      "d": "undefined"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# Variables"
+    ]
+  },
+  {
+    "question": "How do you assign a value to a variable in C#?",
+    "options": {
+      "a": "Using the '=' operator.",
+      "b": "Using the '==' operator.",
+      "c": "Using the '::' operator.",
+      "d": "Using the '->' operator."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# Variables"
+    ]
+  },
+  {
+    "question": "Which data type is used to store whole numbers in C#?",
+    "options": {
+      "a": "string",
+      "b": "int",
+      "c": "float",
+      "d": "bool"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# Variables"
+    ]
+  },
+  {
+    "question": "What is the default value of a boolean variable in C#?",
+    "options": {
+      "a": "true",
+      "b": "false",
+      "c": "0",
+      "d": "1"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# Variables"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'var' keyword in C#?",
+    "options": {
+      "a": "To declare a variable without specifying its type explicitly.",
+      "b": "To define a constant variable.",
+      "c": "To create an object instance.",
+      "d": "To perform arithmetic calculations."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# Variables"
+    ]
+  },
+  {
+    "question": "What is the purpose of a 'break' statement in C#?",
+    "options": {
+      "a": "To exit the current loop and continue with the next iteration.",
+      "b": "To terminate the execution of a loop or switch statement.",
+      "c": "To skip the current iteration and proceed with the next iteration of a loop.",
+      "d": "To perform a jump to a specific label in the code."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# break statement"
+    ]
+  },
+  {
+    "question": "What is the syntax for declaring a for loop in C#?",
+    "options": {
+      "a": "for (initialization; condition; increment) { }",
+      "b": "foreach (var item in collection) { }",
+      "c": "while (condition) { }",
+      "d": "do { } while (condition);"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Nested Loops in C#: for, while, do-while"
+    ]
+  },
+  {
+    "question": "What is the purpose of a 'while' loop in C#?",
+    "options": {
+      "a": "To iterate over a collection of items.",
+      "b": "To execute a block of code repeatedly until a specified condition is no longer true.",
+      "c": "To execute a block of code once before checking the condition.",
+      "d": "To exit the loop if a specified condition is met."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Nested Loops in C#: for, while, do-while"
+    ]
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\nfor (int i = 0; i < 5; i++) {\n if (i == 3) {\n break;\n }\n Console.WriteLine(i);\n}",
+    "options": {
+      "a": "0 1 2",
+      "b": "0 1 2 3",
+      "c": "0 1 2 3 4",
+      "d": "1 2 3 4"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Nested Loops in C#: for, while, do-while"
+    ]
+  },
+  {
+    "question": "What is the comparison operator for 'not equal to' in C#?",
+    "options": {
+      "a": "!=",
+      "b": "==",
+      "c": "<=",
+      "d": ">="
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# Operators"
+    ]
+  },
+  {
+    "question": "Which operator is used for logical AND in C#?",
+    "options": {
+      "a": "&&",
+      "b": "||",
+      "c": "!",
+      "d": "&"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# Operators"
+    ]
+  },
+  {
+    "question": "What is the modulus sign operator in C# used for?",
+    "options": {
+      "a": "Finding the remainder of a division operation.",
+      "b": "Performing exponentiation.",
+      "c": "Performing string concatenation.",
+      "d": "Performing bitwise operations."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# Operators"
+    ]
+  },
+  {
+    "question": "Which operator is used for incrementing a variable by 1 in C#?",
+    "options": {
+      "a": "++",
+      "b": "--",
+      "c": "+=",
+      "d": "-="
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# Operators"
+    ]
+  },
+  {
+    "question": "Which logical operator denotes 'OR' in C#?",
+    "options": {
+      "a": "||",
+      "b": "&&",
+      "c": "!",
+      "d": "|"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# Operators"
+    ]
+  },
+  {
+    "question": "Which statement is used to exit a loop prematurely in C#?",
+    "options": {
+      "a": "return",
+      "b": "exit",
+      "c": "break",
+      "d": "terminate"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# break statement"
+    ]
+  },
+  {
+    "question": "What is the syntax for a switch statement in C#?",
+    "options": {
+      "a": "switch (expression) { case value: // code }",
+      "b": "switch { case value: // code }",
+      "c": "switch (expression); { case value: // code default: // code }",
+      "d": "switch { case value: // code default: // code }"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# switch statement"
+    ]
+  },
+  {
+    "question": "What is the difference between a while loop and a do-while loop in C#?",
+    "options": {
+      "a": "A while loop checks the condition before executing the code block, while a do-while loop checks the condition after executing the code block.",
+      "b": "A while loop and a do-while loop are the same and can be used interchangeably.",
+      "c": "A while loop can only execute the code block once, while a do-while loop can execute it multiple times.",
+      "d": "A while loop is used for numeric iteration, while a do-while loop is used for condition-based iteration."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# while loop",
+      "C# do-while loop"
+    ]
+  },
+  {
+    "question": "In C#, which statement is used to skip the rest of the current iteration and move to the next iteration in a loop?",
+    "options": {
+      "a": "skip",
+      "b": "exit",
+      "c": "break",
+      "d": "continue"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# continue statement"
+    ]
+  },
+  {
+    "question": "Which of the following statements applies to all types of loops in C#?:",
+    "options": {
+      "a": "Iterating over a fixed range of numbers.",
+      "b": "Iterating over elements of an array or a collection.",
+      "c": "Executing a block of code only specific number of times.",
+      "d": "None of the above."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# for loop"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'break' statement in a switch statement?",
+    "options": {
+      "a": "To exit the current case and continue executing the next case.",
+      "b": "To exit the entire switch statement.",
+      "c": "To skip the current case and continue executing the next case.",
+      "d": "To restart the switch statement from the beginning."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# switch statement"
+    ]
+  },
+  {
+    "question": "In C#, which loop is suitable when you want to execute a block of code at least once?",
+    "options": {
+      "a": "for loop",
+      "b": "while loop",
+      "c": "do-while loop",
+      "d": "for-each loop"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# do-while loop"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'switch' statement in C#?",
+    "options": {
+      "a": "To create a loop that iterates over a collection.",
+      "b": "To define a block of code that executes based on multiple values of the used variable that the switch was opened for.",
+      "c": "To exit a loop prematurely.",
+      "d": "To define a block of code that executes based on a condition."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# switch statement"
+    ]
+  },
+  {
+    "question": "What is the correct declaration of a for-loop in C#?",
+    "options": {
+      "a": "```csharp\nfor (int i = 0; i < 10; i += 1) { }\n```",
+      "b": "```csharp\nfor (int i = 0; i = 10; i++) {}\n```",
+      "c": "```csharp\nfor (int i = 0; i = 10; i++);\n```",
+      "d": "```csharp\nfor i = 0; i < 10; i++\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Java for loop"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'do-while' loop in C#?",
+    "options": {
+      "a": "To iterate over elements of an array or a collection.",
+      "b": "To always execute a block of code at least once.",
+      "c": "To execute a block of code as long as a condition is true.",
+      "d": "To execute a block of code a specific number of times."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# do-while loop"
+    ]
+  },
+  {
+    "question": "Which of the following is a valid way to define a switch statement in C#?",
+    "options": {
+      "a": "switch (x) { case 1: break; }",
+      "b": "switch { case 1: break; }",
+      "c": "switch (x) { case 1; }",
+      "d": "switch (x) { case 1; break; }"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# switch statement"
+    ]
+  },
+  {
+    "question": "What is the index of the last element in a 'string' with length 10 in C#?",
+    "options": {
+      "a": "In C#, the index of the last element is always equal to the length of the string, so it would be 10.",
+      "b": "The last element's index would be 9, as Java follows zero-based indexing.",
+      "c": "C# strings are unique, and the index of the last element varies based on the string's content.",
+      "d": "Since C# supports negative indexing, the last element's index in a string of length 10 would be -10."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# Strings"
+    ]
+  },
+  {
+    "question": "In C#, the index of the last element in a String is corresponding to:",
+    "options": {
+      "a": "text**.length(**-1**)**;",
+      "b": "text**.length(**10**)**;",
+      "c": "text**.length()** - 1;",
+      "d": "text**.length()**;"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# Strings"
+    ]
+  },
+  {
+    "question": "What is the syntax for a 'while' loop in C#?",
+    "options": {
+      "a": "while (**condition**) { // code }",
+      "b": "while { // code } (**condition**)",
+      "c": "while { // code } **condition**",
+      "d": "{ // code } while (**condition**)"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "C# while loop"
+    ]
+  },
+  {
+    "question": "Which data types in C# are used to store whole numbers?",
+    "options": {
+      "a": "num, int, long",
+      "b": "int, long, short",
+      "c": "float, int, byte",
+      "d": "float, int, long"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Data Types and Variables"
+    ]
+  },
+  {
+    "question": "Which statement is used to read user input in C#?",
+    "options": {
+      "a": "System.out.println()",
+      "b": "System.in.read()",
+      "c": "Console.ReadLine()",
+      "d": "Console.ReadInput()"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Input and Output"
+    ]
+  },
+  {
+    "question": "In C#, how do you check if a condition is true using the 'if' statement?",
+    "options": {
+      "a": "if {condition} then { }",
+      "b": "if (condition) { }",
+      "c": "if [condition] { }",
+      "d": "if <condition> then { }"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "If and Else"
+    ]
+  },
+  {
+    "question": "In C#, what does the 'continue' statement do in a loop?",
+    "options": {
+      "a": "Skips the remaining code in the loop and continues with the next iteration.",
+      "b": "Terminates the loop completely.",
+      "c": "Repeats the current iteration of the loop.",
+      "d": "Stops the loop and returns to the beginning of the program."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Loop Operators"
+    ]
+  },
+  {
+    "question": "Which of the following is a single-line comment in C#?",
+    "options": {
+      "a": "// This is a comment",
+      "b": "/* This is a comment /",
+      "c": "/ This is a comment //",
+      "d": "\\# This is a comment"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Comments"
+    ]
+  },
+  {
+    "question": "Which method is used to round a decimal number down to the nearest integer in C#?",
+    "options": {
+      "a": "Math.Round()",
+      "b": "Math.Ceiling()",
+      "c": "Math.Abs()",
+      "d": "Math.Floor()"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Formatting",
+      "Math.Floor()"
+    ]
+  },
+  {
+    "question": "Which method is used to round a decimal number up to the nearest integer in C#?",
+    "options": {
+      "a": "Math.Floor()",
+      "b": "Math.Ceiling()",
+      "c": "Math.Abs()",
+      "d": "Math.Round()"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Formatting",
+      "Math.Ceiling()"
+    ]
+  },
+  {
+    "question": "Which of the following is the correct way of converting a 'char' to an 'int' number in C#?",
+    "options": {
+      "a": "```csharp\nint digit = Character.getNumericValue(String.valueOf(text[position]));\n```",
+      "b": "```csharp\nint digit = int.Parse(text[position].ToString());\n```",
+      "c": "```csharp\nint digit = int.Parse(text[position]);\n```",
+      "d": "```csharp\nint digit = text[position].ToString();\n```"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "converting data types"
+    ]
+  },
+  {
+    "question": "Which method is used to convert a string to a boolean value in C#?",
+    "options": {
+      "a": "bool.Parse()",
+      "b": "bool.Value()",
+      "c": "bool.Convert()",
+      "d": "bool.ToString()"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "converting data types"
+    ]
+  },
+  {
+    "question": "What are the differences between the '==' operator and the 'Equals()' method for comparing in C#?",
+    "options": {
+      "a": "'==' compares the reference, while 'Equals()' compares the content.",
+      "b": "'==' compares the content, while 'Equals()' compares the reference.",
+      "c": "'==' and 'Equals()' compares both the content and reference.",
+      "d": "'==' and 'Equals()' are not applicable for comparing in C#."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "What is the difference between the prefix and postfix increments/decrements in C#?",
+    "options": {
+      "a": "Prefix returns the current value and then increments/decrements, while postfix increments/decrements the variable and then returns the new value.",
+      "b": "Prefix and postfix increments/decrements have the same functionality in C#.",
+      "c": "Prefix and postfix increments/decrements are not applicable in C#.",
+      "d": "Prefix increments/decrements the variable and then returns the new value, while postfix returns the current value and then increments/decrements."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "Which of the following contain all the primitive data types in C#?",
+    "options": {
+      "a": "byte, short, int, long, float, double, bool, char",
+      "b": "integer, floating-point, character, bool",
+      "c": "String, short, int, long, float, double, bool, char",
+      "d": "primitive, reference"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "data types"
+    ]
+  },
+  {
+    "question": "What is the difference between 'float' and 'double' data types in C#?",
+    "options": {
+      "a": "'float' is used for single-precision calculations, while 'double' is used for double-precision calculations.",
+      "b": "'float' is a 32-bit floating-point type, while 'double' is a 64-bit floating-point type.",
+      "c": "'float' has a higher range of values than 'double'.",
+      "d": "'float' and 'double' are interchangeable and have the same functionality."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "data types"
+    ]
+  },
+  {
+    "question": "What is the default value of a boolean variable in C#?",
+    "options": {
+      "a": "true",
+      "b": "false",
+      "c": "0",
+      "d": "null"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "data types"
+    ]
+  },
+  {
+    "question": "How do we determine if a number is even in C#?",
+    "options": {
+      "a": "if (num % 2 == 0) { // code }",
+      "b": "if (num / 2 == 0) { // code }",
+      "c": "if (num % 2 != 0) { // code }",
+      "d": "if (num / 2 != 0) { // code }"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "data types"
+    ]
+  },
+  {
+    "question": "What is the output of the following code snippet?\nint x = 5;\nint y = 10;\nConsole.WriteLine(x++ + y++);",
+    "options": {
+      "a": "11",
+      "b": "16",
+      "c": "15",
+      "d": "12"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "What is the output of the following code snippet?\nint x = 5;\nint y = 10;\nConsole.WriteLine(++x + ++y);",
+    "options": {
+      "a": "16",
+      "b": "17",
+      "c": "15",
+      "d": "18"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "What is the difference between the 'if' and 'switch' statements in C#?",
+    "options": {
+      "a": "The 'if' statement allows multiple conditions to be checked, while the 'switch' statement can only handle a single value.",
+      "b": "The 'if' statement is more efficient than the 'switch' statement.",
+      "c": "The 'if' and 'switch' statements have the same functionality in C#.",
+      "d": "The 'if' statement evaluates a boolean expression, while the 'switch' statement matches a value against multiple cases."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "if and else",
+      "switch"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'for' loop in C#?",
+    "options": {
+      "a": "To execute a block of code repeatedly for a specified number of times.",
+      "b": "To iterate over the elements of an array or a collection.",
+      "c": "To break out of a loop and terminate its execution.",
+      "d": "The 'for' loop is not applicable in C#."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "for Loop"
+    ]
+  },
+  {
+    "question": "What is the purpose of comments in C#?",
+    "options": {
+      "a": "To add explanatory notes and improve code readability.",
+      "b": "To prevent the execution of certain lines of code.",
+      "c": "To specify the input and output.",
+      "d": "Comments have no specific purpose in C#."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "comments"
+    ]
+  },
+  {
+    "question": "What are the two types of comments in C#?",
+    "options": {
+      "a": "Inline comments and block comments.",
+      "b": "Single-line comments and multi-line comments.",
+      "c": "Public comments and private comments.",
+      "d": "Short comments and long comments."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "comments"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'continue' statement in C#?",
+    "options": {
+      "a": "To skip the remaining code in a loop and move to the next iteration.",
+      "b": "To exit from a loop or switch statement and resume execution at the next statement.",
+      "c": "To terminate the execution of a program.",
+      "d": "The 'continue' statement is not applicable in C#."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "loop operators"
+    ]
+  },
+  {
+    "question": "What is the purpose of a variable in C#?",
+    "options": {
+      "a": "To define the structure and behavior of an object.",
+      "b": "To perform mathematical calculations.",
+      "c": "To store and manipulate data in memory.",
+      "d": "Variables have no specific purpose in C#."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "variables"
+    ]
+  },
+  {
+    "question": "Which of the following is a valid C# variable name by convention?",
+    "options": {
+      "a": "myvariable",
+      "b": "1myVariable",
+      "c": "myVariable",
+      "d": "my Variable"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "variables"
+    ]
+  },
+  {
+    "question": "Which of the following operators is not a value comparing operator in C#?",
+    "options": {
+      "b": "!=",
+      "a": "==",
+      "c": "+=",
+      "d": "<="
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators"
+    ]
+  },
+  {
+    "question": "What is true for the 'Console.ReadLine()' method in C#?",
+    "options": {
+      "a": "We may use the 'Console.ReadLine()' method to read input from the user.",
+      "b": "We only use the 'Console.ReadLine()' method to format and output data.",
+      "c": "We use the 'Console.ReadLine()' method to perform mathematical calculations.",
+      "d": "The 'Console.ReadLine()' method is not applicable in C#."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "input and output"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'else' statement in C#?",
+    "options": {
+      "a": "To skip the remaining code in a loop and move to the next iteration.",
+      "b": "To terminate the execution of a program.",
+      "c": "To execute a block of code if the 'if' condition is false.",
+      "d": "The 'else' statement is not applicable in C#."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "if and else"
+    ]
+  },
+  {
+    "question": "Which operator is used for string concatenation in C#?",
+    "options": {
+      "a": "-",
+      "b": "*",
+      "c": "/",
+      "d": "+"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "string manipulation"
+    ]
+  },
+  {
+    "question": "Which method is used to find the length of a string in C#?",
+    "options": {
+      "a": ".Length",
+      "b": ".Size",
+      "c": ".Count",
+      "d": ".GetSize"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "string manipulation"
+    ]
+  },
+  {
+    "question": "Which method is used to convert a string to capital letters in C#?",
+    "options": {
+      "a": ".upperCase",
+      "b": ".ToUppercase",
+      "c": ".ToUpper",
+      "d": ".ToUpperCase"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "string manipulation"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'charAt()' method in C#?",
+    "options": {
+      "a": "To concatenate two strings together.",
+      "b": "To compare two strings for equality.",
+      "c": "To add a character at a specified index in a string.",
+      "d": "To return the character at a specified index in a string."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "string manipulation"
+    ]
+  },
+  {
+    "question": "In C#, the runtime system starts your program by calling which function first?",
+    "options": {
+      "a": "print",
+      "b": "iterative",
+      "c": "hello",
+      "d": "Main"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "What is the purpose of nested loops in C#?",
+    "options": {
+      "a": "To improve code readability and organization.",
+      "b": "To execute a block of code repeatedly for a specified number of times.",
+      "c": "To perform mathematical calculations.",
+      "d": "To execute a loop inside another loop."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "nested loops"
+    ]
+  },
+  {
+    "question": "What is the purpose of nested conditional statements in C#?",
+    "options": {
+      "a": "To improve code readability and organization.",
+      "b": "To execute a block of code repeatedly for a specified number of times.",
+      "c": "To perform mathematical calculations.",
+      "d": "To execute conditional statements inside another conditional statement."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "nested conditional statements"
+    ]
+  },
+  {
+    "question": "Which of the following is the correct way to parse a string to an integer in C#?",
+    "options": {
+      "a": "```csharp\nint number = int.Parse(\"10\");\n```",
+      "b": "```csharp\nint number = Convert.ToInt32(\"10\");\n```",
+      "c": "```csharp\nint number = Int32.Parse(\"10\");\n```",
+      "d": "All of the above"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "tricky parsing"
+    ]
+  },
+  {
+    "question": "What is the result of the following code snippet in C#?\nstring text = \"A\";\nint number = int.Parse(text);",
+    "options": {
+      "a": "Compile time error",
+      "b": "Runtime error",
+      "c": "0",
+      "d": "The program will not compile"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "tricky parsing"
+    ]
+  },
+  {
+    "question": "How do real number types differ from integer types in C#?",
+    "options": {
+      "a": "**Real** number types have a smaller range of values compared to **integer** types.",
+      "b": "**Real** number types can have fractional parts, while **integer** types cannot.",
+      "c": "**Real** number types are used for storing whole numbers, while **integer** types are used for storing *decimal* numbers.",
+      "d": "**Real** number types are immutable, while **integer** types are mutable."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Real Number Types"
+    ]
+  }
+]

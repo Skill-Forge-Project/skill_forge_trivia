@@ -1,0 +1,899 @@
+[
+  {
+    "question": "What is the purpose of the JavaScript 'splice()' method?",
+    "options": {
+      "a": "To remove elements from an array and optionally add new elements in their place.",
+      "b": "To add elements to the beginning of an array.",
+      "c": "To reverse the order of the elements in an array.",
+      "d": "To sort the elements of an array."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Arrays",
+      "Functions"
+    ]
+  },
+  {
+    "question": "Which JavaScript function is used to find the index of the first occurrence of a specified value in an array?",
+    "options": {
+      "a": "indexOf()",
+      "b": "findIndex()",
+      "c": "searchIndex()",
+      "d": "findFirst()"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Arrays",
+      "Functions"
+    ]
+  },
+  {
+    "question": "What does the 'split()' method in JavaScript do?",
+    "options": {
+      "a": "To extract a section of an array and return a new array.",
+      "b": "Removes whitespace from both ends of a string.",
+      "c": "Splits a string into an array of substrings based on a specified separator.",
+      "d": "Reverses the order of the characters in a string."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Text Processing",
+      "Arrays"
+    ]
+  },
+  {
+    "question": "What is the purpose of the JavaScript 'slice()' method?",
+    "options": {
+      "a": "To sort the elements of an array in place.",
+      "b": "To remove elements from an array and optionally add new elements in their place.",
+      "c": "To find the index of the first occurrence of a specified value in an array.",
+      "d": "To extract a section of an array and return a new array."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Arrays",
+      "Functions"
+    ]
+  },
+  {
+    "question": "In JavaScript, how do you check if a key exists in an associative array?",
+    "options": {
+      "a": "Use the 'entries().next()' methods",
+      "b": "Use the 'hasKey()' method",
+      "c": "Use the 'hasOwnProperty()' method",
+      "d": "Use the 'keys()' method"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Associative Arrays"
+    ]
+  },
+  {
+    "question": "What is the time complexity for accessing a value in an associative array using its key?",
+    "options": {
+      "a": "O(log n)",
+      "b": "O(1)",
+      "c": "O(n)",
+      "d": "O(n log n)"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Associative Arrays"
+    ]
+  },
+  {
+    "question": "How can you remove all key-value pairs from an associative array in JavaScript?",
+    "options": {
+      "a": "Using the 'removeAll()' method.",
+      "b": "Using the 'deleteAll()' method.",
+      "c": "Using a loop to iterate and delete each key.",
+      "d": "Associative arrays cannot be emptied once populated."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Associative Arrays"
+    ]
+  },
+  {
+    "question": "What happens when you try to store multiple values against the same key in an associative array?",
+    "options": {
+      "a": "JavaScript throws an error, and the last value replaces the previous one.",
+      "b": "The values are stored as an array at that key, allowing you to access multiple values using the same key.",
+      "c": "The values are concatenated into a single string and stored at that key.",
+      "d": "JavaScript randomly chooses one value and discards the others."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Associative Arrays"
+    ]
+  },
+  {
+    "question": "How do you update the value of a specific key in an associative array without creating a new key-value pair?",
+    "options": {
+      "a": "Using the 'update()' method.",
+      "b": "Using the 'setValue()' method.",
+      "c": "Assigning a new value directly to the existing key.",
+      "d": "Using the 'modify()' method."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Associative Arrays"
+    ]
+  },
+  {
+    "question": "How can you match a specific number of occurrences n upto a specific number of occurrences m with a regex pattern?",
+    "options": {
+      "a": "[n,m]*",
+      "b": "{n,m}",
+      "c": "(n,m)+",
+      "d": " '?' quantifier"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "How can you match the string 'color' and 'colour' using a single regex pattern?",
+    "options": {
+      "a": "/colou?r/",
+      "b": "/colou*r/",
+      "c": "/colou+r/",
+      "d": "/colou{1,2}r/"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "Which of the following is the correct way of sorting the array in descending order \"['Peter', 'Chris', 'Tony', 'Steven']\" after adding the element 'Victor'?",
+    "options": {
+      "a": "```js\narray.sort().reverse().shift('Victor');\n```",
+      "b": "```js\narray.push('Victor').sort().reverse();\n```",
+      "c": "```js\narray.reverse().sort().push('Victor');\n```",
+      "d": "```js\narray.sort().reverse().unshift('Victor');\n```"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Methods",
+      "Arrays"
+    ]
+  },
+  {
+    "question": "Which data types are supported in JSON?",
+    "options": {
+      "a": "All JavaScript data types.",
+      "b": "The primitive data types: number, string, boolean, and undefined.",
+      "c": "Objects, arrays and nested objects and arrays only.",
+      "d": "The primitive data types: number, string, boolean, null, and objects and arrays."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "JSON"
+    ]
+  },
+  {
+    "question": "What does the JSON method 'JSON.parse()' do?",
+    "options": {
+      "a": "Converts a JavaScript object or value to a JSON string",
+      "b": "Parses a JSON string and returns a JavaScript object",
+      "c": "Replaces certain characters in a JSON string",
+      "d": "Converts a JSON string to a JavaScript function"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "JSON"
+    ]
+  },
+  {
+    "question": "Which one of the following regular expressions will match only 'Chrome.exe' from the string 'C:/ProgramFiles/Mozilla/Chrome.exe'?",
+    "options": {
+      "a": "[a-Z].exe",
+      "b": "[a-z]+.exe",
+      "c": "\\[A-z].[a-z]{3,}",
+      "d": "\\b\\w{1,}\\.\\w{1,}"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "Which one of the following regular expressions is a correct way to match only '28-12-1992' from the string 'Today is 28-12-1992, Monday.'",
+    "options": {
+      "a": "\\d-\\d-\\d{2,4}",
+      "b": "[0-9]+",
+      "c": "[0-9].+",
+      "d": "[0-9.].{3,4}"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "In JSON, how are keys represented?",
+    "options": {
+      "a": "Keys are strings which must be enclosed in double quotes.",
+      "b": "Keys are objects which don't have to be enclosed in quotes.",
+      "c": "Keys are strings which can be enclosed in either double or single quotes.",
+      "d": "Keys are undefined and not required to be enclosed in quotes."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "JSON"
+    ]
+  },
+  {
+    "question": "How can you represent a multiline string value in JSON?",
+    "options": {
+      "a": "Use the '\\n' escape sequence for line breaks.",
+      "b": "Use single quotes instead of double quotes.",
+      "c": "JSON does not support multiline strings.",
+      "d": "Wrap the string in triple backticks (```) like in JavaScript templates."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "JSON"
+    ]
+  },
+  {
+    "question": "How can you count the occurrences of a word 'hello' in a string 'str' regardless of case?",
+    "options": {
+      "a": "```js\nstr.match(/hello/gi).length\n```",
+      "b": "```js\nstr.countOccurrences('hello')\n```",
+      "c": "```js\nstr.matchAll('hello').length\n```",
+      "d": "```js\nstr.indexOf('hello', 0)\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Text Processing",
+      "Regular Expressions"
+    ]
+  },
+  {
+    "question": "Which method is used to remove leading spaces from a string in JavaScript?",
+    "options": {
+      "a": "```js\ntrim()\n```",
+      "b": "```js\nremoveSpaces()\n```",
+      "c": "```js\ntrimSpaces()\n```",
+      "d": "```js\ntrimStart()\n```"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Text Processing"
+    ]
+  },
+  {
+    "question": "What is the result of the following JavaScript code?\n\nconst str = 'Hello World';\nconst result = str.substring(-3, 5);",
+    "options": {
+      "a": "'lo'",
+      "b": "'Hello'",
+      "c": "//empty",
+      "d": "Error: Negative indices are not allowed."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Text Processing"
+    ]
+  },
+  {
+    "question": "How can you reverse the string 'I love JavaScript!' using a chain of methods?",
+    "options": {
+      "a": "Using the reverse() method.",
+      "b": "Using the 'split()' and 'join()' methods with a line separator ' '.",
+      "c": "Using the 'split()', 'reverse()' and join() methods with a line separator ' ' where appropriate.",
+      "d": "JavaScript does not have a built-in method to reverse words in a string."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Text Processing"
+    ]
+  },
+  {
+    "question": "What does the 'forEach()' method do when applied to an array in JavaScript?",
+    "options": {
+      "a": "It applies a function to each element of the outer array.",
+      "b": "It applies a function to each element of the inner arrays.",
+      "c": "It applies a function to each element of all arrays, including nested ones.",
+      "d": "The 'forEach()' method is not supported for nested arrays."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Nested Arrays"
+    ]
+  },
+  {
+    "question": "In JavaScript, can you create private properties in a class?",
+    "options": {
+      "a": "Yes, by using the 'private' keyword.",
+      "b": "No, JavaScript class properties are public.",
+      "c": "No, JavaScript does not support private properties.",
+      "d": "Yes, by prefixing the properties with '#'."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Objects and Classes"
+    ]
+  },
+  {
+    "question": "What is the value of 'keys' from the following code snippet?\n\nconst obj = { a: 1, b: 2, c: 3 };\nconst keys = [...Object.keys(obj)];",
+    "options": {
+      "a": "[1, 2, 3]",
+      "b": "[a, b, c]",
+      "c": "['a', 'b', 'c']",
+      "d": "[ 'a': 1, 'b': 2, 'c': 3 ]"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Objects and Classes"
+    ]
+  },
+  {
+    "question": "What is the difference between 'forEach' and 'map' methods in JavaScript?",
+    "options": {
+      "a": "'forEach' returns a new array with the results, while 'map' does not return anything.",
+      "b": "'map' applies the provided function to each element, while 'forEach' does not.",
+      "c": "'forEach' mutates the original array, while 'map' creates a new array with the results.",
+      "d": "There is no difference; 'forEach' and 'map' are identical in functionality."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Methods"
+    ]
+  },
+  {
+    "question": "What is the time complexity of a 'forEach' loop in JavaScript?",
+    "options": {
+      "a": "O(n)",
+      "b": "O(log n)",
+      "c": "O(n^2)",
+      "d": "O(1)"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Time Complexity"
+    ]
+  },
+  {
+    "question": "How do you change the value of an element in an array during a 'forEach' loop in JavaScript?",
+    "options": {
+      "a": "By using the 'splice' method on the array.",
+      "b": "By directly assigning a new value to the element.",
+      "c": "By using the 'set()' method provided by 'forEach'.",
+      "d": "You cannot change the value of an element directly in a 'forEach' loop."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "For-Each Loop",
+      "Arrays"
+    ]
+  },
+  {
+    "question": "In a 'forEach' loop, how can you skip the current iteration and move to the next element?",
+    "options": {
+      "a": "By using the 'skip()' method.",
+      "b": "By using the 'continue' statement.",
+      "c": "By returning 'true' inside the provided function.",
+      "d": "There is no way to skip an iteration in a 'forEach' loop."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "For-Each Loops",
+      "Arrays"
+    ]
+  },
+  {
+    "question": "What is the difference between 'includes()' and 'startsWith()' methods in JavaScript?",
+    "options": {
+      "a": "'includes()' indicates whether the string includes a certain value, while 'startsWith()' indicates whether a string starts with a specified value.",
+      "b": "'includes()' returns the value in the array if it includes it, while 'startsWith()' returns the a boolean a string starts with a specified value.",
+      "c": "'includes()' can only check for complete case-insensitive matches, while 'startsWith()' can check for partial matches.",
+      "d": "'includes()' is a deprecated method which functions the same as the 'startsWith()' method."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Methods"
+    ]
+  },
+  {
+    "question": "What is the difference between 'Object.keys()' and 'Object.values()' methods in JavaScript?",
+    "options": {
+      "a": "'Object.keys()' is used for arrays, while 'Object.values()' is used for objects.",
+      "b": "'Object.keys()' returns an array of property names, while 'Object.values()' returns an array of property values.",
+      "c": "'Object.keys()' can only be used with arrow functions, while 'Object.values()' works with regular functions.",
+      "d": "'Object.keys()' and 'Object.values()' are interchangeable."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Methods"
+    ]
+  },
+  {
+    "question": "What is the difference between 'find()' and 'filter()' functions in JavaScript?",
+    "options": {
+      "a": "'find()' is used for arrays, while 'filter()' is used for only objects.",
+      "b": "'find()' can only be used with arrow functions, while 'filter()' works with regular functions.",
+      "c": "'find()' returns the first element that satisfies the condition, while 'filter()' returns all elements that satisfy the condition.",
+      "d": "Both 'find()' and 'filter()' return 'undefined' if one element that satisfies the condition."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Methods"
+    ]
+  },
+  {
+    "question": "What is the difference between 'let', 'const', and 'var' for variable declaration in JavaScript?",
+    "options": {
+      "a": "'var' has block scope, while 'let' and 'const' have function scope.",
+      "b": "'let' and 'const' have block scope, while 'var' has function scope.",
+      "c": "'let' is mutable, 'const' is immutable, and 'var' is reassignable.",
+      "d": "All three keywords ('let', 'const', and 'var') have identical behavior in variable declaration."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Variables"
+    ]
+  },
+  {
+    "question": "What sets 'constructor' apart from other function in JavaScript classes?",
+    "options": {
+      "a": "'Constructor' is used to create new classes, while other functions are used to define functionality.",
+      "b": "'Constructor' is automatically called when a new instance of the class is created, while other functions need to be called explicitly.",
+      "c": "'Constructor' is a static function, while other functions are instance methods.",
+      "d": "There is no difference between 'constructor' and other functions; they are both used to create objects."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Objects",
+      "Classes"
+    ]
+  },
+  {
+    "question": "What is the difference between a class and a constructor function in JavaScript?",
+    "options": {
+      "a": "A class is a blueprint for creating objects, while a constructor function is a function used to create objects.",
+      "b": "A class is a reference type, while a constructor function is a primitive type.",
+      "c": "A class can only be used with ES6 syntax, while a constructor function is used in ES5 and earlier versions.",
+      "d": "There is no difference between a class and a constructor function; they are two different names for the same concept."
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Objects",
+      "Classes"
+    ]
+  },
+  {
+    "question": "What is the difference between using square brackets '[]' and curly braces '{}' in JavaScript?",
+    "options": {
+      "a": "Square brackets are used for both objects and arrays, while curly braces are used for arrays.",
+      "b": "Square brackets can only be used with primitive data types and arrays, while curly braces can only be used with reference data types.",
+      "c": "There is no difference between using square brackets and curly braces; they can be used interchangeably for any data type.",
+      "d": "Square brackets are used for arrays, while curly braces are used for objects."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Objects",
+      "Classes"
+    ]
+  },
+  {
+    "question": "What distinguishes array functions like map(), filter(), and reduce() from object methods in JavaScript?",
+    "options": {
+      "a": "Array methods can only be used with arrays of primitive data types, while object methods work with reference data types.",
+      "b": "Array methods are used to transform and manipulate arrays, while object methods are used for direct property access and modification.",
+      "c": "Array methods are static methods, while object methods are instance methods.",
+      "d": "There is no difference between array methods and object methods; they can be used interchangeably for any data type."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Objects",
+      "Arrays"
+    ]
+  },
+  {
+    "question": "What is the primary difference between associative arrays and regular arrays in JavaScript?",
+    "options": {
+      "a": "Regular arrays can have a variable length, while associative arrays have a fixed length.",
+      "b": "Associative arrays can only contain primitive values, while regular arrays can store objects and functions.",
+      "c": "Associative arrays allow you to use arbitrary strings as indexes, while regular arrays use only numerical indexes.",
+      "d": "There is no difference between associative arrays and regular arrays; they are two names for the same data structure."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Arrays",
+      "Associative arrays"
+    ]
+  },
+  {
+    "question": "Which of the following is untrue about associative arrays in JavaScript?",
+    "options": {
+      "a": "Element removal in associative arrays is done using the 'delete' keyword.",
+      "b": "Associative arrays can be sorted directly.",
+      "c": "Associative arrays do not support the push() function.",
+      "d": "Associative arrays are similar to regular arrays but hold key-value pairs instead."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Associative arrays"
+    ]
+  },
+  {
+    "question": "What sets the 'this' keyword apart from 'let' and 'const' in JavaScript?",
+    "options": {
+      "a": "'This' is block-scoped, while 'let' and 'const' are function-scoped.",
+      "b": "'This' is used to refer to the current object in a method, while 'let' and 'const' are used to declare variables.",
+      "c": "'This' can be reassigned, while 'let' and 'const' are read-only and cannot be reassigned.",
+      "d": "'This' is used to refer to the parent object in a method, while 'let' and 'const' are interchangeable."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Objects",
+      "Variables"
+    ]
+  },
+  {
+    "question": "What distinguishes the use of 'typeof' keyword from the 'instanceof' keyword in JavaScript?",
+    "options": {
+      "a": "'typeof' is used to create new data types as class properties, while 'instanceof' is used to modify existing properties.",
+      "b": "'typeof' is block-scoped, while 'instanceof' is function-scoped.",
+      "c": "'typeof' and 'instanceof' are both used to check the data type of an object but 'typeof' is deprecated.",
+      "d": "'typeof' is used to check the data type of a variable, while 'instanceof' is used to check if an object is an instance of a specific class."
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Variables",
+      "Objects"
+    ]
+  },
+  {
+    "question": "What sets the 'const' keyword apart from the 'let' keyword in JavaScript?",
+    "options": {
+      "a": "'const' is function-scoped, while 'let' is block-scoped.",
+      "b": "'const' can be used to declare variables without initializing them, while 'let' cannot.",
+      "c": "'const' variables cannot be reassigned after declaration, while 'let' variables can.",
+      "d": "The properties of a 'const' object cannot be changed."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Variables"
+    ]
+  },
+  {
+    "question": "What is the correct syntax to declare a function named 'multiply' that takes two parameters 'a' and 'b' and returns their product?",
+    "options": {
+      "a": "```js\nfunction multiply(a, b) { return a * b; }\n```",
+      "b": "```js\nfunction multiply(a, b) { a * b; }\n```",
+      "c": "```js\nmultiply function(a, b) { return a * b; }\n```",
+      "d": "```js\nmultiply(a, b) => a * b;\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Functions"
+    ]
+  },
+  {
+    "question": "What is the correct syntax to create an empty object using object literal notation?",
+    "options": {
+      "a": "```js\nconst obj = new Object();\n```",
+      "b": "```js\nconst obj = Object.create({});\n```",
+      "c": "```js\nconst obj = {}\n```",
+      "d": "```js\nconst obj = Object.constructor;\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Objects"
+    ]
+  },
+  {
+    "question": "What is the correct syntax to access the 'age' property of an object 'person' using bracket notation?",
+    "options": {
+      "a": "```js\nperson[age]\n```",
+      "b": "```js\nperson['age']\n```",
+      "c": "```js\nperson.age\n```",
+      "d": "```js\nperson => age\n```"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Objects"
+    ]
+  },
+  {
+    "question": "Which git command is used to fetch and merge the latest changes from the remote repository?",
+    "options": {
+      "a": "git **clone**",
+      "b": "git **download**",
+      "c": "git **checkout**",
+      "d": "git **pull**"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git"
+    ]
+  },
+  {
+    "question": "Considering you are inside a git repository directory on your computer and you want to add the file 'myProgram.java' to new commit to the remote version. Which git command you could use?",
+    "options": {
+      "a": "git **upload** myProgram.java",
+      "b": "git **commit** myProgram.java",
+      "c": "git **add** myProgram.java",
+      "d": "git **push** myProgram.java"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git"
+    ]
+  },
+  {
+    "question": "What is the purpose of VARCHAR(n) data type in MySQL?",
+    "options": {
+      "a": "Allows storing text with length n in a field",
+      "b": "To create new variable of char type",
+      "c": "To parse integer data type to character type",
+      "d": "VARCHAR is not part of the SQL syntax"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "MySQL"
+    ]
+  },
+  {
+    "question": "Which SQL query you would use to delete the table 'students' from 'university' database?",
+    "options": {
+      "a": "```sql\nDROP TABLE students;\n```",
+      "b": "```sql\nDELETE TABLE students;\n```",
+      "c": "```sql\nDEL students FROM university;\n```",
+      "d": "```sql\nDROP students FROM DB university;\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "MySQL"
+    ]
+  },
+  {
+    "question": "Which one of the following ports is considered default for HTTP?",
+    "options": {
+      "a": "22",
+      "b": "5432",
+      "c": "8443",
+      "d": "80"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP"
+    ]
+  },
+  {
+    "question": "Which of the following components is NOT part of a URL address?",
+    "options": {
+      "a": "protocol",
+      "b": "path",
+      "c": "HTTP response status code",
+      "d": "port"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP"
+    ]
+  },
+  {
+    "question": "What is the purpose and functionality of Git, and what role does it play in the modern software development practices?",
+    "options": {
+      "a": "A robust programming language extensively utilized for web development.",
+      "b": "An advanced database management system commonly employed in large-scale enterprises.",
+      "c": "A distributed version control system that efficiently tracks changes in code and enables seamless collaboration among developers.",
+      "d": "A versatile text editor specifically designed for writing and editing code."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub"
+    ]
+  },
+  {
+    "question": "What is the purpose of HTTP in web development?",
+    "options": {
+      "a": "To style web pages using CSS.",
+      "b": "To facilitate communication between web servers and clients.",
+      "c": "To define the structure and layout of web pages.",
+      "d": "To store and retrieve data in databases."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP Basics"
+    ]
+  },
+  {
+    "question": "Provide a comprehensive explanation of the purpose and functionality of the 'git add' command in Git version control. How does that command contribute to optimizing software development collaboration and ensuring effective code management?",
+    "options": {
+      "a": "The 'git **add**' command creates a new branch in a Git repository.",
+      "b": "The 'git **add**' command is used to merge two branches in a Git repository.",
+      "c": "The 'git **add**' command is used to stage changes.",
+      "d": "The 'git **add**' command uploads local changes to a remote repository."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub",
+      "Version Control",
+      "Remote Repositories",
+      "Collaborative Development",
+      "Code Management"
+    ]
+  },
+  {
+    "question": "Provide a comprehensive explanation of the purpose and functionality of the 'git commit' command in Git version control. How does that command contribute to optimizing software development collaboration and ensuring effective code management?",
+    "options": {
+      "a": "The 'git **commit**' merges two branches.",
+      "b": "The 'git **commit**' uploads local changes to a remote repository.",
+      "c": "The 'git **commit**' captures a snapshot of the staged changes as a new version.",
+      "d": "The 'git **commit**' creates a new branch in a Git repository."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub",
+      "Version Control",
+      "Remote Repositories",
+      "Collaborative Development",
+      "Code Management"
+    ]
+  },
+  {
+    "question": "Provide a comprehensive explanation of the purpose and functionality of the 'git push' command in Git version control. How does that command contribute to optimizing software development collaboration and ensuring effective code management?",
+    "options": {
+      "a": "The 'git **push**' uploads the merged branches to a remote repository.",
+      "b": "The 'git **push**' is not applicable in Git.",
+      "c": "The 'git **push**' facilitates the transfer of local commits to a remote repository.",
+      "d": "The 'git **push**' merges two branches in a Git repository."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub",
+      "Version Control",
+      "Remote Repositories",
+      "Collaborative Development",
+      "Code Management"
+    ]
+  },
+  {
+    "question": "Which of the following contains only HTTP status codes indicating a successful request?",
+    "options": {
+      "a": "404, 200, 201, 400, 401",
+      "b": "304, 404, 300, 500, 202",
+      "c": "200, 201, 202, 203, 204",
+      "d": "300, 304, 501, 200, 201"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP Basics"
+    ]
+  },
+  {
+    "question": "Which of the following is used to structure the content of a web page?",
+    "options": {
+      "a": "Java",
+      "b": "Cascading Style Sheets",
+      "c": "JavaScript",
+      "d": "The HyperText Markup Language"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTML & CSS Basics"
+    ]
+  }
+]

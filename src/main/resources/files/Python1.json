@@ -1,0 +1,1186 @@
+[
+  {
+    "question": "in Python, what would be the data type of the variable 'x' in the following code segment?\n\nx = 'Hello'",
+    "options": {
+      "a": "Integer",
+      "b": "Float",
+      "c": "String",
+      "d": "Boolean"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Data Types"
+    ]
+  },
+  {
+    "question": "What is the correct way to write a single-line comment in Python?",
+    "options": {
+      "a": "\\# This is a comment",
+      "b": "// This is a comment",
+      "c": "/* This is a comment */",
+      "d": "<!-- This is a comment -->"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Comments"
+    ]
+  },
+  {
+    "question": "What are the two types of comments in Python?",
+    "options": {
+      "a": "Inline comments and block comments.",
+      "b": "Public comments and private comments.",
+      "c": "Single-line comments and multi-line comments.",
+      "d": "Short comments and long comments."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "comments"
+    ]
+  },
+  {
+    "question": "What is the output of the following code segment?\n\nx = 'Hello'\nprint(len(x))",
+    "options": {
+      "a": "5",
+      "b": "4",
+      "c": "6",
+      "d": "Error"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Variables"
+    ]
+  },
+  {
+    "question": "What is the output of the following code segment?\n\nx = 'Hello'\nprint(x.upper())",
+    "options": {
+      "a": "hELLO",
+      "b": "hello",
+      "c": "Hello",
+      "d": "HELLO"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Variables"
+    ]
+  },
+  {
+    "question": "What is the output of the following code segment?\n\nx = 'Hello'\nprint(x.lower())",
+    "options": {
+      "a": "HELLO",
+      "b": "hello",
+      "c": "Hello",
+      "d": "Error"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Variables"
+    ]
+  },
+  {
+    "question": "What is the output of the following code segment?\n\nimport math\nx = 4.5\nprint(math.floor(x))",
+    "options": {
+      "a": "4",
+      "b": "5",
+      "c": "4.5",
+      "d": "5.0"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Math Operations"
+    ]
+  },
+  {
+    "question": "What is the output of the following code segment?\n\nimport math\nx = 4.5\nprint(math.ceil(x))",
+    "options": {
+      "a": "4",
+      "b": "5",
+      "c": "4.5",
+      "d": "5.0"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Math Operations"
+    ]
+  },
+  {
+    "question": "What is the output of the following code segment?\nx = -4.5\nprint(abs(x))",
+    "options": {
+      "a": "-4.5",
+      "b": "4.5",
+      "c": "-4",
+      "d": "4"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Math Operations"
+    ]
+  },
+  {
+    "question": "What is the output of the following code segment?\nx = 4.6\nprint(round(x))",
+    "options": {
+      "a": "4",
+      "b": "5",
+      "c": "4.6",
+      "d": "5.0"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Math Operations"
+    ]
+  },
+  {
+    "question": "In Python, what would be the data type of the following value? x = 'None'",
+    "options": {
+      "a": "Integer",
+      "b": "Float",
+      "c": "String",
+      "d": "NoneType"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Data Types"
+    ]
+  },
+  {
+    "question": "Which symbol is used for assignment in Python?",
+    "options": {
+      "a": "=",
+      "b": "==",
+      "c": "!=",
+      "d": "+="
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Operators"
+    ]
+  },
+  {
+    "question": "What does the 'print' function do in Python?",
+    "options": {
+      "a": "Reads input from the user",
+      "b": "Performs mathematical calculations",
+      "c": "Displays output on the console",
+      "d": "Defines a variable"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Basics"
+    ]
+  },
+  {
+    "question": "Which statement is used to terminate a loop in Python?",
+    "options": {
+      "a": "break",
+      "b": "continue",
+      "c": "return",
+      "d": "exit"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Basics"
+    ]
+  },
+  {
+    "question": "What does the 'len' function do in Python?",
+    "options": {
+      "a": "Finds the minimum value",
+      "b": "Finds the maximum value",
+      "c": "Calculates the length of a sequence",
+      "d": "Performs logical operations"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Basics"
+    ]
+  },
+  {
+    "question": "Which statement is used to skip the rest of the code block and move to the next iteration of a loop?",
+    "options": {
+      "a": "break",
+      "b": "continue",
+      "c": "return",
+      "d": "exit"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Basics"
+    ]
+  },
+  {
+    "question": "Which data type is used to store whole numbers in Python?",
+    "options": {
+      "a": "float",
+      "b": "int",
+      "c": "str",
+      "d": "bool"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Data Types"
+    ]
+  },
+  {
+    "question": "Which function is used to display output on the console in Python?",
+    "options": {
+      "a": "display()",
+      "b": "output()",
+      "c": "print()",
+      "d": "show()"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "print"
+    ]
+  },
+  {
+    "question": "What is the proper way to declare a variable in Python?",
+    "options": {
+      "a": "var value = variable",
+      "b": "value = variable",
+      "c": "variable == value",
+      "d": "variable = value"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "variables"
+    ]
+  },
+  {
+    "question": "Which data type is used to store floating-point numbers in Python?",
+    "options": {
+      "a": "floating",
+      "b": "dec",
+      "c": "flt",
+      "d": "float"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "variables",
+      "float"
+    ]
+  },
+  {
+    "question": "What does the 'float()' function do in Python?",
+    "options": {
+      "a": "Converts a value to an integer",
+      "b": "Converts a value to a string",
+      "c": "Converts a value to a decimal number",
+      "d": "Converts a value to a boolean"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "float",
+      "variables"
+    ]
+  },
+  {
+    "question": "What does the 'round()' function do in Python?",
+    "options": {
+      "a": "Rounds a floating-point number up to the nearest integer.",
+      "b": "Rounds a floating-point number down to the nearest integer.",
+      "c": "Rounds a floating-point number to the nearest integer.",
+      "d": "Returns the value rounded to the second digit after the decimal point."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "float",
+      "math operators"
+    ]
+  },
+  {
+    "question": "What does the 'math.floor()' function do in Python?",
+    "options": {
+      "a": "Rounds a floating-point number up to the nearest integer.",
+      "b": "Rounds a floating-point number down to the nearest integer.",
+      "c": "Rounds a floating-point number to the nearest integer.",
+      "d": "Returns the value rounded to the second digit after the decimal point."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "math.floor",
+      "math functions"
+    ]
+  },
+  {
+    "question": "What does the 'math.ceil()' function do in Python?",
+    "options": {
+      "a": "Rounds a floating-point number up to the nearest integer.",
+      "b": "Rounds a floating-point number down to the nearest integer.",
+      "c": "Rounds a floating-point number to the nearest integer.",
+      "d": "Returns the value rounded to the second digit after the decimal point."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "math.floor",
+      "math functions"
+    ]
+  },
+  {
+    "question": "What does the 'abs()' function do in Python?",
+    "options": {
+      "a": "Rounds a floating-point number up to the nearest integer.",
+      "b": "Rounds a floating-point number down to the nearest integer.",
+      "c": "Rounds a floating-point number to the nearest integer.",
+      "d": "Returns the absolute value of a number."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "math.floor",
+      "math functions"
+    ]
+  },
+  {
+    "question": "In Python, can you multiply a string by a digit?",
+    "options": {
+      "a": "No, multiplying a string by a digit raises an error.",
+      "b": "Yes, but only if the string contains numeric characters.",
+      "c": "Yes, but only if the string is empty.",
+      "d": "Yes, multiplying a string by a digit is allowed."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "string multiplication",
+      "data types"
+    ]
+  },
+  {
+    "question": "In Python, can you add a string and a digit?",
+    "options": {
+      "a": "Yes, adding a string and a digit is allowed.",
+      "b": "Yes, but only if the string contains numeric characters.",
+      "c": "No, adding a string and a digit raises an error.",
+      "d": "Yes, but only if the string is empty."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "string addition",
+      "data types"
+    ]
+  },
+  {
+    "question": "What is the purpose of a 'for' loop in Python?",
+    "options": {
+      "a": "To repeat a block of code until condition is true.",
+      "b": "To repeat a block of code at least one and then until condition is true.",
+      "c": "To repeat a block of code fixed number of times.",
+      "d": "To perform a conditional statement."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "for loop",
+      "looping",
+      "iteration"
+    ]
+  },
+  {
+    "question": "What type of elements can a for loop iterate through in Python?",
+    "options": {
+      "a": "Only numbers (integers and floats).",
+      "b": "Only strings.",
+      "c": "Only lists.",
+      "d": "Any iterable object (e.g., lists, tuples, strings)."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "for loop",
+      "looping",
+      "iteration"
+    ]
+  },
+  {
+    "question": "How do you specify the range of values in a 'for-loop' in Python?",
+    "options": {
+      "a": "Using the **from** and **to** keywords.",
+      "b": "By providing a **list of values** to loop through.",
+      "c": "Using the **in** keyword followed by the **range()** function.",
+      "d": "Using the **range()** function only."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "for loop",
+      "looping",
+      "iteration",
+      "range()"
+    ]
+  },
+  {
+    "question": "Which Python function is commonly used to generate a sequence of numbers for a for loop?",
+    "options": {
+      "a": "generate()",
+      "b": "seq()",
+      "c": "range()",
+      "d": "iterate()"
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "for loop",
+      "looping",
+      "iteration",
+      "range()"
+    ]
+  },
+  {
+    "question": "In Python, can a for loop be used to iterate over characters in a string?",
+    "options": {
+      "a": "No, for loops can only iterate over numeric values.",
+      "b": "Yes, but only if the string is empty.",
+      "c": "Yes, for loops can iterate over any iterable object, including strings.",
+      "d": "Yes, but only if the string contains numeric characters."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "for loop",
+      "looping",
+      "iteration"
+    ]
+  },
+  {
+    "question": "Which of the following is a valid way to define a 'for-loop' in Python?",
+    "options": {
+      "a": "```python\nfor i in range[10]:\n```",
+      "b": "```python\nfor (i=0; i<5; i++):\n```",
+      "c": "```python\nfor i in (1, 2, 3, 4, 5):\n```",
+      "d": "```python\nfor i in range(1, 6):\n```"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "for loop",
+      "looping",
+      "iteration"
+    ]
+  },
+  {
+    "question": "What are nested loops used for in Python?",
+    "options": {
+      "a": "To create complicated data structures.",
+      "b": "To perform the same operation on multiple elements.",
+      "c": "To improve code readability and maintainability.",
+      "d": "To iterate over multiple dimensions of data simultaneously."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "nested loops",
+      "looping",
+      "iteration"
+    ]
+  },
+  {
+    "question": "How do you define a nested loop in Python?",
+    "options": {
+      "a": "By using the **nested** keyword before the **for** loop.",
+      "b": "By creating a loop inside another loop.",
+      "c": "By using **for loop in loop** syntax.",
+      "d": "By defining a loop as a **function** inside another loop."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "nested loops",
+      "looping",
+      "iteration"
+    ]
+  },
+  {
+    "question": "In Python, what is the primary benefit of using nested loops?",
+    "options": {
+      "a": "They reduce the number of iterations needed.",
+      "b": "They enable multiple iterations over the same data.",
+      "c": "They allow efficient handling of exceptions.",
+      "d": "They provide a way to perform different operations in one loop."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "nested loops",
+      "looping",
+      "iteration"
+    ]
+  },
+  {
+    "question": "In Python, how do you avoid infinite looping when using nested loops?",
+    "options": {
+      "a": "By using the 'break' statement within the inner loop.",
+      "b": "By making sure the outer loop condition will eventually be false.",
+      "c": "By using the 'continue' statement within the inner loop.",
+      "d": "By using the 'exit' statement within the inner loop."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "nested loops",
+      "looping",
+      "infinite loops"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'break' statement in a for-loop in Python?",
+    "options": {
+      "a": "To terminate the loop and skip the remaining iterations.",
+      "b": "To skip the current iteration and continue with the next one.",
+      "c": "To restart the loop from the beginning.",
+      "d": "To execute the loop code only if the loop finishes successfully."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "break statement",
+      "for loop",
+      "loop control"
+    ]
+  },
+  {
+    "question": "In Python, what does the 'continue' statement do in a for loop?",
+    "options": {
+      "a": "It terminates the loop and exits the current scope.",
+      "b": "It moves to the next iteration, skipping the remaining code within the loop.",
+      "c": "It repeats the loop indefinitely.",
+      "d": "It reassigns the loop variable to a new value."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "continue statement",
+      "for loop",
+      "loop control"
+    ]
+  },
+  {
+    "question": "In a 'for-loop', when does the 'else' block execute in Python?",
+    "options": {
+      "a": "When the loop finishes iterating successfully.",
+      "b": "When the 'break' statement is encountered.",
+      "c": "When the 'continue' statement is encountered.",
+      "d": "When the loop encounters an error."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "else statement",
+      "for loop",
+      "loop control"
+    ]
+  },
+  {
+    "question": "In a nested 'for-loop', if a 'break' statement is encountered in the inner loop, what happens in Python?",
+    "options": {
+      "a": "The outer loop is terminated.",
+      "b": "The inner loop is terminated, and the outer loop continues.",
+      "c": "Both the outer and inner loops are terminated.",
+      "d": "The inner loop is terminated, and the outer loop restarts."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "break statement",
+      "nested loops",
+      "loop control"
+    ]
+  },
+  {
+    "question": "in Python, when using a 'continue' statement in a nested for loop, what does it affect?",
+    "options": {
+      "a": "It affects only the inner loop.",
+      "b": "It affects only the outer loop.",
+      "c": "It affects both the inner and outer loops.",
+      "d": "It restarts the outer loop."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "continue statement",
+      "nested loops",
+      "loop control"
+    ]
+  },
+  {
+    "question": "What is the purpose of a while loop in Python?",
+    "options": {
+      "a": "To execute a block of code repeatedly based on a condition.",
+      "b": "To perform mathematical operations.",
+      "c": "To define functions in Python.",
+      "d": "To handle exceptions and errors."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "while loop",
+      "looping",
+      "iteration"
+    ]
+  },
+  {
+    "question": "In Python, what type of condition is required for a while loop to run?",
+    "options": {
+      "a": "A boolean condition that evaluates to True or False.",
+      "b": "A list or tuple with elements to iterate through.",
+      "c": "A mathematical expression with arithmetic operators.",
+      "d": "A string containing the loop control statement."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "while loop",
+      "looping",
+      "iteration"
+    ]
+  },
+  {
+    "question": "In Python, what will happen if the condition of a while loop is initially False?",
+    "options": {
+      "a": "The loop will run indefinitely.",
+      "b": "The loop will execute once and terminate.",
+      "c": "The loop will not run at all.",
+      "d": "Python will raise an error."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "while loop",
+      "looping",
+      "iteration"
+    ]
+  },
+  {
+    "question": "In Python, how do you control the number of iterations in a while loop?",
+    "options": {
+      "a": "By adjusting the loop variable manually.",
+      "b": "By using the 'continue' statement.",
+      "c": "By using the 'break' statement.",
+      "d": "By modifying the condition to become False."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "while loop",
+      "looping",
+      "iteration"
+    ]
+  },
+  {
+    "question": "What is the difference between a while loop and a do-while loop in Python?",
+    "options": {
+      "a": "While loops can only iterate over numbers.",
+      "b": "For loops can only run indefinitely.",
+      "c": "While loops can run indefinitely, but for loops have a fixed number of iterations.",
+      "d": "While loops are used for mathematical calculations, while for loops are used for string manipulations."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "while loop",
+      "for loop",
+      "iteration"
+    ]
+  },
+  {
+    "question": "In Python, what is the purpose of using the 'break' statement in a while loop?",
+    "options": {
+      "a": "To terminate the loop and exit the current scope.",
+      "b": "To move to the next iteration, skipping the remaining code within the loop.",
+      "c": "To execute the loop code only if the loop finishes successfully.",
+      "d": "To restart the loop from the beginning."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "break statement",
+      "while loop",
+      "loop control"
+    ]
+  },
+  {
+    "question": "In Python, what does the 'continue' statement do in a while loop?",
+    "options": {
+      "a": "It terminates the loop and exits the current scope.",
+      "b": "It moves to the next iteration, skipping the remaining code within the loop.",
+      "c": "It executes the loop code only if the loop finishes successfully.",
+      "d": "It restarts the loop from the beginning."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "continue statement",
+      "while loop",
+      "loop control"
+    ]
+  },
+  {
+    "question": "Which symbol is used for assignment in Python?",
+    "options": {
+      "a": "=",
+      "b": "==",
+      "c": "!=",
+      "d": "+="
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "Operators"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'input()' function in Python?",
+    "options": {
+      "a": "To print output to the console.",
+      "b": "To read user input from the console.",
+      "c": "To define functions in Python.",
+      "d": "To handle exceptions and errors."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "input() function",
+      "user input"
+    ]
+  },
+  {
+    "question": "What type of data does the 'input()' function return in Python?",
+    "options": {
+      "a": "An integer value.",
+      "b": "A list value.",
+      "c": "A boolean value.",
+      "d": "A string value."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "input() function",
+      "user input",
+      "data types"
+    ]
+  },
+  {
+    "question": "What happens if the user enters a number when the program expects a string using the 'input()' function in Python?",
+    "options": {
+      "a": "The program will raise a 'TypeError' since the data types are incompatible.",
+      "b": "The program will convert the string to a number and continue.",
+      "c": "The program will prompt the user to re-enter the input.",
+      "d": "Python automatically converts the number to a string."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "input() function",
+      "user input",
+      "data types"
+    ]
+  },
+  {
+    "question": "How can you concatenate two strings obtained from user input in Python?",
+    "options": {
+      "a": "By using the 'concat()' method.",
+      "b": "By calling 'join()' on the input strings.",
+      "c": "By using the 'merge()' function.",
+      "d": "By using the '+' operator between the input strings."
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "input() function",
+      "user input",
+      "string concatenation"
+    ]
+  },
+  {
+    "question": "In Python, what does the 'len()' function return when called on an empty string?",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "None",
+      "d": "An error"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "string length",
+      "len() function",
+      "empty strings"
+    ]
+  },
+  {
+    "question": "What method is used to find the length of a string in Python?",
+    "options": {
+      "a": ".count()",
+      "b": ".length()",
+      "c": ".size()",
+      "d": ".len()"
+    },
+    "correct_answer": "d",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "string length",
+      "len() function",
+      "string methods"
+    ]
+  },
+  {
+    "question": "Can the 'upper()' method be used with data types other than strings in Python?",
+    "options": {
+      "a": "Yes, it can be used with any data type.",
+      "b": "No, it only works with strings.",
+      "c": "It depends on the specific data type.",
+      "d": "Only with numbers."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "string manipulation",
+      "string methods",
+      "capital letters",
+      "data types"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'ord()' function in Python?",
+    "options": {
+      "a": "To **convert** a **character** to an integer representing the **ASCII** decimal value.",
+      "b": "To **convert** an **integer** to a string representing the **ASCII** character with that value.",
+      "c": "To find the **order** of a given **character** in a string.",
+      "d": "To **sort** the **characters** in a string in a lexicographic **order**?"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "ord() function",
+      "ASCII",
+      "character encoding"
+    ]
+  },
+  {
+    "question": "What does the 'chr()' function do in Python?",
+    "options": {
+      "a": "It converts a **string** to an **integer* representing the **ASCII** value of the first character.",
+      "b": "It converts an **integer** to a **string** representing the **ASCII** character with that value.",
+      "c": "To find the **order** of a given character in a string.",
+      "d": "To **sort* the **characters** in a string in a lexicographic **order**?"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "chr() function",
+      "ASCII",
+      "character encoding"
+    ]
+  },
+  {
+    "question": "What is the condition to check if a number is even in Python?",
+    "options": {
+      "a": "num % 2 == 0",
+      "b": "num % 2 == 1",
+      "c": "num % 2 != 0",
+      "d": "num // 2 == 0"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "even numbers",
+      "odd numbers",
+      "modulus operator",
+      "conditionals"
+    ]
+  },
+  {
+    "question": "Can a negative number be considered even or odd in Python?",
+    "options": {
+      "a": "No, all negative numbers are neither even nor odd.",
+      "b": "Yes, negative numbers can be even or odd based on their absolute value.",
+      "c": "Yes, negative numbers are always considered even.",
+      "d": "It depends on the specific use case."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "even numbers",
+      "odd numbers",
+      "negative numbers",
+      "modulus operator"
+    ]
+  },
+  {
+    "question": "What is the purpose of the '==' operator in Python?",
+    "options": {
+      "a": "To assign a value to a variable.",
+      "b": "To check if two values are equal.",
+      "c": "To concatenate two strings.",
+      "d": "To find the remainder of a division."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators",
+      "equality",
+      "comparison",
+      "if statement"
+    ]
+  },
+  {
+    "question": "Which operator is used to check if two values are not equal in Python?",
+    "options": {
+      "a": "!=",
+      "b": "==!",
+      "c": "<>",
+      "d": "==="
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators",
+      "inequality",
+      "comparison",
+      "if statement"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'in' operator in Python?",
+    "options": {
+      "a": "To check if a value exists within a list, tuple, or string.",
+      "b": "To check if a value is a numeric type.",
+      "c": "To check if a value is even or odd.",
+      "d": "To check if a value is a floating-point number."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "operators",
+      "membership",
+      "in keyword",
+      "if statement"
+    ]
+  },
+
+  {
+    "question": "How does the 'or' operator behave in a chain of conditions in Python?",
+    "options": {
+      "a": "It returns True if all conditions are True.",
+      "b": "It returns True if any of the conditions is True.",
+      "c": "It returns True only if the first condition is True.",
+      "d": "It returns True only if the last condition is True."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "logical operators",
+      "or operator",
+      "conditional expressions"
+    ]
+  },
+  {
+    "question": "In Python, which of the following expressions wont result in a True value?",
+    "options": {
+      "a": "True or False",
+      "b": "False or False",
+      "c": "True or True",
+      "d": "False or True"
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "logical operators",
+      "or operator",
+      "boolean expressions"
+    ]
+  },
+  {
+    "question": "Which built-in function in Python allows you to get the maximum value that can be represented by the system?",
+    "options": {
+      "a": "sys.maxsize",
+      "b": "sys.maxint",
+      "c": "sys.maxvalue",
+      "d": "sys.maxnumber"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "sys module",
+      "system limits",
+      "numerical representation"
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'sys' module in Python?",
+    "options": {
+      "a": "To interact with the operating system's file system.",
+      "b": "To handle input and output operations.",
+      "c": "To provide access to system-specific parameters and functions.",
+      "d": "To define mathematical operations and functions."
+    },
+    "correct_answer": "c",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "sys module",
+      "system-specific functions",
+      "numerical representation"
+    ]
+  },
+  {
+    "question": "What is the index of the first character in a Python string?",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "-1",
+      "d": "The index depends on the length of the string."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "strings",
+      "indexing",
+      "character position"
+    ]
+  },
+  {
+    "question": "Can you modify individual characters in a string using indexing in Python?",
+    "options": {
+      "a": "Yes, strings are mutable in Python.",
+      "b": "No, strings are immutable, and individual characters cannot be modified.",
+      "c": "Only if the string is declared as a 'bytearray'.",
+      "d": "It depends on the length of the string."
+    },
+    "correct_answer": "b",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "strings",
+      "indexing",
+      "mutability"
+    ]
+  },
+  {
+    "question": "What are the possible boolean values in Python?",
+    "options": {
+      "a": "True and False",
+      "b": "Yes and No",
+      "c": "1 and 0",
+      "d": "On and Off"
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "boolean values",
+      "boolean data type",
+      "truthiness"
+    ]
+  },
+  {
+    "question": "What is the benefit of using a triple-quoted string ('''text''') in Python?",
+    "options": {
+      "a": "It allows you to define long strings that span multiple lines.",
+      "b": "It automatically converts the text to uppercase.",
+      "c": "It creates a special type of variable that can hold multiple values.",
+      "d": "It is used to declare comments in Python."
+    },
+    "correct_answer": "a",
+    "difficulty": "Easy",
+    "lifetime": 30,
+    "topics": [
+      "multiline strings",
+      "triple-quoted strings",
+      "string formatting"
+    ]
+  }
+]

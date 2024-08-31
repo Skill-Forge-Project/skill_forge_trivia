@@ -1,0 +1,526 @@
+[
+  {
+    "question": "In a doubly linked list, what is the time complexity of inserting an element at the end of the list, assuming the list has 'n' elements?",
+    "options": {
+      "a": "O(1)",
+      "b": "O(log n)",
+      "c": "O(n)",
+      "d": "O(n^2)"
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Linked List"
+    ]
+  },
+  {
+    "question": "Which of the following statements about generic constraints in C# is correct?",
+    "options": {
+      "a": "**Generic** constraints can only be applied to primitive types",
+      "b": "**Generic** constraints can be used to restrict a type parameter to specific classes and interfaces",
+      "c": "**Generic** constraints are optional and not necessary for using generics",
+      "d": "**Generic** constraints cannot be used with reference types"
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Generics"
+    ]
+  },
+  {
+    "question": "Which SOLID principle emphasizes that the base class should be able to be replaced by any of its derived classes without affecting the correctness of the program?",
+    "options": {
+      "a": "Single Responsibility Principle",
+      "b": "Open/Closed Principle",
+      "c": "Liskov Substitution Principle",
+      "d": "Interface Segregation Principle"
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "In-depth exploration of OOP principles"
+    ]
+  },
+  {
+    "question": "Which C# interface must be implemented by a custom class to enable it to be used with 'foreach' loop?",
+    "options": {
+      "a": "IEnumerable",
+      "b": "IEnumerator",
+      "c": "IComparable",
+      "d": "IEnumerable<T>"
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Intriguing scenarios involving iterators and comparators in C#"
+    ]
+  },
+  {
+    "question": "Which sorting algorithm guarantees a time complexity of 'O(n log(n))' in the average and worst-case scenarios?",
+    "options": {
+      "a": "Bubble Sort",
+      "b": "Selection Sort",
+      "c": "Merge Sort",
+      "d": "Insertion Sort"
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Comprehensive understanding of various sorting algorithms"
+    ]
+  },
+  {
+    "question": "In Test Driven Development (TDD), what is the primary goal of writing tests before writing the actual code?",
+    "options": {
+      "a": "To ensure all test cases are passing before the code is considered complete",
+      "b": "To speed up the development process by automating testing",
+      "c": "To force the developer to think about the design of the code and its requirements",
+      "d": "To create a safety net for code refactoring"
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Mocking and Test Driven Development"
+    ]
+  },
+  {
+    "question": "What is the main difference between a multidimensional array and a jagged array in C#?",
+    "options": {
+      "a": "A jagged array can store elements of different data types, while a multidimensional array cannot",
+      "b": "A multidimensional array has a fixed size, while a jagged array can change in size during runtime",
+      "c": "A jagged array requires explicit casting, while a multidimensional array does not",
+      "d": "A multidimensional array is a rectangular matrix, while a jagged array is an irregular array of arrays"
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Multidimensional Arrays and Jagged Arrays"
+    ]
+  },
+  {
+    "question": "In C#, which keyword is used to specify a block of code that should be executed regardless of whether an exception is thrown or not?",
+    "options": {
+      "a": "catch",
+      "b": "finally",
+      "c": "else",
+      "d": "default"
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Exception Handling"
+    ]
+  },
+  {
+    "question": "Which SOLID principle principle aims to separate behaviours so that if bugs arise as a result of a change, it won’t affect other unrelated behaviours?",
+    "options": {
+      "a": "Single Responsibility Principle",
+      "b": "Open/Closed Principle",
+      "c": "Liskov Substitution Principle",
+      "d": "Interface Segregation Principle"
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "SOLID Principles"
+    ]
+  },
+  {
+    "question": "Which SOLID principle aims to split a set of actions into smaller sets so that a Class executes ONLY the set of actions it requires.",
+    "options": {
+      "a": "Single Responsibility Principle",
+      "b": "Open/Closed Principle",
+      "c": "Liskov Substitution Principle",
+      "d": "Interface Segregation Principle"
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "In-depth exploration of SOLID principles"
+    ]
+  },
+  {
+    "question": "Which SOLID principle aims to extend a Class’s behaviour without changing the existing behaviour of that Class.",
+    "options": {
+      "a": "Single Responsibility Principle",
+      "b": "Open/Closed Principle",
+      "c": "Liskov Substitution Principle",
+      "d": "Interface Segregation Principle"
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "In-depth exploration of SOLID principles"
+    ]
+  },
+  {
+    "question": "Which SOLID principle suggests that high-level modules should not depend on low-level modules; both should depend on abstractions?",
+    "options": {
+      "a": "Single Responsibility Principle",
+      "b": "Open/Closed Principle",
+      "c": "Liskov Substitution Principle",
+      "d": "Dependency Inversion Principle"
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Dependency Inversion Principle",
+      "SOLID Principles"
+    ]
+  },
+  {
+    "question": "Compare and contrast the functionalities of a stack and a queue. Point an examples of scenarios where each data structure is more suitable than the other.",
+    "options": {
+      "a": "**Stack** and **Queue** have the same functionality but differ in performance. Stack is faster for adding elements, while Queue is faster for removing elements.",
+      "b": "**Stack** is LIFO *(Last-In-First-Out)*, and **Queue** is FIFO *(First-In-First-Out)*. Stack is suitable for implementing function calls, while Queue is appropriate for task scheduling.",
+      "c": "**Stack** and **Queue** are interchangeable and can be used interchangeably in all scenarios without any significant difference.",
+      "d": "**Stack** and **Queue** have the same functionality, and the choice between them is purely a matter of personal preference."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Stack and Queue"
+    ]
+  },
+  {
+    "question": "Explain the benefits of using generics in C# and how they enhance type safety and code reusability. Point an example of a generic method that can work with multiple data types.",
+    "options": {
+      "a": "**Generics** reduce code duplication but limit the flexibility to work with different data types. It is preferable to use explicit casting instead.",
+      "b": "**Generics** enable the creation of type-safe classes and methods that can work with different data types. For instance, a generic 'Add' method can work with integers, strings, or custom objects.",
+      "c": "**Generics** are only applicable in scenarios where the data type is known beforehand. For dynamic data types, explicit casting is a better alternative.",
+      "d": "**Generics** can lead to performance degradation and should be used sparingly in performance-critical applications."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Generics"
+    ]
+  },
+  {
+    "question": "In C#, explain the difference between IEnumerable<T> and IEnumerator<T> interfaces. How do these interfaces enable iterator-based processing of collections?",
+    "options": {
+      "a": "**IEnumerable<T>** and **IEnumerator<T>** are interchangeable and can be used interchangeably without any difference. The choice between them is purely a matter of personal preference.",
+      "b": "**IEnumerable<T>** provides methods for querying and processing collections, while **IEnumerator<T>** provides methods for modifying collections. Both interfaces are required for iterator-based processing.",
+      "c": "**IEnumerable<T>** provides a sequence of elements that can be iterated, and **IEnumerator<T>** is used to traverse the elements within the collection. **IEnumerator<T>** enables iterator-based processing by allowing the client to move through the collection one element at a time.",
+      "d": "**IEnumerable<T>** and **IEnumerator<T>** are outdated interfaces and are no longer used in modern C# programming."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Intriguing scenarios involving iterators and comparators in C#"
+    ]
+  },
+  {
+    "question": "Explain the best practices for exception handling in C# and how to use custom exception classes effectively. Discuss scenarios where it is appropriate to catch general Exception versus specific exception types.",
+    "options": {
+      "a": "Best practices for exception handling suggest catching general Exception to handle all possible exceptions in one place. Custom exception classes are not recommended as they introduce unnecessary complexity.",
+      "b": "Best practices for exception handling recommend logging exceptions without catching them. Catching specific exception types is discouraged as it may lead to code duplication.",
+      "c": "Exception handling is not a critical aspect of software development, and it is sufficient to rely on the default exception handling provided by the runtime.",
+      "d": "Best practices for exception handling include catching specific exception types instead of general Exception, and logging exceptions. Custom exception classes are useful for creating well-defined exception hierarchies in our application."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Exception Handling"
+    ]
+  },
+  {
+    "question": "Explain the Factory Method pattern, the Singleton pattern, and the Strategy pattern.",
+    "options": {
+      "a": "The Factory Method pattern is used for instantiating classes that cannot be changed, while the Singleton pattern is used for classes that can be instantiated multiple times. The Strategy pattern is applicable when a class has multiple constructors.",
+      "b": "The Factory Method pattern provides an interface for creating objects. The Singleton pattern ensures a class has only one instance. The Strategy pattern define a group of algorithms, and put each of them into a separate class.",
+      "c": "The Factory Method pattern, Singleton pattern, and Strategy pattern are interchangeable and can be used interchangeably in all scenarios without any difference.",
+      "d": "The Factory Method pattern, Singleton pattern, and Strategy pattern are outdated and no longer used in modern software development."
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Design Patterns"
+    ]
+  },
+  {
+    "question": "In C#, what kind of relationship between classes does the symbol (\":\") denote and what it refers to?",
+    "options": {
+      "a": "Relationship **uses-a** and it refers to **composition**",
+      "b": "Relationship **is-a** and it refers to **inheritance**",
+      "c": "Relationship **has-a** and it refers to **aggregation**",
+      "d": "Relationship **was-a** and it refers to **association**"
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Object-Oriented Programming",
+      "Inheritance in C#"
+    ]
+  },
+  {
+    "question": "Object-oriented programming is a style of programming where you organize your program around (?) and data, rather than (?) and logic.",
+    "options": {
+      "a": "functions; actions",
+      "b": "objects; actions",
+      "c": "actions; functions",
+      "d": "actions; objects"
+    },
+    "correct_answer": "b",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Manipulating Strings",
+      "Building and Modifying Strings"
+    ]
+  },
+  {
+    "question": "What is polymorphism in object-oriented programming?",
+    "options": {
+      "a": "The ability of an object to have multiple names.",
+      "b": "The ability of an object to keep its state during runtime.",
+      "c": "The ability of an object to take on many forms.",
+      "d": "The ability of an object to refer to members of its superclass."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "In-depth exploration of OOP principles"
+    ]
+  },
+  {
+    "question": "In which of these situations are interfaces better than abstract classes?",
+    "options": {
+      "a": "When you need to define an object type's characteristics, use an interface. When you need to define an object type's capabilities, use an abstract class.",
+      "b": "Interfaces are a legacy of older versions of C#, and are interchangeable with the newer abstract class feature.",
+      "c": "When you need a list of capabilities and data that are classes-agnostic, use an interface. When you need a certain object type to share characteristics, use an abstract class.",
+      "d": "You should use both an interface and an abstract class when defining any complex object."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "In-depth exploration of OOP principles"
+    ]
+  },
+  {
+    "question": "What is the difference between the 'ref' and 'out' keywords?",
+    "options": {
+      "a": "Variables passed to **out** specify that the parameter is an output parameter, while **ref** specifies that a variable may be passed to a function without being initialized.",
+      "b": "Variables passed to **ref** can be passed to a function without being initialized, while **out** specifies that the value is a reference value that can be changed inside the calling method.",
+      "c": "Variables passed to **out** can be passed to a function without being initialized, while **ref** specifies that the value is a reference value that can be changed inside the calling method.",
+      "d": "Variables passed to **ref** specify that the parameter is an output parameter, while **out** specifies that a variable may be passed to a function without being initialized."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Advanced concepts related to data structures"
+    ]
+  },
+  {
+    "question": "Which code snippet declares an 'anonymous' type named userData?",
+    "options": {
+      "a": "```csharp\nvar userData = new { name = \"John\", age = 32 };\n```",
+      "b": "```csharp\nvar<<!---->T> userData = new <<!---->T> { name = \"John\", age = 32 };\n```",
+      "c": "```csharp\nAType userData = new AType { name = \"John\", age = 32 };\n```",
+      "d": "```csharp\nAnonymous<T> userData = new Anonymous<T> { name = \"John\", age = 32 };\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Generics"
+    ]
+  },
+  {
+    "question": "What is an abstract class?",
+    "options": {
+      "a": "A class that is denoted by the class keyword (can be seen and used by any other class in the system--thus it is by default public).",
+      "b": "Something denoted by the abstract keyword and used system-wide; if you want any program to create an object of a class you use the abstract class.",
+      "c": "A class that is denoted by the virtual keyword.",
+      "d": "A class that can be used only as a base class."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Advanced concepts related to data structures"
+    ]
+  },
+  {
+    "question": "When using a thread pool what happens to a given thread after it finishes its task?",
+    "options": {
+      "a": "The **thread** is destroyed, and memory is freed up.",
+      "b": "The **thread** runs in a loop until the next assignment.",
+      "c": "The **thread** goes inactive in the background and waits for garbage collection.",
+      "d": "The **thread** returns to the pool for reuse."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Advanced concepts related to data structures"
+    ]
+  },
+  {
+    "question": "What is the difference between 'non-static' and 'static classes'?",
+    "options": {
+      "a": "**Non-static** classes need to be initialized before use, while **static** classes do not.",
+      "b": "**Non-static** classes are accessible only from an interface while **static** classes are accessible from anywhere.",
+      "c": "**Non-static** classes need to initialize all class members at runtime, while **static** classes do not.",
+      "d": "**Non-static** classes do not need to be initialized while **static** classes do."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Functional Programming"
+    ]
+  },
+  {
+    "question": "What is the main difference between the 'is' and 'as' operators?",
+    "options": {
+      "a": "The **is** operator checks instance types, while the **as** operator checks the inherited type.",
+      "b": "The **is** operator checks primitive data types, while the **as** operator checks the object type.",
+      "c": "The **as** operator checks the object type, while the **is** operator attempts to cast an object to a specific type.",
+      "d": "The **is** operator checks the object type, while the **as** operator attempts to cast an object to a specific type."
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "In-depth exploration of OOP principles"
+    ]
+  },
+  {
+    "question": "What is true about thread multitasking?",
+    "options": {
+      "a": "Thread **multitasking** allows code to be executed **concurrently**.",
+      "b": "Thread **multitasking** allows code to be executed only when **handling a user event**.",
+      "c": "Thread **multitasking** blocks code from being executed **simultaneously** to guard memory.",
+      "d": "Thread **multitasking** adds **single-threaded** code blocks together."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Functional Programming"
+    ]
+  },
+  {
+    "question": "What is true about the destructor/finalizer method in C#?",
+    "options": {
+      "a": "It is a **special method** called automatically whenever an object is **created** or **updated**.",
+      "b": "It is an **implicit method** called automatically when thread pools are **processed concurrently**.",
+      "c": "It is an **explicit method** called automatically when the **compiler starts running**.",
+      "d": "It is a **special method** called automatically whenever an object is **deleted** or **destroyed**."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "In-depth exploration of OOP principles"
+    ]
+  },
+  {
+    "question": "Consider a MSSQL database with two tables: 'users' and 'orders'. How would you write a query to retrieve the names of users who have placed at least one order?",
+    "options": {
+      "a": "```sql\nSELECT u.name\nFROM users u\nINNER JOIN orders o ON o.user_id = u.user_id;\n```",
+      "b": "```sql\nSELECT u.name\nFROM users u\nWHERE EXISTS (SELECT * FROM orders o WHERE o.user_id = u.id);\n```",
+      "c": "```sql\nSELECT u.name\nFROM users u\nLEFT JOIN orders o ON u.id = o.name WHERE o.id IS NOT NULL;\n```",
+      "d": "```sql\nSELECT u.name\nFROM users u\nWHERE u.id IN (SELECT o.user_id FROM orders o);\n```"
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Elaborate problem-solving in the context of MSSQL databases"
+    ]
+  },
+  {
+    "question": "What is the difference between the 'INNER JOIN' and 'OUTER JOIN' in MSSQL?",
+    "options": {
+      "a": "**INNER JOIN** returns only the matching rows from both tables, while **OUTER JOIN** returns all the rows from both tables.",
+      "b": "**OUTER JOIN** returns only the matching rows from both tables, while **INNER JOIN** returns all the rows from both tables.",
+      "c": "**INNER JOIN** returns all the rows from both tables, while **OUTER JOIN** returns only the matching rows from both tables.",
+      "d": "**OUTER JOIN** returns all the rows from both tables, while **INNER JOIN** returns only the matching rows from both tables."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": ["Elaborate problem-solving in the context of MSSQL databases"]
+  },
+  {
+    "question": "How can you perform a join operation involving multiple tables in MSSQL?",
+    "options": {
+      "a": "Use the **UNION** clause to merge the tables and eliminate duplicate rows.",
+      "b": "Use the **GROUP** BY clause to group the rows based on a specific column.",
+      "c": "Use the **HAVING** clause to filter the groups based on a specific condition.",
+      "d": "Use the **JOIN** clause with appropriate conditions to combine the tables and retrieve the desired data."
+    },
+    "correct_answer": "d",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": ["Elaborate problem-solving in the context of MSSQL databases"]
+  },
+  {
+    "question": "What is ASP.NET Core in C# development?",
+    "options": {
+      "a": "**ASP.NET Core** is a **web development framework** in C# used for building web applications and services.",
+      "b": "**ASP.NET Core** is a **lightweight container** for managing and executing C# components.",
+      "c": "**ASP.NET Core** is an **Aspect-Oriented Programming** (AOP) **library** in C#.",
+      "d": "**ASP.NET Core** is a **set of utilities** for testing C# applications."
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "In-depth comprehension of ASP.NET Core"
+    ]
+  },
+  {
+    "question": "Given two DateTime objects 'start' and 'end', which of the following C# code snippets correctly calculates the difference in hours between the two DateTime objects?",
+    "options": {
+      "a": "```csharp\ndouble hoursDifference = Math.Round((end - start).TotalHours);\n```",
+      "b": "```csharp\nint hoursDifference = end.Subtract(end).Hours;\n```",
+      "c": "```csharp\nint hoursDifference = (int)TimeSpan.FromTicks(start.Ticks - start.Ticks).TotalHours;\n```",
+      "d": "```csharp\ndouble hoursDifference = TimeSpan.FromTicks(start.Ticks - end.Ticks).TotalHours;\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Date and Time Calculations in C#"
+    ]
+  },
+  {
+    "question": "You have a DateTime object 'currentDate' representing the current date, and you want to obtain the date for the next Monday. Which of the following C# code snippets correctly accomplishes this task?",
+    "options": {
+      "a": "```csharp\nDateTime nextMonday = currentDate.AddDays((int)DayOfWeek.Monday - (int)currentDate.DayOfWeek);\n```",
+      "b": "```csharp\nDateTime nextMonday = currentDate.AddDays((int)DayOfWeek.Monday - (int)currentDate.DayOfWeek);\n```",
+      "c": "```csharp\nDateTime nextMonday = currentDate.AddDays(7 - (int)currentDate.DayOfWeek + (int)DayOfWeek.Monday);\n```",
+      "d": "```csharp\nDateTime nextMonday = currentDate.AddDays(7 - (int)currentDate.DayOfWeek);\n```"
+    },
+    "correct_answer": "c",
+    "difficulty": "Hard",
+    "lifetime": 60,
+    "topics": [
+      "Date and Time Calculations in C#"
+    ]
+  }
+]

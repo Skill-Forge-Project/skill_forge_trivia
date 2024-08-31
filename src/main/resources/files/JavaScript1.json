@@ -1,0 +1,1687 @@
+[
+    {
+        "question": "Which operator is used to perform a remainder operation in JavaScript?",
+        "options": {
+            "a": "%",
+            "b": "*",
+            "c": "/",
+            "d": "+"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Operators"
+        ]
+    },
+    {
+        "question": "How would you reference the text 'avenue' in the array = ['street', 'road', 'avenue', 'circle']?",
+        "options": {
+            "a": "array.2",
+            "b": "array.3",
+            "c": "array[2]",
+            "d": "array[3]"
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Arrays"
+        ]
+    },
+    {
+        "question": "Considering the camelCase as best practice for JavaScript, which of these is a valid variable name?",
+        "options": {
+            "a": "function",
+            "b": "firstName",
+            "c": "case",
+            "d": "grand total"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Variables"
+        ]
+    },
+    {
+        "question": "In JavaScript, which of the following is used to store multiple values of different data types in a single variable?",
+        "options": {
+            "a": "Array",
+            "b": "String",
+            "c": "Number",
+            "d": "Boolean"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Variables",
+            "Arrays"
+        ]
+    },
+    {
+        "question": "What is the result of the expression (true || false) in JavaScript?",
+        "options": {
+            "a": "true",
+            "b": "false",
+            "c": "undefined",
+            "d": "Error"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "If/else statements"
+        ]
+    },
+    {
+        "question": "What is the index of the last character in a string variable of length 10?",
+        "options": {
+            "a": "8",
+            "b": "9",
+            "c": "10",
+            "d": "11"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Strings"
+        ]
+    },
+    {
+        "question": "What is the difference between the 'if' and 'switch' statements in JavaScript?",
+        "options": {
+            "a": "The 'if' statement cannot be used inside a 'switch' statement",
+            "b": "The 'if' statement checks only for single values, while the 'switch' statement checks only for a range of values",
+            "c": "The 'if' and 'switch' statements function the exact same way",
+            "d": "The 'if' statement evaluates a boolean expression, while the 'switch' statement matches a value against multiple cases."
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "If/else statements",
+            "Switch statements"
+        ]
+    },
+    {
+        "question": "What are the data types supported by JavaScript?",
+        "options": {
+            "a": "Only strings and numbers.",
+            "b": "Strings, numbers, and arrays.",
+            "c": "Strings, numbers, booleans, objects, null, and undefined.",
+            "d": "Strings, numbers, booleans, and objects."
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "JavaScript",
+            "Variables"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'typeof' operator in JavaScript?",
+        "options": {
+            "a": "To check if a variable is defined.",
+            "b": "To determine the type of a variable.",
+            "c": "To perform mathematical operations.",
+            "d": "To declare a new variable."
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "JavaScript",
+            "Operators"
+        ]
+    },
+    {
+        "question": "What is the result of the following expression: 5 + '3'?",
+        "options": {
+            "a": "8",
+            "b": "53",
+            "c": "Error",
+            "d": "NaN"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "JavaScript"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the result of the following expression: Math.round(4.7)?",
+        "options": {
+            "a": "4",
+            "b": "5",
+            "c": "4.7",
+            "d": "5.3"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Math Operations"
+        ]
+    },
+    {
+        "question": "How do you write a 'do-while' loop in JavaScript?",
+        "options": {
+            "a": "do (i = 0; i < 5; i++)",
+            "b": "do { } while (i < 5)",
+            "c": "do (i < 5) { }",
+            "d": "do { } until (i < 5)"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "While Loop"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the purpose of the 'break' statement in a loop?",
+        "options": {
+            "a": "To exit the loop.",
+            "b": "To resume the loop from the next iteration.",
+            "c": "To repeat the loop indefinitely.",
+            "d": "To terminate the program."
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Loops"
+        ]
+    },
+    {
+        "question": "How do you declare a function in JavaScript?",
+        "options": {
+            "a": "function myFunction() { }",
+            "b": "function:myFunction()",
+            "c": "myFunction() { }",
+            "d": "myFunction: function() { }"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Functions"
+        ]
+    },
+    {
+        "question": "What is NaN in JavaScript?",
+        "options": {
+            "a": "Not a Number - a special value that represents an unrepresentable value.",
+            "b": "A function that checks if a value is a number.",
+            "c": "A method used for string manipulation.",
+            "d": "A keyword used to declare a new variable."
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Variables"
+        ]
+    },
+    {
+        "question": "What is an array in JavaScript?",
+        "options": {
+            "a": "A collection of key-value pairs.",
+            "b": "A data structure used to store multiple values in a single variable.",
+            "c": "A loop used to iterate over an object's properties.",
+            "d": "A function used to perform a repetitive task."
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Arrays"
+        ]
+    },
+    {
+        "question": "How do you access the first element of an array in JavaScript?",
+        "options": {
+            "a": "array[0]",
+            "b": "array[1]",
+            "c": "array[-1]",
+            "d": "array[length - 1]"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Arrays"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'length' property of an array in JavaScript?",
+        "options": {
+            "a": "To check if the array is empty.",
+            "b": "To access the last element of the array.",
+            "c": "To specify the number of elements in the array.",
+            "d": "To declare a new variable."
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Arrays"
+        ]
+    },
+    {
+        "question": "What is a function in JavaScript?",
+        "options": {
+            "a": "A function is a data type used to store multiple values in a single variable.",
+            "b": "A function is a special keyword used to declare a new variable.",
+            "c": "A function is a data structure used to store key-value pairs.",
+            "d": "A function is a block of code that can be invoked and executed."
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Functions"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the purpose of parameters in a function?",
+        "options": {
+            "a": "Parameters are used to specify the number of times a function should be executed.",
+            "b": "Parameters are used to store multiple values in a single variable.",
+            "c": "Parameters are used to specify the input values that a function accepts.",
+            "d": "Parameters are used to specify the output values that a function returns."
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Functions"
+        ]
+    },
+    {
+        "question": "How do you call (invoke) a function in JavaScript?",
+        "options": {
+            "a": "By using the 'call' keyword followed by the function name.",
+            "b": "By using the function name followed by parentheses and any required arguments.",
+            "c": "By using the 'function' keyword followed by the function name.",
+            "d": "By using the 'invoke' keyword followed by the function name."
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Functions"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the result of the following expression: Math.pow(2, 3)?",
+        "options": {
+            "a": "2",
+            "b": "6",
+            "c": "8",
+            "d": "16"
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Functions"
+        ]
+    },
+    {
+        "question": "In JavaScript, what are the three components of a 'for' loop?",
+        "options": {
+            "a": "Initialization, condition, and iteration.",
+            "b": "Condition, body, and termination.",
+            "c": "Iteration, body, and condition.",
+            "d": "Initialization, body, and condition."
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "For Loop"
+        ]
+    },
+    {
+        "question": "What is the typical syntax of a 'for' loop in JavaScript?",
+        "options": {
+            "a": "```js\nfor (let i = 0; i < 10; i++) { \n //code }\n```",
+            "b": "```js\nfor (i = 0; i < 10; i++) { \n //code}\n```",
+            "c": "```js\nfor (int i = 0; i <= 10; i++) { \n //code}\n```",
+            "d": "```js\nfor (i <= 10; i++) { \n //code}\n```"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "For Loop"
+        ]
+    },
+    {
+        "question": "How can you create an infinite 'for' loop in JavaScript?",
+        "options": {
+            "a": "By omitting the loop condition.",
+            "b": "By setting the loop condition to true.",
+            "c": "By setting the loop condition to false.",
+            "d": "By using the 'break' statement in the loop body."
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "For Loop"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the result of the following expression: 5 + 3 * 2?",
+        "options": {
+            "a": "16",
+            "b": "11",
+            "c": "10",
+            "d": "9"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Math Operations"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the result of the following expression: (10 + 5) * 2?",
+        "options": {
+            "a": "25",
+            "b": "30",
+            "c": "35",
+            "d": "20"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Math Operations"
+        ]
+    },
+    {
+        "question": "What is the purpose of a variable in JavaScript programming?",
+        "options": {
+            "a": "To define a function.",
+            "b": "To perform arithmetic operations.",
+            "c": "To store and manipulate data.",
+            "d": "To convert data types."
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Variables"
+        ]
+    },
+    {
+        "question": "How do you declare a variable in JavaScript which holds the value of 10(as integer)?",
+        "options": {
+            "a": "```js\nlet variable = 10;\n```",
+            "b": "```js\nlet variable = '10';\n```",
+            "c": "```js\nvariable 10;\n```",
+            "d": "```js\nint variable = 10;\n```"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Variables"
+        ]
+    },
+    {
+        "question": "What is the purpose of variable names in JavaScript programming?",
+        "options": {
+            "a": "To specify the data type of a variable.",
+            "b": "To store the value of a variable.",
+            "c": "To define the scope of a variable.",
+            "d": "To provide a unique identifier for a variable."
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Variables"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the purpose of the 'const' keyword when declaring a variable?",
+        "options": {
+            "a": "The 'const' keyword is used to declare a variable that can be reassigned.",
+            "b": "The 'const' keyword is used to declare a variable with a fixed value that cannot be changed.",
+            "c": "The 'const' keyword is used to declare a variable with a dynamic value.",
+            "d": "The 'const' keyword is used to declare a variable with a boolean value."
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Variables"
+        ]
+    },
+    {
+        "question": "What is the result of the following code?\n\nlet x = 5;\nlet y = '10';\nlet z = x + y;\nconsole.log(z);",
+        "options": {
+            "a": "15",
+            "b": "510",
+            "c": "Error",
+            "d": "undefined"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Variables"
+        ]
+    },
+    {
+        "question": "What is the syntax of a 'while' loop in JavaScript?",
+        "options": {
+            "a": "while (condition) { \n// code block }",
+            "b": "while { \n// code block } (condition)",
+            "c": "{ // code block } \nwhile (condition)",
+            "d": "{ // code block } \nwhile"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "While Loop"
+        ]
+    },
+    {
+        "question": "In JavaScript, what happens if the loop condition in a 'while' loop is initially false?",
+        "options": {
+            "a": "The loop will run indefinitely.",
+            "b": "The loop body will be executed only once.",
+            "c": "The loop body will never be executed.",
+            "d": "The loop will produce an error and terminate."
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "While Loop"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the purpose of the 'break' statement in a 'while' loop?",
+        "options": {
+            "a": "To terminate the program.",
+            "b": "To repeat the loop indefinitely.",
+            "c": "To resume the loop from the next iteration.",
+            "d": "To exit the loop."
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "While Loop"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the purpose of the 'continue' statement in a 'while' loop?",
+        "options": {
+            "a": "To exit the loop and skip to the next iteration.",
+            "b": "To repeat the loop indefinitely.",
+            "c": "To resume the loop from the next iteration.",
+            "d": "To terminate the program."
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "While Loop"
+        ]
+    },
+    {
+        "question": "What is the result of the following code?\n\nlet x = 0;\nwhile (x < 5) { x++;\n console.log(x); }",
+        "options": {
+            "a": "It will print the numbers from 0 to 5, inclusive.",
+            "b": "It will print the numbers from 1 to 5, inclusive.",
+            "c": "It will print the numbers from 0 to 4, inclusive.",
+            "d": "It will print the numbers from 1 to 4, inclusive."
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "While Loop"
+        ]
+    },
+    {
+        "question": "What are the two forward slashes (//) used for in JavaScript?",
+        "options": {
+            "a": "To indicate the beginning of a multiline comment.",
+            "b": "To include an external JavaScript file.",
+            "c": "To perform division in arithmetic operations.",
+            "d": "To indicate the beginning of a single-line comment."
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Basic Syntax"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'let' keyword in JavaScript?",
+        "options": {
+            "a": "To declare a new function.",
+            "b": "To declare a new object.",
+            "c": "To declare a new variable with local scope.",
+            "d": "To declare a new variable with global scope."
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Basic Syntax",
+            "Variables"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'if-else' statement in JavaScript?",
+        "options": {
+            "a": "To perform a mathematical operation.",
+            "b": "To iterate a loop until a given condition is True.",
+            "c": "To execute a block of code based on a condition.",
+            "d": "To execute block of code faster."
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Basic Syntax",
+            "If/else statements"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the purpose of the 'else if' clause in an 'if-else' statement?",
+        "options": {
+            "a": "To repeat the 'if' condition.",
+            "b": "To add an additional condition to the 'if' statement.",
+            "c": "To execute the 'else' block multiple times.",
+            "d": "To end the 'if-else' statement."
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Basic Syntax",
+            "If/else statements"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the purpose of the 'break' statement in a nested loop?",
+        "options": {
+            "a": "To exit the inner loop and continue with the next iteration of the outer loop.",
+            "b": "To repeat the inner loop indefinitely.",
+            "c": "To resume the inner loop from the next iteration.",
+            "d": "To terminate the program."
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Nested Loops"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is a nested loop?",
+        "options": {
+            "a": "A loop that repeats a block of code for a specific number of times.",
+            "b": "A loop that runs until a specific condition is true.",
+            "c": "A loop that contains another loop inside its body.",
+            "d": "A loop that runs for an indefinite number of times."
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Nested Loop"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the purpose of the 'Number()' function?",
+        "options": {
+            "a": "To convert a value into its numeric representation",
+            "b": "To perform mathematical operations",
+            "c": "To declare new variable of integer data type",
+            "d": "To check if a specific variable is a number."
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Functions"
+        ]
+    },
+    {
+        "question": "Which of the following statements is TRUE about JavaScript?",
+        "options": {
+            "a": "JavaScript is an interpreted language",
+            "b": "JavaScript is an compiled language",
+            "c": "JavaScript is both an interpreted and compiled language",
+            "d": "JavaScript is addition to Java, used to write scripts."
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "JavaScript"
+        ]
+    },
+    {
+        "question": "What is the correct syntax to declare a variable in JavaScript?",
+        "options": {
+            "a": "variable x;",
+            "b": "str x;",
+            "c": "let x;",
+            "d": "int x;"
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Programming Basics",
+            "Variables"
+        ]
+    },
+    {
+        "question": "What is the operator used for modulus division in JavaScript?",
+        "options": {
+            "a": "%",
+            "b": "*",
+            "c": "/",
+            "d": "+"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Operators"
+        ]
+    },
+    {
+        "question": "What is the modulus sign operator in JavaScript used for?",
+        "options": {
+            "a": "Performing exponentiation.",
+            "b": "Finding the remainder of a division operation.",
+            "c": "Performing string concatenation.",
+            "d": "Performing bitwise operations."
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "JavaScript Operators"
+        ]
+    },
+    {
+        "question": "In JavaScript, which operator returns true if the two compared values are not equal?",
+        "options": {
+            "a": "<>",
+            "b": ">",
+            "c": "==!",
+            "d": "!=="
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Operators"
+        ]
+    },
+    {
+        "question": "In JavaScript, which statement is the correct way to create a variable called rate and assign it the value 100?",
+        "options": {
+            "a": "```js\nlet 100 = rate;\n```",
+            "b": "```js\nlet rates = 100;\n```",
+            "c": "```js\nlet rate = 100;\n```",
+            "d": "```js\nlets rate = 100;\n```"
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Variables"
+        ]
+    },
+    {
+        "question": "How would you reference the text 'avenue' in the array = ['street', 'road', 'avenue', 'circle'] in JavaScript?",
+        "options": {
+            "a": "```js\nlet myVariable = array.2;\n```",
+            "b": "```js\nlet myVariable = array.3;\n```",
+            "c": "```js\nlet myVariable = array[2];\n```",
+            "d": "```js\nlet myVariable = array[3];\n```"
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Arrays"
+        ]
+    },
+    {
+        "question": "In JavaScript, which of these is a valid variable name?",
+        "options": {
+            "a": "function",
+            "b": "firstName",
+            "c": "case",
+            "d": "grand total"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Variables"
+        ]
+    },
+    {
+        "question": "How do you add a comment to JavaScript code?",
+        "options": {
+            "a": "! This is a comment",
+            "b": "\\# This is a comment",
+            "c": "\\\\ This is a comment",
+            "d": "// This is a comment D total"
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Comments"
+        ]
+    },
+    {
+        "question": "In JavaScript, which function is used to print something in the console?",
+        "options": {
+            "a": "console.print()",
+            "b": "console.log()",
+            "c": "console.write()",
+            "d": "print()"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Comments"
+        ]
+    },
+    {
+        "question": "Which operator is used to concatenate strings in JavaScript?",
+        "options": {
+            "a": "+",
+            "b": "-",
+            "c": "*",
+            "d": "/"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Operators"
+        ]
+    },
+    {
+        "question": "What is the correct way to access the length of an array in JavaScript?",
+        "options": {
+            "a": "```js\nlet size = array.length();\n```",
+            "b": "```js\nlet size = array.length;\n```",
+            "c": "```js\nlet size = length(array);\n```",
+            "d": "```js\nlet size = array.size();\n```"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Arrays"
+        ]
+    },
+    {
+        "question": "Which method is used to convert a string to lowercase letters in JavaScript?",
+        "options": {
+            "a": "toUpperCase",
+            "b": "toLowerCase",
+            "c": "toUpperCase()",
+            "d": "trim()"
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Strings"
+        ]
+    },
+    {
+        "question": "In JavaScript, which values can a boolean type variable hold?",
+        "options": {
+            "a": "only true",
+            "b": "only false",
+            "c": "true, false, or undefined",
+            "d": "true or false"
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Variables"
+        ]
+    },
+    {
+        "question": "What is the initial value of a variable in JavaScript if it is not assigned any value?",
+        "options": {
+            "a": "null",
+            "b": "0",
+            "c": "undefined",
+            "d": "NaN"
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Variables"
+        ]
+    },
+    {
+        "question": "How do you change the value of a variable in JavaScript?",
+        "options": {
+            "a": "By re-declaring the variable",
+            "b": "By using the 'change' keyword",
+            "c": "By assigning a new value to it",
+            "d": "By using the 'modify' keyword"
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Variables"
+        ]
+    },
+    {
+        "question": "What is the result of adding a string and a number in JavaScript?",
+        "options": {
+            "a": "TypeError",
+            "b": "NaN",
+            "c": "The concatenation of the string and the number",
+            "d": "SyntaxError"
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Variables",
+            "Strings",
+            "Numbers"
+        ]
+    },
+    {
+        "question": "What is the difference between the operators '==' and '===' in JavaScript?",
+        "options": {
+            "a": "**===** checks value equality, while **==** checks value and type equality",
+            "b": "**==** checks value equality, while **===** checks value and type equality",
+            "c": "**==** performs a deep comparison, while **===** performs a shallow comparison",
+            "d": "They are interchangeable"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Operators"
+        ]
+    },
+    {
+        "question": "Which operator is used to increment a variable by 1 in JavaScript?",
+        "options": {
+            "a": "++",
+            "b": "--",
+            "c": "+=",
+            "d": "-="
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Increment/decrement operators"
+        ]
+    },
+    {
+        "question": "In JavaScript, which of the following is used to store multiple values in a single variable?",
+        "options": {
+            "a": "Array",
+            "b": "String",
+            "c": "Number",
+            "d": "Boolean"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Variables",
+            "Arrays"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the purpose of the 'break' statement in a 'switch' statement?",
+        "options": {
+            "a": "To terminate the loop",
+            "b": "To perform an alternative set of actions",
+            "c": "To terminate the switch statement",
+            "d": "To repeat a block of code"
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Switch statements"
+        ]
+    },
+    {
+        "question": "In JavaScript, which statement is executed when no case matches the expression in a 'switch' statement?",
+        "options": {
+            "a": "break",
+            "b": "default",
+            "c": "case",
+            "d": "if"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Switch statements"
+        ]
+    },
+    {
+        "question": "What is the result of the expression (true && false) in JavaScript?",
+        "options": {
+            "a": "true",
+            "b": "false",
+            "c": "undefined",
+            "d": "Error"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "If/else statements"
+        ]
+    },
+    {
+        "question": "What is the result of the expression (true || \"false\") in JavaScript?",
+        "options": {
+            "a": "true",
+            "b": "false",
+            "c": "undefined",
+            "d": "Error"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "If/else statements"
+        ]
+    },
+    {
+        "question": "What is the syntax for a 'switch' statement in JavaScript?",
+        "options": {
+            "a": "switch (expression); { case: // code }",
+            "b": "switch { case value: // code }",
+            "c": "switch (expression) { case value: // code default: // code }",
+            "d": "switch { case value: // code default: // code }"
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Switch statements"
+        ]
+    },
+    {
+        "question": "What is the index of the last element in a 'string' with length 10 in JavaScript?",
+        "options": {
+            "a": "In JavaScript, the index of the last element is always equal to the length of the string, so it would be 10.",
+            "b": "JavaScript strings are unique, and the index of the last element varies based on the string's content.",
+            "c": "The last element's index would be 9, as JavaScript follows zero-based indexing.",
+            "d": "Since JavaScript supports negative indexing, the last element's index in a string of length 10 would be -10."
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Strings"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'else' statement in an 'if/else' statement in JavaScript?",
+        "options": {
+            "a": "To perform a set of actions if the initial condition is false",
+            "b": "To perform a set of actions if the initial condition is true",
+            "c": "To terminate the if/else statement",
+            "d": "To repeat a block of code"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "If/else statements"
+        ]
+    },
+    {
+        "question": "In JavaScript, what kind of expression is used in an 'if/else' statement?",
+        "options": {
+            "a": "boolean",
+            "b": "value",
+            "c": "identifier",
+            "d": "literal"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "If/else statements"
+        ]
+    },
+    {
+        "question": "In JavaScript, what kind of expression is used in a 'switch' statement?",
+        "options": {
+            "a": "boolean",
+            "b": "value",
+            "c": "identifier",
+            "d": "literal"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "If/else statements"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the difference between the 'if' and 'switch' statements?",
+        "options": {
+            "a": "The 'if' statement cannot be used inside a 'switch' statement",
+            "b": "The 'if' statement checks only for single values, while the 'switch' statement checks only for a range of values",
+            "c": "The 'if' and 'switch' statements function the exact same way",
+            "d": "The 'if' statement evaluates a boolean expression, while the 'switch' statement matches a value against multiple cases."
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "If/else statements",
+            "Switch statements"
+        ]
+    },
+    {
+        "question": "In JavaScript, what happens if 'break' is missing in a 'switch' statement?",
+        "options": {
+            "a": "Every case is evaluated without executing the code within each case",
+            "b": "Every case is evaluated and the code within is executed",
+            "c": "The cases are never evaluated",
+            "d": "The code "
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Switch statements"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the term used when a loop is placed inside another loop?",
+        "options": {
+            "a": "Loopception",
+            "b": "Multiple Loops",
+            "c": "Loop in a Loop",
+            "d": "Nested Loop"
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "nested loops"
+        ]
+    },
+    {
+        "question": "Which of the following is a primitive data type in JavaScript?",
+        "options": {
+            "a": "Object",
+            "b": "Array",
+            "c": "String",
+            "d": "Function"
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Data Types"
+        ]
+    },
+    {
+        "question": "In JavaScript, which function is used to find the largest value among a set of numbers?",
+        "options": {
+            "a": "Math.big()",
+            "b": "Math.abs()",
+            "c": "Math.max()",
+            "d": "Math.ceil()"
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "math operations"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the process of combining two or more strings called?",
+        "options": {
+            "a": "Interpolation",
+            "b": "Concatenation",
+            "c": "Combination",
+            "d": "Concatination"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "concatenation"
+        ]
+    },
+    {
+        "question": "In JavaScript, what is the process of inserting variables or expressions into a string called?",
+        "options": {
+            "a": "Combination",
+            "b": "Concatenation",
+            "c": "Stringification",
+            "d": "Interpolation"
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "string interpolation"
+        ]
+    },
+    {
+        "question": "In JavaScript, what would be the correct implementation of a 'for' loop to iterate over an array named 'numbers' and print each element to the console?",
+        "options": {
+            "a": "```js\nfor (let i = 1; i <= numbers.length; i++) {\n    console.log(numbers[i]); \n}\n```",
+            "b": "```js\nfor (let i = 0; i < numbers.length; i++) {\n    console.log(numbers[i]); \n}\n```",
+            "c": "```js\nfor (let i = 0; i <= numbers.length; i++) {\n    console.log(numbers[i]); \n}\n```",
+            "d": "```js\nfor (let i = 1; i < numbers.length; i++) {\n    console.log(numbers[i]); \n}\n```"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "for/while loops",
+            "arrays"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'Math.min()' method in JavaScript?",
+        "options": {
+            "a": "To find the minimum value among a set of numbers.",
+            "b": "To perform mathematical calculations.",
+            "c": "To find the minimum value among two numbers.",
+            "d": "The 'Math.min()' method is not applicable in JavaScript."
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Math Operations",
+            "Math Object"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'increment' and 'decrement' operators in JavaScript?",
+        "options": {
+            "a": "To skip the remaining code in a loop and move to the next iteration.",
+            "b": "To execute a block of code repeatedly for a specified number of times.",
+            "c": "To perform mathematical calculations between numbers.",
+            "d": "To increase or decrease the value of a variable by 1."
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Operators",
+            "Arithmetic Operations"
+        ]
+    },
+    {
+        "question": "What is the purpose of nested loops in JavaScript?",
+        "options": {
+            "a": "To improve code readability and organization.",
+            "b": "To execute a block of code repeatedly for a specified number of times.",
+            "c": "To perform mathematical calculations.",
+            "d": "To execute a loop inside another loop."
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Loops",
+            "Control Flow"
+        ]
+    },
+    {
+        "question": "Which of the following methods is used to convert a number to a string in JavaScript?",
+        "options": {
+            "a": ".toString()",
+            "b": ".toFixed()",
+            "c": ".toPrecision()",
+            "d": ".toExponential()"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Data Types",
+            "String Conversion"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'concat()' method in JavaScript?",
+        "options": {
+            "a": "To concatenate two or more arrays together.",
+            "b": "To concatenate two strings together.",
+            "c": "To perform string interpolation.",
+            "d": "The 'concat()' method is not applicable in JavaScript."
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Concatenation",
+            "Array"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'round()' method in JavaScript?",
+        "options": {
+            "a": "To round a number up to the nearest integer.",
+            "b": "To round a number down to the nearest integer.",
+            "c": "To round a number to the nearest integer.",
+            "d": "The 'round()' method is not applicable in JavaScript."
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Math Operations",
+            "Rounding"
+        ]
+    },
+    {
+        "question": "Which of the following methods can be used to find the largest integer less than or equal to a given number in JavaScript?",
+        "options": {
+            "a": "Math.min()",
+            "b": "Math.floor()",
+            "c": "Math.round()",
+            "d": "Math.abs()"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Math Operations",
+            "Math.floor()",
+            "Math.max()",
+            "Math.ceil()",
+            "Math.abs()"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'abs()' method in JavaScript?",
+        "options": {
+            "a": "To perform string concatenation.",
+            "b": "To calculate the absolute value of a number.",
+            "c": "To perform mathematical calculations.",
+            "d": "The 'abs()' method is not applicable in JavaScript."
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Math Operations",
+            "Absolute Value"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'ceil()' method in JavaScript?",
+        "options": {
+            "a": "To perform string concatenation.",
+            "b": "To round a number up to the nearest integer.",
+            "c": "To perform mathematical calculations.",
+            "d": "The 'ceil()' method is not applicable in JavaScript."
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Math Operations",
+            "Math.ceil()"
+        ]
+    },
+    {
+        "question": "Which of the following is NOT a valid primitive JavaScript data type?",
+        "options": {
+            "a": "Number",
+            "b": "Undefined",
+            "c": "String",
+            "d": "Array"
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Data Types"
+        ]
+    },
+    {
+        "question": "Which of the following statements is correct regarding the '===' operator in JavaScript?",
+        "options": {
+            "a": "'===' performs type conversion before comparison.",
+            "b": "'===' performs only value comparison without type conversion.",
+            "c": "'===' is used to concatenate strings.",
+            "d": "'===' is not a valid operator in JavaScript."
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Operators",
+            "Comparison",
+            "Strict Equality"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'toLocaleUpperCase()' method in JavaScript?",
+        "options": {
+            "a": "To perform string concatenation.",
+            "b": "To format a string to all uppercase letters based on the locale.",
+            "c": "To perform mathematical calculations.",
+            "d": "The 'toLocaleUpperCase()' method is not applicable in JavaScript."
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "String Formatting",
+            "toLocaleUpperCase()"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'parseInt()' function in JavaScript?",
+        "options": {
+            "a": "To perform string concatenation.",
+            "b": "To perform mathematical calculations.",
+            "c": "To parse a string and return an integer.",
+            "d": "The 'parseInt()' function is not applicable in JavaScript."
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Parsing",
+            "parseInt()"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'parseFloat()' function in JavaScript?",
+        "options": {
+            "a": "To perform string concatenation.",
+            "b": "The 'parseFloat()' function is not applicable in JavaScript.",
+            "c": "To perform mathematical calculations.",
+            "d": "To parse a string and return a floating-point number."
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Parsing",
+            "parseFloat()"
+        ]
+    },
+    {
+        "question": "What is the purpose of a 'for' loop in JavaScript?",
+        "options": {
+            "a": "To perform mathematical calculations.",
+            "b": "To execute a block of code repeatedly for a specified number of times.",
+            "c": "To perform string concatenation.",
+            "d": "The 'for' loop is not applicable in JavaScript."
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Loops",
+            "For Loop"
+        ]
+    },
+    {
+        "question": "What is the purpose of a 'while' loop in JavaScript?",
+        "options": {
+            "a": "To execute a block of code repeatedly until a specified condition is true.",
+            "b": "To perform mathematical calculations.",
+            "c": "To perform string concatenation.",
+            "d": "The 'while' loop is not applicable in JavaScript."
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Loops",
+            "While Loop"
+        ]
+    },
+    {
+        "question": "What is the purpose of a 'do-while' loop in JavaScript?",
+        "options": {
+            "a": "To execute a block of code repeatedly until a specified condition is true.",
+            "b": "To perform mathematical calculations.",
+            "c": "To perform string concatenation.",
+            "d": "The 'do-while' loop is not applicable in JavaScript."
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Loops",
+            "Do-While Loop"
+        ]
+    },
+    {
+        "question": "Which of the following is NOT a valid comparison operator in JavaScript?",
+        "options": {
+            "a": "==",
+            "b": "===",
+            "c": "!=",
+            "d": "><"
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Operators"
+        ]
+    },
+    {
+        "question": "What is the purpose of a 'continue' statement in JavaScript?",
+        "options": {
+            "a": "To exit from a loop or switch statement and resume execution at the next statement.",
+            "b": "To terminate the execution of a program.",
+            "c": "To skip the remaining code in a loop and move to the next iteration.",
+            "d": "The 'continue' statement is not applicable in JavaScript."
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Control Flow",
+            "Continue Statement"
+        ]
+    },
+    {
+        "question": "Which of the following is a correct example of string concatenation in JavaScript?",
+        "options": {
+            "a": "```ja\n\"Hello\" + \"World!\"\n```",
+            "b": "```ja\n\"Hello\".concat(\"World!\");\n```",
+            "c": "```ja\n\"Hello\" - \"World!\"\n```",
+            "d": "```ja\n\"Hello\".combine(\"World!\");\n```"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "String Manipulation",
+            "Concatenation"
+        ]
+    },
+    {
+        "question": "Which of the following statements is correct about 'NaN' in JavaScript?",
+        "options": {
+            "a": "NaN stands for 'Not a Null'.",
+            "b": "NaN is equal to any value, including itself.",
+            "c": "NaN is a numeric value representing 'undefined'.",
+            "d": "NaN is not a number and represents an undefined or unrepresentable value."
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Data Types"
+        ]
+    },
+    {
+        "question": "Which of the following declarations correctly represents formatting a decimal number to the second digit after the decimal point in JavaScript?",
+        "options": {
+            "a": "```ja\nconst number = 123.456;\nconst formatted = number.toFixed(2);\n```",
+            "b": "```ja\nconst number = 123.456;\nconst formatted = number.toPrecision(2);\n```",
+            "c": "```ja\nconst number = 123.456;\nconst formatted = number.toFixed(3);\n```",
+            "d": "```ja\nconst number = 123.456;\nconst formatted = number.toExponential(2);\n```"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "String/Text Formatting"
+        ]
+    },
+    {
+        "question": "What are the three fundamental data types in JavaScript?",
+        "options": {
+            "a": "Integer, String, Null",
+            "b": "Float, Boolean, Undefined",
+            "c": "Number, String, Boolean",
+            "d": "Object, Array, Function"
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Data Types"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'if' statement in JavaScript?",
+        "options": {
+            "a": "To declare a new variable",
+            "b": "To execute a block of code repeatedly",
+            "c": "To create a loop",
+            "d": "To conditionally execute a block of code"
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "if/else Statements"
+        ]
+    },
+    {
+        "question": "In JavaScript, which of the following loops executes a block of code as long as the specified condition is true?",
+        "options": {
+            "a": "for loop",
+            "b": "while loop",
+            "c": "do...while loop",
+            "d": "switch statement"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "for/while Loops"
+        ]
+    },
+    {
+        "question": "Which of the following correctly represents the JavaScript syntax for an 'if' statement?",
+        "options": {
+            "a": "if (condition) {\n  // code block to execute\n}",
+            "b": "if condition {\n  // code block to execute\n}",
+            "c": "if {\n  // code block to execute\n}",
+            "d": "if condition then {\n  // code block to execute\n}"
+        },
+        "correct_answer": "a",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "if/else Statements"
+        ]
+    },
+    {
+        "question": "What is the purpose of the '++' operator in JavaScript?",
+        "options": {
+            "a": "To subtract 1 from a variable",
+            "b": "To increment a variable by 1",
+            "c": "To add a given value to a variable",
+            "d": "To decrement a variable by 1"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Operators"
+        ]
+    },
+    {
+        "question": "What is the purpose of nested conditional statements in JavaScript?",
+        "options": {
+            "a": "To execute a block of code repeatedly for a specified number of times",
+            "b": "To improve code readability and organization",
+            "c": "To perform mathematical calculations",
+            "d": "To execute conditional statements inside another conditional statement"
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Nested Conditional Statements"
+        ]
+    },
+    {
+        "question": "What is the purpose of the '!' operator in JavaScript?",
+        "options": {
+            "a": "To subtract one from a number",
+            "b": "To check if two values are equal",
+            "c": "To perform logical NOT operation",
+            "d": "To concatenate strings"
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "lifetime": 30,
+        "topics": [
+            "Operators"
+        ]
+    }
+]
