@@ -109,6 +109,7 @@ Here are some of the key API endpoints:
   ```
 >
 **Note**: Replace \`{language}\` with \`java\`, \`csharp\`, \`javascript\`, or \`python\`.
+>
 **Note**: Replace \`{difficulty}\` with \`Easy\`, \`Medium\` or \`Hard\`.
 
 ### Contributing
