@@ -107,7 +107,7 @@ Here are some of the key API endpoints:
   ```
   DELETE /trivia/questions/{language}/{id}
   ```
-**Note**: Replace \`{language}\` with \`java\`, \`csharp\`, \`javascript\`, or \`python\`.
+**Note**: Replace \`{language}\` with \`java\`, \`csharp\`, \`javascript\`, or \`python\`.<br>
 **Note**: Replace \`{difficulty}\` with \`Easy\`, \`Medium\` or \`Hard\`.
 
 ### Contributing
