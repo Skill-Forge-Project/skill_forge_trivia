@@ -83,13 +83,13 @@ You can run the application in several ways:
 Here are some of the key API endpoints:
 
 - **Get 10 Random Easy Questions** (for a specific language)
-  
+  >
   ```
   GET /api/questions/{language}/easy/random
   ```
 
 *** IN PROGRESS ***
-```
+
 - **Add a New Question**:
   
   ```
@@ -107,7 +107,7 @@ Here are some of the key API endpoints:
   ```
   DELETE /api/questions/{language}/{id}
   ```
-```
+>
 **Note**: Replace \`{language}\` with \`java\`, \`csharp\`, \`javascript\`, or \`python\`.
 
 ### Contributing
