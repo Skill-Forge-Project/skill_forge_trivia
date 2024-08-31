@@ -85,7 +85,7 @@ Here are some of the key API endpoints:
 - **Get 10 Random Easy Questions** (for a specific language)
   >
   ```
-  GET /api/questions/{language}/easy/random
+  GET /api/questions/{language}/{difficulty}
   ```
 
 *** IN PROGRESS ***
@@ -109,6 +109,7 @@ Here are some of the key API endpoints:
   ```
 >
 **Note**: Replace \`{language}\` with \`java\`, \`csharp\`, \`javascript\`, or \`python\`.
+**Note**: Replace \`{difficulty}\` with \`Easy\`, \`Medium\` or \`Hard\`.
 
 ### Contributing
 
