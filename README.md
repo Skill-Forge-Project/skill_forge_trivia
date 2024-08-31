@@ -88,25 +88,22 @@ Here are some of the key API endpoints:
   GET /trivia/{language}/{difficulty}
   ```
 
-*** IN PROGRESS ***
-
-- **Add a New Question**:
-  
-  ```
-  POST /trivia/questions/{language}/{difficulty}
-  ```
-
-- **Update a Question**:
-  
-  ```
-  PUT /trivia/questions/{language}/{id}
-  ```
-
-- **Delete a Question**:
-  
-  ```
-  DELETE /trivia/questions/{language}/{id}
-  ```
+> **IN PROGRESS**
+> 
+> **Add a New Question:**
+> ```
+> POST /trivia/questions/{language}/{difficulty}
+> ```
+> 
+> **Update a Question:**
+> ```
+> PUT /trivia/questions/{language}/{id}
+> ```
+> 
+> **Delete a Question:**
+> ```
+> DELETE /trivia/questions/{language}/{id}
+> ```
 **Note**: Replace \`{language}\` with \`java\`, \`csharp\`, \`javascript\`, or \`python\`.<br>
 **Note**: Replace \`{difficulty}\` with \`Easy\`, \`Medium\` or \`Hard\`.
 
