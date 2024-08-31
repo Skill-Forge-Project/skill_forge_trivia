@@ -83,7 +83,7 @@ You can run the application in several ways:
 Here are some of the key API endpoints:
 
 - **Get 10 Random Easy Questions** (for a specific language)
-  >
+  
   ```
   GET /trivia/{language}/{difficulty}
   ```
@@ -107,9 +107,7 @@ Here are some of the key API endpoints:
   ```
   DELETE /trivia/questions/{language}/{id}
   ```
->
 **Note**: Replace \`{language}\` with \`java\`, \`csharp\`, \`javascript\`, or \`python\`.
->
 **Note**: Replace \`{difficulty}\` with \`Easy\`, \`Medium\` or \`Hard\`.
 
 ### Contributing
