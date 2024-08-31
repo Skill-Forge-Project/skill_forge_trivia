@@ -89,6 +89,7 @@ Here are some of the key API endpoints:
   ```
 
 *** IN PROGRESS ***
+```
 - **Add a New Question**:
   
   ```
@@ -106,7 +107,7 @@ Here are some of the key API endpoints:
   ```
   DELETE /api/questions/{language}/{id}
   ```
-
+```
 **Note**: Replace \`{language}\` with \`java\`, \`csharp\`, \`javascript\`, or \`python\`.
 
 ### Contributing
