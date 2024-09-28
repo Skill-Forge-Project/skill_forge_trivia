@@ -1,6 +1,6 @@
 package bg.trivia.controllers;
 
-import bg.trivia.entities.Question;
+import bg.trivia.model.entities.Question;
 import bg.trivia.services.QuestionService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;

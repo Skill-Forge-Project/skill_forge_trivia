@@ -1,4 +1,4 @@
-package bg.trivia.entities;
+package bg.trivia.model.entities;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

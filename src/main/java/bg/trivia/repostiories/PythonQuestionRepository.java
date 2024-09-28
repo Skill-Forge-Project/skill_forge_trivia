@@ -1,6 +1,6 @@
 package bg.trivia.repostiories;
 
-import bg.trivia.entities.PythonQuestion;
+import bg.trivia.model.entities.PythonQuestion;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

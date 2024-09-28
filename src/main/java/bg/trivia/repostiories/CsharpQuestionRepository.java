@@ -1,6 +1,6 @@
 package bg.trivia.repostiories;
 
-import bg.trivia.entities.CsharpQuestion;
+import bg.trivia.model.entities.CsharpQuestion;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

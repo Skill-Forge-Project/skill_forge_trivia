@@ -1,21 +1,19 @@
 package bg.trivia.init;
 
-import bg.trivia.entities.CsharpQuestion;
-import bg.trivia.entities.JavaQuestion;
-import bg.trivia.entities.JavaScriptQuestion;
-import bg.trivia.entities.PythonQuestion;
+import bg.trivia.model.entities.CsharpQuestion;
+import bg.trivia.model.entities.JavaQuestion;
+import bg.trivia.model.entities.JavaScriptQuestion;
+import bg.trivia.model.entities.PythonQuestion;
 import bg.trivia.repostiories.CsharpQuestionRepository;
 import bg.trivia.repostiories.JavaQuestionRepository;
 import bg.trivia.repostiories.JavaScriptQuestionRepository;
 import bg.trivia.repostiories.PythonQuestionRepository;
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.exc.MismatchedInputException;
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.core.io.Resource;
-import org.springframework.core.io.ResourceLoader;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Component;
 
