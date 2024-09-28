@@ -1,5 +1,6 @@
 package bg.trivia.controllers;
 
+import bg.trivia.model.dtos.QuestionDTO;
 import bg.trivia.model.entities.Question;
 import bg.trivia.services.QuestionService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -37,14 +38,14 @@ public class QuestionController {
             @ApiResponse(responseCode = "500", description = "Internal server error", content = @Content)
     })
     @GetMapping("/{technology}/{difficulty}")
-    public ResponseEntity<?> get10EasyQuestions(
+    public ResponseEntity<List<QuestionDTO>> get10EasyQuestions(
             @Parameter(description = "The technology category (e.g., 'Java', 'Python')", required = true)
             @PathVariable String technology,
 
             @Parameter(description = "The difficulty level (e.g., 'Easy', 'Medium', 'Hard')", required = true)
             @PathVariable String difficulty) {
 
-        List<? extends Question> questions = questionService.get10Questions(technology, difficulty);
+        List<QuestionDTO> questions = questionService.get10Questions(technology, difficulty);
         return ResponseEntity.ok().body(questions);
     }
 }
