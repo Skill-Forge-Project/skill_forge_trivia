@@ -10,6 +10,5 @@ import java.util.List;
 
 @Repository
 public interface JavaQuestionRepository extends MongoRepository<JavaQuestion, String> {
-    @Query(value = "{ 'difficulty': 'Easy' }", sort = "{ $sample: { size: 10 } }")
-    List<Question> findTop10RandomByDifficultyEasy();
+    List<Question> findTop10RandomByDifficulty(String difficulty);
 }

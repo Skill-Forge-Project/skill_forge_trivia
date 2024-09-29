@@ -39,7 +39,7 @@ public class QuestionController {
     })
     @GetMapping("/{technology}/{difficulty}")
     public ResponseEntity<List<QuestionDTO>> get10EasyQuestions(
-            @Parameter(description = "The technology category (e.g., 'Java', 'Python')", required = true)
+            @Parameter(description = "The technology category (e.g., 'java', 'python')", required = true)
             @PathVariable String technology,
 
             @Parameter(description = "The difficulty level (e.g., 'Easy', 'Medium', 'Hard')", required = true)

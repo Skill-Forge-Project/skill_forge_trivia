@@ -1,5 +1,6 @@
 package bg.trivia.services;
 
+import bg.trivia.exceptions.InvalidInputException;
 import bg.trivia.model.dtos.QuestionDTO;
 import bg.trivia.model.entities.Question;
 import org.modelmapper.ModelMapper;
@@ -28,6 +29,7 @@ public class QuestionService {
     }
 
     public List<QuestionDTO> get10Questions(String technology, String difficulty) {
+        validInputs(technology, difficulty);
         Aggregation agg = Aggregation.newAggregation(
                 Aggregation.match(Criteria.where("difficulty").is(difficulty)),
                 Aggregation.sample(10)
@@ -35,5 +37,21 @@ public class QuestionService {
 
         AggregationResults<Question> results = mongoTemplate.aggregate(agg, technology +"-questions", Question.class);
         return results.getMappedResults().stream().map(s -> mapper.map(s, QuestionDTO.class)).toList();
+    }
+
+    private void validInputs(String technology, String difficulty) {
+        boolean validTechnology = switch (technology) {
+            case "java", "csharp", "python", "javascript" -> true;
+            default -> false;
+        };
+
+        if (!validTechnology) throw new InvalidInputException("Technology type not valid");
+
+        boolean validDifficulty = switch (difficulty) {
+            case "Easy", "Medium", "Hard" -> true;
+            default -> false;
+        };
+
+        if (!validDifficulty) throw new InvalidInputException("Difficulty not valid");
     }
 }
