@@ -1,8 +1,7 @@
 package bg.trivia.model.entities;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import lombok.*;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.List;
@@ -10,14 +9,26 @@ import java.util.Map;
 
 @EqualsAndHashCode(callSuper = true)
 @Document
-@Data
-public abstract class Question extends BaseEntity {
+@Getter
+@Setter
+@NoArgsConstructor
+public class Question extends BaseEntity {
 
+    @JsonProperty("question")
     private String question;
+
+    @JsonProperty("options")
     private Map<String, String> options;
+
     @JsonProperty("correct_answer")
     private String correctAnswer;
+
+    @JsonProperty("difficulty")
     private String difficulty;
+
+    @JsonProperty("lifetime")
     private int lifetime;
+
+    @JsonProperty("topics")
     private List<String> topics;
 }
