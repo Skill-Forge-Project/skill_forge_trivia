@@ -2,7 +2,7 @@ package bg.trivia.services;
 
 import bg.trivia.exceptions.InvalidInputException;
 import bg.trivia.model.dtos.QuestionDTO;
-import bg.trivia.model.dtos.QuestionVIEW;
+import bg.trivia.model.vies.QuestionVIEW;
 import bg.trivia.model.entities.Question;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,8 +18,8 @@ import java.util.List;
 public class QuestionService {
 
 
-    private MongoTemplate mongoTemplate;
-    private ModelMapper mapper;
+    private final MongoTemplate mongoTemplate;
+    private final ModelMapper mapper;
 
     @Autowired
     public QuestionService(MongoTemplate mongoTemplate, ModelMapper mapper) {

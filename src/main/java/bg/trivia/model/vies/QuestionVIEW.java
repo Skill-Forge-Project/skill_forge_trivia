@@ -1,4 +1,4 @@
-package bg.trivia.model.dtos;
+package bg.trivia.model.vies;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
@@ -10,6 +10,9 @@ import java.util.Map;
 @Setter
 @NoArgsConstructor
 public class QuestionVIEW {
+
+    @JsonProperty("id")
+    private String id;
 
     @JsonProperty("question")
     private String question;

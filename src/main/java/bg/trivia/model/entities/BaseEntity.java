@@ -9,5 +9,5 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public abstract class BaseEntity {
 
     @Id
-    String id;
+    private String id;
 }

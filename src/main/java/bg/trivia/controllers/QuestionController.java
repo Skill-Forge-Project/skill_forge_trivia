@@ -1,8 +1,7 @@
 package bg.trivia.controllers;
 
 import bg.trivia.model.dtos.QuestionDTO;
-import bg.trivia.model.dtos.QuestionVIEW;
-import bg.trivia.model.entities.Question;
+import bg.trivia.model.vies.QuestionVIEW;
 import bg.trivia.services.QuestionService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -10,6 +9,8 @@ import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -18,6 +19,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/trivia")
+@Tag(name = "Question Management", description = "APIs for managing questions")
 public class QuestionController {
 
     private final QuestionService questionService;
@@ -31,7 +33,7 @@ public class QuestionController {
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Successfully retrieved questions",
                     content = {@Content(mediaType = "application/json",
-                            schema = @Schema(implementation = Question.class))}),
+                            schema = @Schema(implementation = QuestionVIEW.class))}),
             @ApiResponse(responseCode = "400", description = "Invalid input provided", content = @Content),
             @ApiResponse(responseCode = "500", description = "Internal server error", content = @Content)
     })
@@ -47,17 +49,20 @@ public class QuestionController {
         return ResponseEntity.ok().body(questions);
     }
 
-    @Operation(summary = "Create question in given technology", description = "Create question in given technology.")
+    @Operation(summary = "Create a new question",
+            description = "Creates a question for a specified technology. The request body contains the question details including options, correct answer, difficulty, and related topics.")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Successfully created question",
                     content = {@Content(mediaType = "application/json",
-                            schema = @Schema(implementation = Question.class))}),
-            @ApiResponse(responseCode = "400", description = "Invalid input provided", content = @Content),
-            @ApiResponse(responseCode = "500", description = "Internal server error", content = @Content)
+                            schema = @Schema(implementation = QuestionDTO.class))}),
+            @ApiResponse(responseCode = "400", description = "Invalid input provided. Possible validation errors include missing fields or incorrect values.",
+                    content = @Content),
+            @ApiResponse(responseCode = "500", description = "Internal server error",
+                    content = @Content)
     })
     @PostMapping("/create")
-    public ResponseEntity<List<QuestionDTO>> createQuestion(@RequestBody QuestionDTO questionDTO) {
+    public ResponseEntity<?> createQuestion(@Valid @RequestBody QuestionDTO questionDTO) {
         questionService.createQuestion(questionDTO);
-        return ResponseEntity.ok().body(questions);
+        return ResponseEntity.ok().build();
     }
 }
