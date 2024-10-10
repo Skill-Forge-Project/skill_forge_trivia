@@ -1,6 +1,6 @@
 # Trivia
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-GPLv3-blue)
 ![Java](https://img.shields.io/badge/Java-17-brightgreen.svg)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.3-brightgreen.svg)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen.svg)
