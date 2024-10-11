@@ -15,7 +15,7 @@ import java.util.Map;
 public class QuestionDTO {
 
     @NotNull
-    @Pattern(regexp = "java|csharp|javascript|python", message = "Technology must be java, csharp, javascript, or python")
+    @Pattern(regexp = "javascript|csharp|java|python", message = "Technology must be java, csharp, javascript, or python")
     private String technology;
 
     @JsonProperty("question")

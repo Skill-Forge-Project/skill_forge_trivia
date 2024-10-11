@@ -1,12 +1,11 @@
-package bg.trivia.model.entities;
+package bg.trivia.model.entities.question;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @EqualsAndHashCode(callSuper = true)
-@Document("python-questions")
+@Document("csharp-questions")
 @Data
-public class PythonQuestion extends Question {
+public class CsharpQuestion extends Question {
 }

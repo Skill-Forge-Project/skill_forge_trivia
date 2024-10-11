@@ -1,6 +1,6 @@
 package bg.trivia.validations.validId;
 
-import bg.trivia.model.entities.Question;
+import bg.trivia.model.entities.question.Question;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 import org.springframework.data.mongodb.core.MongoTemplate;
