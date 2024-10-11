@@ -5,7 +5,7 @@ import bg.trivia.model.dtos.QuestionDTO;
 import bg.trivia.model.dtos.UserRequestDTO;
 import bg.trivia.model.entities.postgres.User;
 import bg.trivia.model.entities.question.Question;
-import bg.trivia.model.vies.QuestionVIEW;
+import bg.trivia.model.views.QuestionVIEW;
 import bg.trivia.repositories.postgres.UserRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

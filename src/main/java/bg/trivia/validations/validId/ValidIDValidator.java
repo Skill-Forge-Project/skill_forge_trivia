@@ -3,6 +3,7 @@ package bg.trivia.validations.validId;
 import bg.trivia.model.entities.question.Question;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
@@ -12,6 +13,7 @@ import java.util.Set;
 
 public class ValidIDValidator implements ConstraintValidator<ValidID, String> {
 
+    @Autowired
     private MongoTemplate mongoTemplate;
     private String message;
 

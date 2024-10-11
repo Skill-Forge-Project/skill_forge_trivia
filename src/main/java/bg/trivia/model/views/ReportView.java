@@ -1,4 +1,4 @@
-package bg.trivia.model.vies;
+package bg.trivia.model.views;
 
 
 import bg.trivia.model.dtos.QuestionDTO;
@@ -12,7 +12,8 @@ import lombok.Setter;
 public class ReportView {
 
     private int id;
-    private QuestionDTO question;
+    private String userId;
+    private QuestionVIEW question;
     private boolean resolved;
 
 }

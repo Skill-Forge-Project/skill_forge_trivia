@@ -2,11 +2,10 @@ package bg.trivia.controllers;
 
 import bg.trivia.model.dtos.QuestionDTO;
 import bg.trivia.model.dtos.UserRequestDTO;
-import bg.trivia.model.vies.QuestionVIEW;
+import bg.trivia.model.views.QuestionVIEW;
 import bg.trivia.services.QuestionService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -31,7 +30,7 @@ public class QuestionController {
         this.questionService = questionService;
     }
 
-    @Operation(summary = "Get 10 questions by technology and difficulty", description = "Fetches 10 random questions based on the specified technology and difficulty level.")
+    @Operation(summary = "Get 10 questions by technology for user ID.", description = "Fetches 10 random questions based on the specified technology (javascript/java/csharp/python) for the provided user id.")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Successfully retrieved questions",
                     content = {@Content(mediaType = "application/json",
@@ -40,8 +39,7 @@ public class QuestionController {
             @ApiResponse(responseCode = "500", description = "Internal server error", content = @Content)
     })
     @GetMapping
-    public ResponseEntity<List<QuestionVIEW>> get10Questions(
-            @Valid @RequestBody UserRequestDTO userRequestDTO) throws JsonProcessingException {
+    public ResponseEntity<List<QuestionVIEW>> get10Questions(@Valid @RequestBody UserRequestDTO userRequestDTO) throws JsonProcessingException {
 
         List<QuestionVIEW> questions = questionService.get10Questions(userRequestDTO);
         return ResponseEntity.ok().body(questions);
