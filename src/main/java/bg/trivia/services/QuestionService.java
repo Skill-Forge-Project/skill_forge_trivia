@@ -1,9 +1,14 @@
 package bg.trivia.services;
 
-import bg.trivia.exceptions.InvalidInputException;
+import bg.trivia.exceptions.TooManyRequestsException;
 import bg.trivia.model.dtos.QuestionDTO;
+import bg.trivia.model.dtos.UserRequestDTO;
+import bg.trivia.model.entities.postgres.User;
+import bg.trivia.model.entities.question.Question;
 import bg.trivia.model.vies.QuestionVIEW;
-import bg.trivia.model.entities.Question;
+import bg.trivia.repositories.postgres.UserRepository;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
@@ -12,50 +17,79 @@ import org.springframework.data.mongodb.core.aggregation.AggregationResults;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class QuestionService {
 
 
     private final MongoTemplate mongoTemplate;
+    private final UserRepository userRepository;
+    private final ObjectMapper objectMapper;
     private final ModelMapper mapper;
 
     @Autowired
-    public QuestionService(MongoTemplate mongoTemplate, ModelMapper mapper) {
+    public QuestionService(MongoTemplate mongoTemplate, UserRepository userRepository, ObjectMapper objectMapper, ModelMapper mapper) {
         this.mongoTemplate = mongoTemplate;
+        this.userRepository = userRepository;
+        this.objectMapper = objectMapper;
         this.mapper = mapper;
-    }
-
-    public List<QuestionVIEW> get10Questions(String technology, String difficulty) {
-        validInputs(technology, difficulty);
-        Aggregation agg = Aggregation.newAggregation(
-                Aggregation.match(Criteria.where("difficulty").is(difficulty)),
-                Aggregation.sample(10)
-        );
-
-        AggregationResults<Question> results = mongoTemplate.aggregate(agg, technology +"-questions", Question.class);
-        return results.getMappedResults().stream().map(s -> mapper.map(s, QuestionVIEW.class)).toList();
-    }
-
-    private void validInputs(String technology, String difficulty) {
-        boolean validTechnology = switch (technology) {
-            case "java", "csharp", "python", "javascript" -> true;
-            default -> false;
-        };
-
-        if (!validTechnology) throw new InvalidInputException("Technology type not valid");
-
-        boolean validDifficulty = switch (difficulty) {
-            case "Easy", "Medium", "Hard" -> true;
-            default -> false;
-        };
-
-        if (!validDifficulty) throw new InvalidInputException("Difficulty not valid");
     }
 
     public void createQuestion(QuestionDTO questionDTO) {
         Question question = mapper.map(questionDTO, Question.class);
         mongoTemplate.save(question, questionDTO.getTechnology() + "-questions");
+    }
+
+    public List<QuestionVIEW> get10Questions(UserRequestDTO userRequestDTO) throws JsonProcessingException {
+
+        if (!userAlreadyRequestToPlay(userRequestDTO)) {
+            throw new TooManyRequestsException("You have already played trivia today. Please try again tomorrow.");
+        }
+
+        List<QuestionVIEW> questions = new ArrayList<>();
+        questions.addAll(fetchQuestionsByDifficulty(userRequestDTO.getTechnology(), "Easy", 5));
+        questions.addAll(fetchQuestionsByDifficulty(userRequestDTO.getTechnology(), "Medium", 5));
+        questions.addAll(fetchQuestionsByDifficulty(userRequestDTO.getTechnology(), "Hard", 3));
+        questions.addAll(fetchCommonQuestions());
+
+        saveUser(userRequestDTO, questions);
+
+        return questions;
+    }
+
+    private void saveUser(UserRequestDTO userRequestDTO, List<QuestionVIEW> questions) throws JsonProcessingException {
+        User user = new User();
+        user.setStartedAt(LocalDate.now());
+        user.setUserId(userRequestDTO.getUserId());
+        user.setQuestions(objectMapper.writeValueAsString(questions));
+        userRepository.save(user);
+    }
+
+    private List<QuestionVIEW> fetchQuestionsByDifficulty(String technology, String difficulty, int sampleSize) {
+        Aggregation aggregation = Aggregation.newAggregation(
+                Aggregation.match(Criteria.where("difficulty").is(difficulty)),
+                Aggregation.sample(sampleSize)
+        );
+        return fetchAndMapQuestions(aggregation, technology + "-questions");
+    }
+
+    private List<QuestionVIEW> fetchCommonQuestions() {
+        Aggregation aggregation = Aggregation.newAggregation(Aggregation.sample(2));
+        return fetchAndMapQuestions(aggregation, "common-questions");
+    }
+
+    private List<QuestionVIEW> fetchAndMapQuestions(Aggregation aggregation, String collection) {
+        AggregationResults<Question> results = mongoTemplate.aggregate(aggregation, collection, Question.class);
+        return results.getMappedResults().stream()
+                .map(question -> mapper.map(question, QuestionVIEW.class))
+                .collect(Collectors.toList());
+    }
+
+    private boolean userAlreadyRequestToPlay(UserRequestDTO userRequestDTO) {
+        return userRepository.findUserByUserIdAndStartedAtToday(userRequestDTO.getUserId()).isEmpty();
     }
 }

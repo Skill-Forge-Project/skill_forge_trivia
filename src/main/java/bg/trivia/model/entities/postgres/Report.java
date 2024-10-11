@@ -1,20 +1,33 @@
-package bg.trivia.model.entities;
+package bg.trivia.model.entities.postgres;
 
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Objects;
 
-@Document
+@Entity
+@Table(name = "reports")
 @Getter
 @Setter
 @NoArgsConstructor
-public class Report extends BaseEntity {
+public class Report {
 
-    private Question question;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
+    @Column(columnDefinition = "TEXT")
+    private String question;
+
+    @Column
+    private String userId;
+
+    @Column
     private String reason;
+
+    @Column
     private boolean resolved;
 
 

@@ -1,6 +1,6 @@
-package bg.trivia.repostiories;
+package bg.trivia.repositories.mongo;
 
-import bg.trivia.model.entities.JavaScriptQuestion;
+import bg.trivia.model.entities.question.JavaScriptQuestion;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

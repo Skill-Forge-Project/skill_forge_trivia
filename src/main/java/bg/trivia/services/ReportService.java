@@ -2,10 +2,8 @@ package bg.trivia.services;
 
 import bg.trivia.exceptions.InvalidInputException;
 import bg.trivia.model.dtos.ReportDTO;
-import bg.trivia.model.entities.Question;
-import bg.trivia.model.entities.Report;
-import bg.trivia.model.vies.ReportView;
-import bg.trivia.repostiories.ReportRepository;
+import bg.trivia.model.entities.question.Question;
+import bg.trivia.repositories.postgres.ReportRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
@@ -44,7 +42,7 @@ public class ReportService {
 
             List<Question> questions = mongoTemplate.find(query, Question.class, collectionName);
             if (!questions.isEmpty()) {
-                saveReport(questions.get(0));
+//                saveReport(questions.get(0));
                 exists = true;
                 break;
             }
@@ -54,21 +52,21 @@ public class ReportService {
         }
     }
 
-    private void saveReport(Question question) {
-        reportRepository.findByQuestion(question).ifPresentOrElse(existingReport -> {
-            throw new InvalidInputException("Question " + question.getId() + " already exists");
-        }, () -> {
-            Report report = new Report();
-            report.setQuestion(question);
-            report.setResolved(false);
-            reportRepository.save(report);
-        });
-    }
-
-    public List<ReportView> getAllReports() {
-        return reportRepository.findAll()
-                .stream()
-                .map(e -> modelMapper.map(e, ReportView.class))
-                .toList();
-    }
+//    private void saveReport(Question question) {
+//        reportRepository.findByQuestion(question).ifPresentOrElse(existingReport -> {
+//            throw new InvalidInputException("Question " + question.getId() + " already exists");
+//        }, () -> {
+//            Report report = new Report();
+//            report.setQuestion(question);
+//            report.setResolved(false);
+//            reportRepository.save(report);
+//        });
+//    }
+//
+//    public List<ReportView> getAllReports() {
+//        return reportRepository.findAll()
+//                .stream()
+//                .map(e -> modelMapper.map(e, ReportView.class))
+//                .toList();
+//    }
 }

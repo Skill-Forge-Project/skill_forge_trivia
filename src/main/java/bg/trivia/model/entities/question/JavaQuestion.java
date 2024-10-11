@@ -1,6 +1,5 @@
-package bg.trivia.model.entities;
+package bg.trivia.model.entities.question;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.springframework.data.mongodb.core.mapping.Document;

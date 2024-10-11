@@ -1,8 +1,10 @@
 package bg.trivia.controllers;
 
 import bg.trivia.model.dtos.QuestionDTO;
+import bg.trivia.model.dtos.UserRequestDTO;
 import bg.trivia.model.vies.QuestionVIEW;
 import bg.trivia.services.QuestionService;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.Content;
@@ -37,15 +39,11 @@ public class QuestionController {
             @ApiResponse(responseCode = "400", description = "Invalid input provided", content = @Content),
             @ApiResponse(responseCode = "500", description = "Internal server error", content = @Content)
     })
-    @GetMapping("/{technology}/{difficulty}")
+    @GetMapping
     public ResponseEntity<List<QuestionVIEW>> get10Questions(
-            @Parameter(description = "The technology category (e.g., 'java', 'python')", required = true)
-            @PathVariable String technology,
+            @Valid @RequestBody UserRequestDTO userRequestDTO) throws JsonProcessingException {
 
-            @Parameter(description = "The difficulty level (e.g., 'Easy', 'Medium', 'Hard')", required = true)
-            @PathVariable String difficulty) {
-
-        List<QuestionVIEW> questions = questionService.get10Questions(technology, difficulty);
+        List<QuestionVIEW> questions = questionService.get10Questions(userRequestDTO);
         return ResponseEntity.ok().body(questions);
     }
 

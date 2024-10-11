@@ -1,0 +1,404 @@
+[
+  {
+    "question": "Which git command is used to fetch and merge the latest changes from the remote repository?",
+    "options": {
+      "a": "git **clone**",
+      "b": "git **download**",
+      "c": "git **checkout**",
+      "d": "git **pull**"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git"
+    ]
+  },
+  {
+    "question": "Considering you are inside a git repository directory on your computer and you want to add the file 'myProgram.java' to new commit to the remote version. Which git command you could use?",
+    "options": {
+      "a": "git **upload** myProgram.java",
+      "b": "git **commit** myProgram.java",
+      "c": "git **add** myProgram.java",
+      "d": "git **push** myProgram.java"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git"
+    ]
+  },
+  {
+    "question": "What is the purpose of VARCHAR(n) data type in MySQL?",
+    "options": {
+      "a": "Allows storing text with length n in a field",
+      "b": "To create new variable of char type",
+      "c": "To parse integer data type to character type",
+      "d": "VARCHAR is not part of the SQL syntax"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "MySQL"
+    ]
+  },
+  {
+    "question": "Which SQL query you would use to delete the table 'students' from 'university' database?",
+    "options": {
+      "a": "```sql\nDROP TABLE students;\n```",
+      "b": "```sql\nDELETE TABLE students;\n```",
+      "c": "```sql\nDEL students FROM university;\n```",
+      "d": "```sql\nDROP students FROM DB university;\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "MySQL"
+    ]
+  },
+  {
+    "question": "Which one of the following ports is considered default for HTTP?",
+    "options": {
+      "a": "22",
+      "b": "5432",
+      "c": "8443",
+      "d": "80"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP"
+    ]
+  },
+  {
+    "question": "Which of the following components is NOT part of a URL address?",
+    "options": {
+      "a": "protocol",
+      "b": "path",
+      "c": "HTTP response status code",
+      "d": "port"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP"
+    ]
+  },
+  {
+    "question": "What is the purpose and functionality of Git, and what role does it play in the modern software development practices?",
+    "options": {
+      "a": "A robust programming language extensively utilized for web development.",
+      "b": "An advanced database management system commonly employed in large-scale enterprises.",
+      "c": "A distributed version control system that efficiently tracks changes in code and enables seamless collaboration among developers.",
+      "d": "A versatile text editor specifically designed for writing and editing code."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub"
+    ]
+  },
+  {
+    "question": "What is the purpose of HTTP in web development?",
+    "options": {
+      "a": "To style web pages using CSS.",
+      "b": "To facilitate communication between web servers and clients.",
+      "c": "To define the structure and layout of web pages.",
+      "d": "To store and retrieve data in databases."
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP Basics"
+    ]
+  },
+  {
+    "question": "Provide a comprehensive explanation of the purpose and functionality of the 'git add' command in Git version control. How does that command contribute to optimizing software development collaboration and ensuring effective code management?",
+    "options": {
+      "a": "The 'git **add**' command creates a new branch in a Git repository.",
+      "b": "The 'git **add**' command is used to merge two branches in a Git repository.",
+      "c": "The 'git **add**' command is used to stage changes.",
+      "d": "The 'git **add**' command uploads local changes to a remote repository."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub",
+      "Version Control",
+      "Remote Repositories",
+      "Collaborative Development",
+      "Code Management"
+    ]
+  },
+  {
+    "question": "Provide a comprehensive explanation of the purpose and functionality of the 'git commit' command in Git version control. How does that command contribute to optimizing software development collaboration and ensuring effective code management?",
+    "options": {
+      "a": "The 'git **commit**' merges two branches.",
+      "b": "The 'git **commit**' uploads local changes to a remote repository.",
+      "c": "The 'git **commit**' captures a snapshot of the staged changes as a new version.",
+      "d": "The 'git **commit**' creates a new branch in a Git repository."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub",
+      "Version Control",
+      "Remote Repositories",
+      "Collaborative Development",
+      "Code Management"
+    ]
+  },
+  {
+    "question": "Provide a comprehensive explanation of the purpose and functionality of the 'git push' command in Git version control. How does that command contribute to optimizing software development collaboration and ensuring effective code management?",
+    "options": {
+      "a": "The 'git **push**' uploads the merged branches to a remote repository.",
+      "b": "The 'git **push**' is not applicable in Git.",
+      "c": "The 'git **push**' facilitates the transfer of local commits to a remote repository.",
+      "d": "The 'git **push**' merges two branches in a Git repository."
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git and GitHub",
+      "Version Control",
+      "Remote Repositories",
+      "Collaborative Development",
+      "Code Management"
+    ]
+  },
+  {
+    "question": "Which of the following contains only HTTP status codes indicating a successful request?",
+    "options": {
+      "a": "404, 200, 201, 400, 401",
+      "b": "304, 404, 300, 500, 202",
+      "c": "200, 201, 202, 203, 204",
+      "d": "300, 304, 501, 200, 201"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP Basics"
+    ]
+  },
+  {
+    "question": "Which of the following is used to structure the content of a web page?",
+    "options": {
+      "a": "Java",
+      "b": "Cascading Style Sheets",
+      "c": "JavaScript",
+      "d": "The HyperText Markup Language"
+    },
+    "correct_answer": "d",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTML & CSS Basics"
+    ]
+  },
+  {
+    "question": "Which git command is used to create a new branch in the current repository?",
+    "options": {
+      "a": "git **branch**",
+      "b": "git **new-branch**",
+      "c": "git **create-branch**",
+      "d": "git **switch**"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git"
+    ]
+  },
+  {
+    "question": "Which of the following MySQL commands is used to add a new column to an existing table?",
+    "options": {
+      "a": "```sql\nALTER TABLE table_name ADD column_name datatype;\n```",
+      "b": "```sql\nADD COLUMN table_name column_name datatype;\n```",
+      "c": "```sql\nUPDATE TABLE table_name ADD column_name datatype;\n```",
+      "d": "```sql\nMODIFY TABLE table_name ADD column_name datatype;\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "MySQL"
+    ]
+  },
+  {
+    "question": "Which of the following git commands is used to view the commit history of a repository?",
+    "options": {
+      "a": "git **show**",
+      "b": "git **history**",
+      "c": "git **log**",
+      "d": "git **status**"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git"
+    ]
+  },
+  {
+    "question": "Which HTTP status code indicates that the request was valid, but the server is refusing action?",
+    "options": {
+      "a": "200",
+      "b": "403",
+      "c": "500",
+      "d": "304"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP"
+    ]
+  },
+  {
+    "question": "What is the purpose of the git **merge** command?",
+    "options": {
+      "a": "To create a new branch in a repository",
+      "b": "To combine the changes from one branch into another",
+      "c": "To update the remote repository with local changes",
+      "d": "To add files to the staging area"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git"
+    ]
+  },
+  {
+    "question": "Which SQL command is used to insert data into a table?",
+    "options": {
+      "a": "```sql\nINSERT INTO table_name VALUES (...);\n```",
+      "b": "```sql\nADD INTO table_name VALUES (...);\n```",
+      "c": "```sql\nCREATE DATA table_name (...);\n```",
+      "d": "```sql\nSET DATA table_name VALUES (...);\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "MySQL"
+    ]
+  },
+  {
+    "question": "Which of the following describes the 'HEAD' in Git?",
+    "options": {
+      "a": "A reference to the latest commit on the current branch",
+      "b": "A commit that contains a merge conflict",
+      "c": "A special file that stores all Git configuration settings",
+      "d": "A command to delete branches"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git"
+    ]
+  },
+  {
+    "question": "Which port is used by HTTPS for secure communication over the web?",
+    "options": {
+      "a": "80",
+      "b": "22",
+      "c": "443",
+      "d": "8080"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP"
+    ]
+  },
+  {
+    "question": "What is the role of the 'git **clone**' command?",
+    "options": {
+      "a": "To update the local repository with changes from the remote repository",
+      "b": "To create a copy of a remote repository in the local environment",
+      "c": "To merge branches into the master branch",
+      "d": "To stage changes for the next commit"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git"
+    ]
+  },
+  {
+    "question": "In MySQL, which command is used to change the structure of an existing table?",
+    "options": {
+      "a": "```sql\nALTER TABLE\n```",
+      "b": "```sql\nUPDATE TABLE\n```",
+      "c": "```sql\nREPLACE TABLE\n```",
+      "d": "```sql\nSET TABLE\n```"
+    },
+    "correct_answer": "a",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "MySQL"
+    ]
+  },
+  {
+    "question": "What does the 500 HTTP status code indicate?",
+    "options": {
+      "a": "Client made an invalid request",
+      "b": "Client is unauthorized to access the resource",
+      "c": "The server encountered an error while processing the request",
+      "d": "The requested resource has moved permanently"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "HTTP"
+    ]
+  },
+  {
+    "question": "Which of the following commands is used to list all the branches in a Git repository?",
+    "options": {
+      "a": "git **list-branches**",
+      "b": "git **show**",
+      "c": "git **branch**",
+      "d": "git **status**"
+    },
+    "correct_answer": "c",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "Git"
+    ]
+  },
+  {
+    "question": "What does the SQL command ```sql\nUPDATE students SET grade = 'A' WHERE id = 1;\n``` do?",
+    "options": {
+      "a": "Adds a new row with the grade 'A' for the student with id 1",
+      "b": "Changes the grade to 'A' for the student with id 1",
+      "c": "Deletes the student with id 1 from the students table",
+      "d": "Creates a new table with the grade column set to 'A'"
+    },
+    "correct_answer": "b",
+    "difficulty": "Medium",
+    "lifetime": 45,
+    "topics": [
+      "MySQL"
+    ]
+  }
+]

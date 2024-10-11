@@ -1,13 +1,7 @@
 package bg.trivia.init;
 
-import bg.trivia.model.entities.CsharpQuestion;
-import bg.trivia.model.entities.JavaQuestion;
-import bg.trivia.model.entities.JavaScriptQuestion;
-import bg.trivia.model.entities.PythonQuestion;
-import bg.trivia.repostiories.CsharpQuestionRepository;
-import bg.trivia.repostiories.JavaQuestionRepository;
-import bg.trivia.repostiories.JavaScriptQuestionRepository;
-import bg.trivia.repostiories.PythonQuestionRepository;
+import bg.trivia.model.entities.question.*;
+import bg.trivia.repositories.mongo.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.exc.MismatchedInputException;
 import jakarta.annotation.PostConstruct;
@@ -28,17 +22,19 @@ public class InitDatabase {
     private JavaQuestionRepository javaQuestionRepository;
     private JavaScriptQuestionRepository javaScriptQuestionRepository;
     private PythonQuestionRepository pythonQuestionRepository;
+    private CommonRepository commonRepository;
 
     private ApplicationContext applicationContext;
 
     private final ObjectMapper objectMapper = new ObjectMapper();
 
     @Autowired
-    public InitDatabase(CsharpQuestionRepository csharpQuestionRepository, JavaQuestionRepository javaQuestionRepository, JavaScriptQuestionRepository javaScriptQuestionRepository, PythonQuestionRepository pythonQuestionRepository, ApplicationContext applicationContext) {
+    public InitDatabase(CsharpQuestionRepository csharpQuestionRepository, JavaQuestionRepository javaQuestionRepository, JavaScriptQuestionRepository javaScriptQuestionRepository, PythonQuestionRepository pythonQuestionRepository, CommonRepository commonRepository, ApplicationContext applicationContext) {
         this.csharpQuestionRepository = csharpQuestionRepository;
         this.javaQuestionRepository = javaQuestionRepository;
         this.javaScriptQuestionRepository = javaScriptQuestionRepository;
         this.pythonQuestionRepository = pythonQuestionRepository;
+        this.commonRepository = commonRepository;
         this.applicationContext = applicationContext;
     }
 
@@ -63,6 +59,9 @@ public class InitDatabase {
             loadQuestions("classpath:files/Python1.json", PythonQuestion.class, pythonQuestionRepository);
             loadQuestions("classpath:files/Python2.json", PythonQuestion.class, pythonQuestionRepository);
             loadQuestions("classpath:files/Python3.json", PythonQuestion.class, pythonQuestionRepository);
+        }
+        if (commonRepository.count() == 0) {
+            loadQuestions("classpath:files/Common.json", CommonQuestion.class, commonRepository);
         }
     }
 

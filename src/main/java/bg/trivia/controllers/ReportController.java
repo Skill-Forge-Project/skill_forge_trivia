@@ -50,6 +50,7 @@ public class ReportController {
     })
     @GetMapping("/all")
     public ResponseEntity<List<ReportView>> getAllReports(){
-        return ResponseEntity.ok(reportService.getAllReports());
+//        return ResponseEntity.ok(reportService.getAllReports());
+        return ResponseEntity.ok().build();
     }
 }
