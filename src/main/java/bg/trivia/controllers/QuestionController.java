@@ -1,11 +1,13 @@
 package bg.trivia.controllers;
 
 import bg.trivia.model.dtos.QuestionDTO;
+import bg.trivia.model.dtos.UpdateQuestionDTO;
 import bg.trivia.model.dtos.UserRequestDTO;
 import bg.trivia.model.views.QuestionVIEW;
 import bg.trivia.services.QuestionService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -36,6 +38,7 @@ public class QuestionController {
                     content = {@Content(mediaType = "application/json",
                             schema = @Schema(implementation = QuestionVIEW.class))}),
             @ApiResponse(responseCode = "400", description = "Invalid input provided", content = @Content),
+            @ApiResponse(responseCode = "429", description = "User has already played for today.", content = @Content),
             @ApiResponse(responseCode = "500", description = "Internal server error", content = @Content)
     })
     @GetMapping
@@ -59,6 +62,26 @@ public class QuestionController {
     @PostMapping("/create")
     public ResponseEntity<?> createQuestion(@Valid @RequestBody QuestionDTO questionDTO) {
         questionService.createQuestion(questionDTO);
+        return ResponseEntity.ok().build();
+    }
+
+    @Operation(summary = "Update an existing question",
+            description = "Updates an existing question based on the provided ID and other details. The request body should contain the question ID, text, options, correct answer, difficulty, lifetime, and related topics.")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Successfully updated the question"),
+            @ApiResponse(responseCode = "400", description = "Invalid input provided. Possible validation errors include missing fields or incorrect values.",
+                    content = @Content),
+            @ApiResponse(responseCode = "404", description = "Question not found with the provided ID",
+                    content = @Content),
+            @ApiResponse(responseCode = "500", description = "Internal server error",
+                    content = @Content)
+    })
+    @PatchMapping("/update")
+    public ResponseEntity<?> updateQuestion(@Parameter(description = "Question details to update, including ID, options, and other details",
+            required = true,
+            schema = @Schema(implementation = UpdateQuestionDTO.class))
+                                                @Valid @RequestBody UpdateQuestionDTO updatequestionDTO) throws JsonProcessingException {
+        questionService.updateQuestion(updatequestionDTO);
         return ResponseEntity.ok().build();
     }
 }

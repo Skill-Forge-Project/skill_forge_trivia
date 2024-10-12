@@ -2,10 +2,10 @@ package bg.trivia.advice;
 
 import bg.trivia.exceptions.InvalidInputException;
 import bg.trivia.exceptions.TooManyRequestsException;
-import lombok.Getter;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice
 public class QuestionAdvice {
