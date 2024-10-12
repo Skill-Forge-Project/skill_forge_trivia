@@ -6,6 +6,7 @@ import bg.trivia.services.ReportService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import jakarta.validation.Valid;
@@ -27,7 +28,7 @@ public class ReportController {
     }
 
 
-    @Operation(summary = "Report an issue with a question", description = "Allows users to report a question that has some issue, such as incorrect information or offensive content.")
+    @Operation(summary = "Report an issue with a question", description = "Allows users to report a question that has some issue, such as incorrect information.")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Report submitted successfully", content = @Content),
             @ApiResponse(responseCode = "400", description = "Invalid input provided", content = @Content),
@@ -51,5 +52,21 @@ public class ReportController {
     @GetMapping("/all")
     public ResponseEntity<List<ReportView>> getAllReports(){
         return ResponseEntity.ok(reportService.getAllReports());
+    }
+
+    @Operation(summary = "Get all unresolved reports",
+            description = "Fetches a list of all unresolved reports submitted by users. Each report contains details of the question and the associated report status.")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200",
+                    description = "Successfully retrieved unresolved reports",
+                    content = @Content(mediaType = "application/json",
+                            schema = @Schema(implementation = ReportView.class))),
+            @ApiResponse(responseCode = "500",
+                    description = "Internal server error",
+                    content = @Content)
+    })
+    @GetMapping("/unresolved")
+    public ResponseEntity<List<ReportView>> getUnresolvedReports(){
+        return ResponseEntity.ok(reportService.getAllUnresolvedReports());
     }
 }

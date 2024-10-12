@@ -1,7 +1,6 @@
 package bg.trivia.services;
 
 import bg.trivia.exceptions.InvalidInputException;
-import bg.trivia.model.dtos.QuestionDTO;
 import bg.trivia.model.dtos.ReportDTO;
 import bg.trivia.model.entities.postgres.Report;
 import bg.trivia.model.entities.question.Question;
@@ -19,9 +18,8 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.Set;
-
-import static java.rmi.server.LogStream.log;
 
 @Service
 @Slf4j
@@ -42,62 +40,83 @@ public class ReportService {
 
 
     public void reportQuestion(ReportDTO reportDTO) throws JsonProcessingException {
-        Query query = new Query();
-        query.addCriteria(Criteria.where("_id").is(reportDTO.getQuestionId()));
-        boolean exists = false;
+        Query query = new Query(Criteria.where("_id").is(reportDTO.getQuestionId()));
+        Optional<Question> questionOpt = findQuestionInCollections(query);
 
-        Set<String> collectionNames = mongoTemplate.getCollectionNames();
-        for (String collectionName : collectionNames) {
-            if (collectionName.equals("system.")) {
-                continue;
-            }
-
-            List<Question> questions = mongoTemplate.find(query, Question.class, collectionName);
-            if (!questions.isEmpty()) {
-                saveReport(questions.get(0), reportDTO);
-                exists = true;
-                break;
-            }
-        }
-        if (!exists) {
-            throw new InvalidInputException("ID " + reportDTO.getQuestionId() + " not found");
-        }
+        questionOpt.ifPresentOrElse(
+                question -> saveReport(question, reportDTO),
+                () -> {
+                    throw new InvalidInputException("ID " + reportDTO.getQuestionId() + " not found");
+                }
+        );
     }
 
-    private void saveReport(Question question, ReportDTO reportDTO) throws JsonProcessingException {
-        reportRepository.findByQuestion(objectMapper.writeValueAsString(question)).ifPresentOrElse(existingReport -> {
-            throw new InvalidInputException("Question " + question.getId() + " already exists");
-        }, () -> {
-            Report report = new Report();
-            try {
-                report.setQuestion(objectMapper.writeValueAsString(question));
-            } catch (JsonProcessingException e) {
-                throw new RuntimeException(e);
-            }
-            report.setResolved(false);
-            report.setReason(reportDTO.getReason());
-            report.setUserId(reportDTO.getUserId());
-            reportRepository.save(report);
-        });
+    private Optional<Question> findQuestionInCollections(Query query) {
+        Set<String> collectionNames = mongoTemplate.getCollectionNames();
+        return collectionNames.stream()
+                .filter(name -> !name.startsWith("system."))
+                .map(name -> mongoTemplate.find(query, Question.class, name))
+                .filter(questions -> !questions.isEmpty())
+                .findFirst()
+                .map(questions -> questions.get(0));
+    }
+
+    private void saveReport(Question question, ReportDTO reportDTO) {
+        reportRepository.findByQuestionContains(question.getId())
+                .ifPresentOrElse(
+                        existingReport -> {
+                            throw new InvalidInputException("Question " + question.getId() + " already is reported.");
+                        },
+                        () -> {
+                            Report report = new Report();
+                            try {
+                                report.setQuestion(objectMapper.writeValueAsString(question));
+                            } catch (JsonProcessingException e) {
+                                throw new RuntimeException(e);
+                            }
+                            report.setResolved(false);
+                            report.setReason(reportDTO.getReason());
+                            report.setUserId(reportDTO.getUserId());
+                            reportRepository.save(report);
+                        }
+                );
+
     }
 
     public List<ReportView> getAllReports() {
-        return reportRepository.findAll()
-                .stream()
-                .map(e -> {
-                    ReportView reportView = modelMapper.map(e, ReportView.class);
+        return mapReportsToViews(reportRepository.findAll());
+    }
 
-                    if (e.getQuestion() != null) {
-                        try {
-                            QuestionVIEW questionVIEW = objectMapper.readValue(e.getQuestion(), QuestionVIEW.class);
-                            reportView.setQuestion(questionVIEW);
-                        } catch (JsonProcessingException jsonException) {
-                            log.error("Error while deserializing question: {}", jsonException.getMessage());
-                        }
+    public List<ReportView> getAllUnresolvedReports() {
+        return mapReportsToViews(reportRepository.findByResolvedIsFalse());
+    }
+
+    private List<ReportView> mapReportsToViews(List<Report> reports) {
+        return reports.stream()
+                .map(report -> {
+                    ReportView reportView = modelMapper.map(report, ReportView.class);
+                    if (report.getQuestion() != null) {
+                        deserializeQuestion(report, reportView);
                     }
-
                     return reportView;
                 })
                 .toList();
+    }
+
+    private void deserializeQuestion(Report report, ReportView reportView) {
+        try {
+            QuestionVIEW questionVIEW = objectMapper.readValue(report.getQuestion(), QuestionVIEW.class);
+            reportView.setQuestion(questionVIEW);
+        } catch (JsonProcessingException e) {
+            log.error("Error while deserializing question: {}", e.getMessage());
+        }
+    }
+
+    public void updateReport(String question) {
+        Optional<Report> report = reportRepository.findByQuestionContains(question);
+        if (report.isPresent()) {
+            report.get().setResolved(true);
+            reportRepository.save(report.get());
+        }
     }
 }
