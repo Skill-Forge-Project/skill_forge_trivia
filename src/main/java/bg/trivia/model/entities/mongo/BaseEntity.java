@@ -1,4 +1,4 @@
-package bg.trivia.model.entities.question;
+package bg.trivia.model.entities.mongo;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

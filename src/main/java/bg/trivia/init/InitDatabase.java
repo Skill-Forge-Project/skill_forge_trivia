@@ -1,6 +1,6 @@
 package bg.trivia.init;
 
-import bg.trivia.model.entities.question.*;
+import bg.trivia.model.entities.mongo.*;
 import bg.trivia.repositories.mongo.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.exc.MismatchedInputException;

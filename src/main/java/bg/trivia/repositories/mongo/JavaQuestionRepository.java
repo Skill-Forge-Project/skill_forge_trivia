@@ -1,7 +1,7 @@
 package bg.trivia.repositories.mongo;
 
-import bg.trivia.model.entities.question.JavaQuestion;
-import bg.trivia.model.entities.question.Question;
+import bg.trivia.model.entities.mongo.JavaQuestion;
+import bg.trivia.model.entities.mongo.Question;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

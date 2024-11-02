@@ -3,7 +3,7 @@ package bg.trivia.services;
 import bg.trivia.exceptions.InvalidInputException;
 import bg.trivia.model.dtos.ReportDTO;
 import bg.trivia.model.entities.postgres.Report;
-import bg.trivia.model.entities.question.Question;
+import bg.trivia.model.entities.mongo.Question;
 import bg.trivia.model.views.QuestionVIEW;
 import bg.trivia.model.views.ReportView;
 import bg.trivia.repositories.postgres.ReportRepository;
@@ -39,7 +39,7 @@ public class ReportService {
     }
 
 
-    public void reportQuestion(ReportDTO reportDTO) throws JsonProcessingException {
+    public void reportQuestion(ReportDTO reportDTO) {
         Query query = new Query(Criteria.where("_id").is(reportDTO.getQuestionId()));
         Optional<Question> questionOpt = findQuestionInCollections(query);
 
@@ -65,7 +65,7 @@ public class ReportService {
         reportRepository.findByQuestionContains(question.getId())
                 .ifPresentOrElse(
                         existingReport -> {
-                            throw new InvalidInputException("Question " + question.getId() + " already is reported.");
+                            throw new InvalidInputException("Question " + question.getId() + " already reported.");
                         },
                         () -> {
                             Report report = new Report();

@@ -5,7 +5,7 @@ import bg.trivia.model.dtos.QuestionDTO;
 import bg.trivia.model.dtos.UpdateQuestionDTO;
 import bg.trivia.model.dtos.UserRequestDTO;
 import bg.trivia.model.entities.postgres.User;
-import bg.trivia.model.entities.question.Question;
+import bg.trivia.model.entities.mongo.Question;
 import bg.trivia.model.views.QuestionVIEW;
 import bg.trivia.repositories.postgres.UserRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -48,7 +48,7 @@ public class QuestionService {
         mongoTemplate.save(question, questionDTO.getTechnology() + "-questions");
     }
 
-    public List<QuestionVIEW> get10Questions(UserRequestDTO userRequestDTO) throws JsonProcessingException {
+    public List<QuestionVIEW> get15Questions(UserRequestDTO userRequestDTO) throws JsonProcessingException {
         if (!userAlreadyRequestToPlay(userRequestDTO)) {
             throw new TooManyRequestsException("You have already played trivia today. Please try again tomorrow.");
         }
@@ -63,7 +63,7 @@ public class QuestionService {
         return questions;
     }
 
-    public void updateQuestion(UpdateQuestionDTO questionDTO) throws JsonProcessingException {
+    public void updateQuestion(UpdateQuestionDTO questionDTO) {
         Query query = new Query().addCriteria(Criteria.where("_id").is(questionDTO.getId()));
 
         getCollectionNames().forEach(collectionName -> {
