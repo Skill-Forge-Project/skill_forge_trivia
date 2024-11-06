@@ -1,7 +1,6 @@
 package bg.trivia.validations.validId;
 
-import bg.trivia.exceptions.InvalidInputException;
-import bg.trivia.model.entities.question.Question;
+import bg.trivia.model.entities.mongo.Question;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 import lombok.extern.slf4j.Slf4j;

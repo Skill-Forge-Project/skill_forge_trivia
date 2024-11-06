@@ -3,7 +3,6 @@ package bg.trivia.controllers;
 import bg.trivia.model.dtos.ReportDTO;
 import bg.trivia.model.views.ReportView;
 import bg.trivia.services.ReportService;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -36,9 +35,9 @@ public class ReportController {
     })
     @PostMapping
     public ResponseEntity<?> reportQuestion(
-            @Valid @RequestBody ReportDTO reportDTO) throws JsonProcessingException {
+            @Valid @RequestBody ReportDTO reportDTO) {
         reportService.reportQuestion(reportDTO);
-        return ResponseEntity.ok("Report submitted successfully");
+        return ResponseEntity.ok().build();
     }
 
     @Operation(

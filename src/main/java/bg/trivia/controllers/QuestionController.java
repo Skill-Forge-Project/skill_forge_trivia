@@ -42,9 +42,9 @@ public class QuestionController {
             @ApiResponse(responseCode = "500", description = "Internal server error", content = @Content)
     })
     @GetMapping
-    public ResponseEntity<List<QuestionVIEW>> get10Questions(@Valid @RequestBody UserRequestDTO userRequestDTO) throws JsonProcessingException {
+    public ResponseEntity<List<QuestionVIEW>> get15Questions(@Valid @RequestBody UserRequestDTO userRequestDTO) throws JsonProcessingException {
 
-        List<QuestionVIEW> questions = questionService.get10Questions(userRequestDTO);
+        List<QuestionVIEW> questions = questionService.get15Questions(userRequestDTO);
         return ResponseEntity.ok().body(questions);
     }
 
@@ -80,7 +80,7 @@ public class QuestionController {
     public ResponseEntity<?> updateQuestion(@Parameter(description = "Question details to update, including ID, options, and other details",
             required = true,
             schema = @Schema(implementation = UpdateQuestionDTO.class))
-                                                @Valid @RequestBody UpdateQuestionDTO updatequestionDTO) throws JsonProcessingException {
+                                                @Valid @RequestBody UpdateQuestionDTO updatequestionDTO) {
         questionService.updateQuestion(updatequestionDTO);
         return ResponseEntity.ok().build();
     }

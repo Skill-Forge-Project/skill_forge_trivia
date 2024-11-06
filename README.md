@@ -1,18 +1,23 @@
+
 # Trivia
 
 ![License](https://img.shields.io/badge/license-GPLv3-blue)
 ![Java](https://img.shields.io/badge/Java-17-brightgreen.svg)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.3-brightgreen.svg)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen.svg)
+![Postgres](https://img.shields.io/badge/Database-Postgres-brightgreen.svg)
+![Swagger](https://img.shields.io/badge/Swagger-API%20Docs-brightgreen.svg)
 
-Trivia is a Spring Boot application designed to manage trivia questions across various programming languages. It leverages MongoDB as its database and uses Spring Data MongoDB to perform database operations. The application supports questions related to languages such as Java, C#, JavaScript, and Python.
+**Trivia** is a Spring Boot application designed to manage trivia questions across various programming languages. It integrates MongoDB for data storage and exposes a RESTful API to manage questions. Additionally, it leverages Swagger to document the API and provide an interactive UI for testing the endpoints.
 
 ## Features
 
-- **Question Management**: Add, update, and manage trivia questions for multiple programming languages.
+- **Question Management**: Add, update, and delete trivia questions for multiple programming languages.
+- **Report Management**: Mark trivia questions as resolved or unresolved based on reports.
 - **Difficulty Levels**: Categorize questions by difficulty (Easy, Medium, Hard).
-- **Random Selection**: Fetch random questions based on difficulty level.
-- **RESTful API**: Expose endpoints to interact with the question bank.
+- **Random Selection**: Fetch random questions based on difficulty.
+- **Swagger Integration**: Provides API documentation and an interactive interface for testing.
+- **Exception Handling**: Custom error handling for invalid inputs and rate-limiting.
 
 ## Table of Contents
 
@@ -21,6 +26,7 @@ Trivia is a Spring Boot application designed to manage trivia questions across v
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
 - [API Endpoints](#api-endpoints)
+- [Swagger Documentation](#swagger-documentation)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -28,28 +34,30 @@ Trivia is a Spring Boot application designed to manage trivia questions across v
 
 - **Java 17**
 - **Spring Boot 3.3.3**
-- **MongoDB**
-- **Lombok** - For reducing boilerplate code.
-- **Jackson** - For JSON processing.
-- **Maven** - For project management and build automation.
+- **MongoDB** for the database.
+- **Postgres** for second database.
+- **Swagger** for API documentation.
+- **Lombok** for reducing boilerplate code.
+- **Maven** for project management and build automation.
+- **Jackson** for JSON processing.
 
 ## Getting Started
 
-To get a copy of the project up and running on your local machine, follow the installation instructions below.
+To get a copy of the project running on your local machine, follow the steps below.
 
 ### Prerequisites
 
-- **Java 17** or higher
-- **Maven** for building the project
-- **MongoDB** for the database
+- **Java 17** or higher.
+- **Maven** for building the project.
+- **MongoDB** for the database.
 
 ### Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Borovaneca/Trivia.git
-   cd Trivia
+   git clone https://github.com/Skill-Forge-Project/skill_forge_trivia.git
+   cd skill_forge_trivia
    ```
 
 2. Install dependencies:
@@ -60,11 +68,12 @@ To get a copy of the project up and running on your local machine, follow the in
 
 3. Set up MongoDB:
 
-   Ensure MongoDB is running on your local machine or update the connection string in \`application.properties\` or \`application.yml\` with your MongoDB instance details.
+   Ensure MongoDB is running locally, or update the connection string in `application.properties` or `application.yml` with your MongoDB instance details.
 
+4. Create application-env.properties in main directory with the Postgres username and password. 
 ### Running the Application
 
-You can run the application in several ways:
+You can run the application using the following methods:
 
 - **Using Maven**:
 
@@ -78,44 +87,59 @@ You can run the application in several ways:
   java -jar target/Trivia-0.0.1-SNAPSHOT.jar
   ```
 
-### API Endpoints
+## API Endpoints
 
-Here are some of the key API endpoints:
+Here are some key API endpoints:
 
-- **Get 10 Random Easy Questions** (for a specific language)
-  
-  ```
+- **Get Random Questions**:
+
+  ```http
   GET /trivia/{language}/{difficulty}
   ```
 
-> ***IN PROGRESS***
-> 
-> **Add a New Question:**
-> ```
-> POST /trivia/questions/{language}/{difficulty}
-> ```
-> 
-> **Update a Question:**
-> ```
-> PUT /trivia/questions/{language}/{id}
-> ```
-> 
-> **Delete a Question:**
-> ```
-> DELETE /trivia/questions/{language}/{id}
-> ```
-**Note**: Replace \`{language}\` with \`java\`, \`csharp\`, \`javascript\`, or \`python\`.<br>
-**Note**: Replace \`{difficulty}\` with \`Easy\`, \`Medium\` or \`Hard\`.
+- **Add a New Question**:
 
-### Contributing
+  ```http
+  POST /trivia/questions/{language}/{difficulty}
+  ```
 
-Contributions are welcome! Please follow these steps:
+- **Update a Question**:
+
+  ```http
+  PUT /trivia/questions/{language}/{id}
+  ```
+
+- **Delete a Question**:
+
+  ```http
+  DELETE /trivia/questions/{language}/{id}
+  ```
+
+- **Mark a Reported Question as Resolved**:
+
+  ```http
+  PUT /trivia/reports/{id}/resolve
+  ```
+
+Replace `{language}` with `java`, `csharp`, `javascript`, or `python`. Replace `{difficulty}` with `Easy`, `Medium`, or `Hard`.
+
+## Swagger Documentation
+
+Swagger provides an interactive interface for testing the API. Once the application is running, visit:
+
+```
+http://localhost:8080/swagger-ui.html
+```
+
+## Contributing
+
+Contributions are welcome! To contribute:
 
 1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
+2. Create a new branch for your feature or bug fix.
 3. Commit your changes and push to your fork.
 4. Submit a pull request with a detailed description of your changes.
 
 ### License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Skill-Forge-Project/skill_forge_trivia/blob/master/LICENSE) file for more details.
